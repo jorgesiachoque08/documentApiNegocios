@@ -1,9 +1,9 @@
 _id: req_aff6c679255c4e0dabd37eaeefc0fae3
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1606162502600
+modified: 1606165856138
 created: 1606161367315
-url: "{{ urlbase }}/listarFichaTecnicaProducto/1"
+url: "{{ urlbase }}/listarFichaTecnicaProducto/3"
 name: listarFichaTecnicaProducto
 description: |-
   {
@@ -12,13 +12,17 @@ description: |-
       "data": []
   }
 method: GET
-body: {}
+body:
+  mimeType: multipart/form-data
+  params: []
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5NDExODgsImp0aSI6IjN3dVduUVFHUG1VdlwvOWhFeHdwT2t5V0JcL0wxTGFJSENQN0tVNTFyM3Ricz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTQxMTg5LCJleHAiOjE2MDM5NDQ3ODksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.sCeMeggup5eAjcKSR6g5Y1LLKMnPPHHydq2jxZc3SdM
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYxNjU3MDgsImp0aSI6IkFqZGhvMlVDVkptT3JyRlQwSFB2Y04rSHZCTXQwSzBCcE51SDFRZlJMR0k9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjE2NTcwOSwiZXhwIjoxNjA2MTY5MzA5LCJkYXRhIjp7ImlkIjoiMyIsImNvZF90ZXJjZXJvIjoiMyJ9fQ.Y3frPfMDRU_Uvtv3BegQPm0h1LVPURI3T1shDuNk3XE
   prefix: ""
 metaSortKey: -1606161367315
 isPrivate: false
