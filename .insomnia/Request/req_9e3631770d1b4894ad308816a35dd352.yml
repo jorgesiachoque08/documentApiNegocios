@@ -1,0 +1,35 @@
+_id: req_9e3631770d1b4894ad308816a35dd352
+type: Request
+parentId: fld_dcd73b8464bd4b23acfc15270c62c052
+modified: 1606163507318
+created: 1606161212608
+url: "{{ urlbase }}/listarSexos"
+name: listarSexos
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": 2,
+              "descripcion": "Masculino"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzQ5NjQsImp0aSI6IkF6S0h0aEFJQ0NYelFNQnY4dnNVeGN2NExZenNaVWZYMVdzUlpMYmtmZ2M9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc3NDk2NSwiZXhwIjoxNjAzNzc4NTY1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ic5xc4-LnXCeqzDdu3hMeWfv-dMuJotCAcInoprpy6Y
+  prefix: ""
+metaSortKey: -1606161212608
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

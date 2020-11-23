@@ -1,0 +1,44 @@
+_id: req_89455ab50f1d420d8090ab9e4e0a5fe6
+type: Request
+parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
+modified: 1606162809665
+created: 1606161315751
+url: "{{ urlbase }}/actualizarEmpresa/2"
+name: actualizarEmpresa
+description: |-
+  actualiza los datos de la empresa
+  parametros url:cod_empresa
+  parametros body:razon_social,identificacion,cod_tipo_id(entero)
+
+
+  {
+      "code": 200,
+      "status": "success",
+      "message": "La empresa se actualizo exitosamente",
+      "data": true
+  }
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {"razon_social":"Acercate",
+    "identificacion":123456789,
+    "cod_tipo_id":1}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_83a1ddcb1e68428ab0a0dec49cb6fe52
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDU2NzIsImp0aSI6ImJKWDgxMjEwTFo5TGRZSFwvNXhmcm1LMGJ2Mk5HXC9hWFhFTWduWnREMmFBYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA1NjczLCJleHAiOjE2MDM4MDkyNzMsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.lmvq9zlOSG6gRlGDVvZbsheVM4vIvO8Kp4g2h7zlFG8
+  prefix: ""
+metaSortKey: -1606161315751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

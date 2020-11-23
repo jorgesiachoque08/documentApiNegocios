@@ -1,0 +1,45 @@
+_id: req_0e4470ed9b6b43d39ecd01017c6073c1
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162603038
+created: 1606161361902
+url: "{{ urlbase }}/agregarItemDetalle/2"
+name: agregarItemDetalle
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se agrego el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: "3"
+      name: cod_producto
+      disabled: false
+      id: pair_f74680d374b3431fbe52b299ce64b480
+    - value: "2"
+      name: cantidades
+      disabled: false
+      id: pair_e9c2ec7d05c94bc49a7f62fa834a7cf2
+    - value: "9"
+      name: cod_pedido
+      disabled: false
+      id: pair_f60a65960976498aabe3fa1eae2db706
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwOTU0MjUsImp0aSI6InBRUVEzQVwvVGNoZFpBZjRBdWcyMXpMak1qM3JzV01zN3B1T3RJNlwvM1VrUT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjA0MDk1NDI2LCJleHAiOjE2MDQwOTkwMjYsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.2YE1-kc2mlKKEIEFpcH0s2pi19tBRcyZoZeA1w1KNvM
+  prefix: ""
+metaSortKey: -1606161361902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_908ba6fc849c4fcaa39fa315023d69f8
+type: Request
+parentId: fld_893a60bf535e476d9191022d0d3de96a
+modified: 1606163377283
+created: 1606161235337
+url: "{{ urlbase }}/eliminarUnidadMedida/1/1"
+name: eliminarUnidadMedida
+description: |-
+  parametros por url:cod_unidad,code_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjE2NjQsImp0aSI6Im82WHhKRVRuQ3g4alZFcVVNWkx0bjVXRFU1a1hIRkdocmZcL2x3dEthNW1ZPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4MjE2NjUsImV4cCI6MTYwMzgyNTI2NSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.tF0_zpWAhfgWF_Eb6MAnix5Q3cu5eVvHFpa_f2vFeew
+  prefix: ""
+metaSortKey: -1606161235337
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

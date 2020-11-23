@@ -1,0 +1,35 @@
+_id: req_876cb61f2f4b4f5aa79156cac3279e77
+type: Request
+parentId: fld_bf1827384b33426aad059a41f152c8d6
+modified: 1606163729757
+created: 1606161159722
+url: "{{ urlbase }}/eliminarCategoria/3/1"
+name: eliminarCategoria
+description: "parametro url: cod_categoria,cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se elimino el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4NTU3MjYsImp0aSI6IjFGTDd1ZzY5REtGd2ZUMW9Kdm1jTlhqYkdjY2F4cERJZmlWaHZYVExuQ0E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzg1NTcyNywiZXhwIjoxNjAzODU5MzI3LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.tnwr6THfIe1mCyHMXEeFKBzwfXz71f0fB8pvAXuuDNE
+  prefix: ""
+metaSortKey: -1606161159722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

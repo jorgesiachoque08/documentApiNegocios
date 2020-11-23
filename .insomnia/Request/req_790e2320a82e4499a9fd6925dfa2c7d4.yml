@@ -1,0 +1,37 @@
+_id: req_790e2320a82e4499a9fd6925dfa2c7d4
+type: Request
+parentId: fld_87a8d1e76db143668896339cb5d135b9
+modified: 1606163389949
+created: 1606161230169
+url: "{{ urlbase }}/agregarTipoImpuesto/1"
+name: http://localhost:8000/api/agregarTipoImpuesto/1
+description: |-
+  parametro por url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: impuesto 1
+      name: descripcion
+      disabled: false
+      id: pair_94497d4eaf474ec5a9b4d0f4acc89607
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjU0ODUsImp0aSI6Imp0Q2dudUxUZWxoMTYwVVB3N2s3QmhubmE2dDFueG5PUFBpdEZGRlNTZUU9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgyNTQ4NiwiZXhwIjoxNjAzODI5MDg2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4Q9oIQ7A1hqVEXMgRJq_V6N-cP-U0UT9hw4xuehXkRA
+  prefix: ""
+metaSortKey: -1606161230169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

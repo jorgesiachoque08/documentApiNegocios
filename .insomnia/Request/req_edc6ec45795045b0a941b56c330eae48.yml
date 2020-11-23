@@ -1,0 +1,65 @@
+_id: req_edc6ec45795045b0a941b56c330eae48
+type: Request
+parentId: fld_bf1827384b33426aad059a41f152c8d6
+modified: 1606163720720
+created: 1606161159724
+url: "{{ urlbase }}/listarCategoriaConSubcategorias"
+name: listarCategoriaConSubcategorias
+description: |-
+  listar todas las categorias con sus desendencias
+
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": "1",
+              "descripcion": "categ1",
+              "padre": null,
+              "categorias_hijas": [
+                  {
+                      "cod": "2",
+                      "descripcion": "categ2",
+                      "padre": "1",
+                      "categorias_hijas": [
+                          {
+                              "cod": "3",
+                              "descripcion": "categ3",
+                              "padre": "2",
+                              "categorias_hijas": null
+                          },
+                          {
+                              "cod": "6",
+                              "descripcion": "categ4",
+                              "padre": "2",
+                              "categorias_hijas": null
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "cod": "4",
+              "descripcion": "categ4",
+              "padre": null,
+              "categorias_hijas": null
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MDkxNjAsImp0aSI6IllNeWZCVnVvdWM4Vm1Heml0UGV3WjZKTWlCbHJnQ2RmMll6QzNFdFNCaHM9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzkwOTE2MSwiZXhwIjoxNjAzOTEyNzYxLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.OL13V1ly8BuXnEQFhTifp1l6FAP0HkaXpA3OhnwG11E
+  prefix: ""
+metaSortKey: -1606161159724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

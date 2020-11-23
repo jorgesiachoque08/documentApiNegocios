@@ -1,0 +1,43 @@
+_id: req_555f4e04b0064223ac46f07d269aeeba
+type: Request
+parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
+modified: 1606162836502
+created: 1606161315747
+url: "{{ urlbase }}/listaraFiliacionesEmpresa/2"
+name: listaraFiliacionesEmpresa
+description: |-
+  lista las afiliaciones a una empresa, sinimportar su estado
+  parametros url :cod_empresa
+
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_ue": "4",
+              "cod_usuario": "3",
+              "usuario": "jorgesiachoque10",
+              "razon_social": "jorge enrique siachoque marin",
+              "perfil": null,
+              "cod_estado_ue": "2",
+              "estado": "Pendiente"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MTgzODQsImp0aSI6IjZzSjMrZWg5VEJFQW9zSTQ4a3EyTnlZQXhOTCtTZWpQeWF1QnlEZHJQUjg9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgxODM4NSwiZXhwIjoxNjAzODIxOTg1LCJkYXRhIjp7ImlkIjoiMiIsImNvZF90ZXJjZXJvIjoiMiJ9fQ.G1PFBQgOTp9T-Qo6_j52nv5qtu4NpvfyZRPssGXYrjI
+  prefix: ""
+metaSortKey: -1606161315747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

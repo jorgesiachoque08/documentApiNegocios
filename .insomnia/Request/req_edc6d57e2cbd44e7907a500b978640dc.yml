@@ -1,0 +1,71 @@
+_id: req_edc6d57e2cbd44e7907a500b978640dc
+type: Request
+parentId: fld_98f9201d18d146fa89a39c4fcd7d04df
+modified: 1606162900577
+created: 1606161304747
+url: "{{ urlbase }}/listarDirecciones"
+name: listarDirecciones
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": "3",
+              "cod_tipo_direccion": "2",
+              "cod_tercero": "1",
+              "cod_municipio": "3",
+              "direccion_linea_1": "barrio la carolina conjunto ",
+              "direccion_linea_2": null,
+              "direccion_linea_3": null,
+              "ind_compra": "1",
+              "ind_venta": "1",
+              "latitud": "10.3997",
+              "longitud": "-75.5144",
+              "municipio": "Bucaramanga",
+              "cod_departamento": "3",
+              "departamentos": "Santander",
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "descripcion": "conjunto "
+          },
+          {
+              "cod": "4",
+              "cod_tipo_direccion": "2",
+              "cod_tercero": "1",
+              "cod_municipio": "3",
+              "direccion_linea_1": "barrio la cerezos conjunto ",
+              "direccion_linea_2": null,
+              "direccion_linea_3": null,
+              "ind_compra": "1",
+              "ind_venta": "1",
+              "latitud": "10.3997",
+              "longitud": "-75.5144",
+              "municipio": "Bucaramanga",
+              "cod_departamento": "3",
+              "departamentos": "Santander",
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "descripcion": "conjunto "
+          }
+      ]
+  }
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTcwMDQsImp0aSI6Ijh0emJSajM5aXhYTUNBbFFFdzdUcE80Q2pKR2xHYjdSRllJSGUzYyszcmM9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDM1NzAwNSwiZXhwIjoxNjA0NDc3MDA1LCJkYXRhIjp7ImlkIjoiMiIsImNvZF90ZXJjZXJvIjoiMiJ9fQ.59mm8eI585ZWqrtxklSJTxsQl-UKdmG7GVIM5wxvwys
+  prefix: ""
+metaSortKey: -1606161304747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

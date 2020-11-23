@@ -1,0 +1,45 @@
+_id: req_9032ba083c954a2792c7706e0bc34e49
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162584709
+created: 1606161361903
+url: "{{ urlbase }}/actualizarItemDetalle/2"
+name: actualizarItemDetalle
+description: |-
+  parametro url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "100"
+      name: cantidades
+      disabled: false
+      id: pair_97b930830e854517ac92bddf5dcaf0f4
+    - value: "11"
+      name: cod_detalle
+      disabled: false
+      id: pair_0517573c1e834a109673fa8d47da8acc
+    - value: "9"
+      name: cod_pedido
+      disabled: false
+      id: pair_ad413e0b2eb34126b620e413b998546f
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwODM1NjAsImp0aSI6Ilh3NnFhVXQ2WjVtWHR0YTM0K3oyOGdNTVBCdnkxZ3hVTVVjOVdzUlwvVmMwPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQwODM1NjEsImV4cCI6MTYwNDA4NzE2MSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.qaNGDh7hMt1zBTPdCfaPD-rzpDxcw_2TKZ3hhpeuQm8
+  prefix: ""
+metaSortKey: -1606161361903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

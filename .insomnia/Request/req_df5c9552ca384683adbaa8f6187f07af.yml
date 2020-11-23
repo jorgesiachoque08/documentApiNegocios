@@ -1,0 +1,57 @@
+_id: req_df5c9552ca384683adbaa8f6187f07af
+type: Request
+parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
+modified: 1606163206869
+created: 1606161253252
+url: "{{ urlbase }}/login"
+name: login
+description: >-
+  los roles son (1=SuperAdmin,2=Admin,3=Aprobador,4=Preparador)
+
+
+  el rol 1 solo es para backen
+
+
+  {
+      "code": 200,
+      "message": "ingreso exitosamenten",
+      "expira": 3600,
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUyMTAyMTEsImp0aSI6IkZzWEljXC90SGsxVkdCbmEzVzVRbnNJaHJMY2czc0gxWEhpOHczaGtrNXIwPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDUyMTAyMTIsImV4cCI6MTYwNTIxMzgxMiwiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.G3grmSlybo-M-Wu4wWMk_vdFioRFs0zZEMLd5gaodHA",
+      "data": true,
+      "defaultBusiness": {
+          "cod": "3",
+          "usuario": "UsuariopruebPreparador",
+          "cod_tercero": "3",
+          "cod_perfil": "4",
+          "perfil": "Preparador",
+          "cod_empresa": "1",
+          "razon_social": "EmpresaPrueba"
+      }
+  }
+method: POST
+body:
+  params:
+    - value: UsuariopruebPreparador
+      name: usuario
+      disabled: false
+      id: pair_b69a6c6225fd471ca80707ad495a531f
+    - value: "123456789"
+      name: clave
+      disabled: false
+      id: pair_46e8fcf1855c41cb85a1734669cf82d2
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDk1NTEsImp0aSI6InpRcHN4OXdaYm5wbzFZT0Z3bnBrRFlySU1cL1dtTDBHK2lcL0pjWm9jQ3gyYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA5NTUyLCJleHAiOjE2MDM4MTMxNTIsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.hQddKbcOrU5XCmFmoFs6v-8yZtmYVdvBz1u9U7Slf_c
+  prefix: ""
+metaSortKey: -1606161253252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

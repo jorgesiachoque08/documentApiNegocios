@@ -1,0 +1,43 @@
+_id: req_a223b5f514194718926e632a5168068b
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162523614
+created: 1606161367307
+url: "{{ urlbase }}/agregarDetalleFtProductoMasivo/1"
+name: agregarDetalleFtProductoMasivo
+description: "parametro url:cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se insertaron 2 de 2\",\r
+
+  \    \"errore\": [],\r
+
+  \    \"data\": true\r
+
+  }"
+method: POST
+body:
+  params:
+    - value: '[{"cod_producto":1,"cod_detalle_ft":3,"valor":"aaa"},{"cod_producto":1,"cod_detalle_ft":4,"valor":"dass"}]'
+      name: datos
+      disabled: false
+      id: pair_0d544786905549cfb40226b6caa3a484
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5NDExODgsImp0aSI6IjN3dVduUVFHUG1VdlwvOWhFeHdwT2t5V0JcL0wxTGFJSENQN0tVNTFyM3Ricz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTQxMTg5LCJleHAiOjE2MDM5NDQ3ODksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.sCeMeggup5eAjcKSR6g5Y1LLKMnPPHHydq2jxZc3SdM
+  prefix: ""
+metaSortKey: -1606161367307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

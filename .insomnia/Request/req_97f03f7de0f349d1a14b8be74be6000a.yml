@@ -1,0 +1,34 @@
+_id: req_97f03f7de0f349d1a14b8be74be6000a
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162065834
+created: 1606161389599
+url: "{{ urlbase }}/afiliarseEmpresa/1"
+name: afiliarse Empresa
+description: |-
+  se envia por url cod de la empresa a la que se va afiliar
+  {
+      "code": 200,
+      "status": "success",
+      "message": "Se guardo la solicitud de afiliacion",
+      "data": true
+  }
+method: PUT
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTcwODIsImp0aSI6IkZhWmRYNFJZbWMzZ2NSa2thVnVMc1JcL3NKU3pneDZQcXdNQk5ZUUhFZ3FRPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTcwODMsImV4cCI6MTYwNDQ3NzA4MywiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.NFt-jP7j1wZlqHkJJ9bR5aBSiA7wDpwsLKNlxfCtBBQ
+  prefix: ""
+metaSortKey: -1606161389599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

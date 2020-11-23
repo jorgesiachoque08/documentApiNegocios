@@ -1,0 +1,39 @@
+_id: req_01ff83e77c79484b94e786458dd9b0c8
+type: Request
+parentId: fld_e2b7c0bdf6d34f088fc76fb8450abf4c
+modified: 1606163753211
+created: 1606161057725
+url: "{{ urlbase }}/actualizarTipoDireccion/1/1"
+name: actualizarTipoDireccion
+description: |-
+  actualizar tipo direccion
+  parametro por url: cod_tipo_direccion,cod_empresa
+  parametro body:descripcion
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: barrio
+      name: descripcion
+      disabled: false
+      id: pair_ccffee984af64cdfb1d48cc9b57bd230
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzQ5NjQsImp0aSI6IkF6S0h0aEFJQ0NYelFNQnY4dnNVeGN2NExZenNaVWZYMVdzUlpMYmtmZ2M9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc3NDk2NSwiZXhwIjoxNjAzNzc4NTY1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ic5xc4-LnXCeqzDdu3hMeWfv-dMuJotCAcInoprpy6Y
+  prefix: ""
+metaSortKey: -1606161057725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

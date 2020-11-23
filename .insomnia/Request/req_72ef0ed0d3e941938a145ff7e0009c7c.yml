@@ -1,0 +1,49 @@
+_id: req_72ef0ed0d3e941938a145ff7e0009c7c
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162661313
+created: 1606161355592
+url: "{{ urlbase }}/agregarPerfil/1"
+name: agregarPerfil
+description: "agregar Perfil\r
+
+  parametro por url: cod_empresa\r
+
+  parametro body:descripcion,backend(1 o 0)\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se guardo el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: POST
+body:
+  params:
+    - value: preparador
+      name: descripcion
+      disabled: false
+      id: pair_8742c9de671d4fabaf2ca8a3318a1c83
+    - value: "0"
+      name: backend
+      disabled: false
+      id: pair_2b8c2801db2a44218afbacfacad933cb
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606161355592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

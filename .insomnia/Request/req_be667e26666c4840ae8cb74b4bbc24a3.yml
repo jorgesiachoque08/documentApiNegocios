@@ -1,0 +1,49 @@
+_id: req_be667e26666c4840ae8cb74b4bbc24a3
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162485416
+created: 1606161367318
+url: "{{ urlbase }}/actualizarProducto/3/1"
+name: actualizarProducto
+description: |-
+  parametros url: cod_producto,cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: naranja2
+      name: nombre_producto
+      disabled: false
+      id: pair_ec9896f8e312421b8a5c35ad85b0d09f
+    - value: "1"
+      name: cod_unidad_medida
+      disabled: false
+      id: pair_f92c6a2de4ca41978343c738e884b3b5
+    - value: "3"
+      name: cod_categoria
+      disabled: false
+      id: pair_99bd970458774364a186ba2cd13606d9
+    - value: referencia 2
+      name: referencia
+      disabled: false
+      id: pair_4779b48d467f428cbbfabfb8134a7202
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTg0MTUsImp0aSI6ImZlaHJ2TVhjalBSbEpoTFFjRlhYZ0wxenoxQ242NnFrU0NrNVhOblNKU1k9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzg5ODQxNiwiZXhwIjoxNjAzOTAyMDE2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.KC6g7zl0HTLQ8y8x6wgGoZKbl2CeUwPL4UcJ5RC-l4c
+  prefix: ""
+metaSortKey: -1606161367318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

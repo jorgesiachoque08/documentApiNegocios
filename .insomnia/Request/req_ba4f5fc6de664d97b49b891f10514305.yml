@@ -1,0 +1,47 @@
+_id: req_ba4f5fc6de664d97b49b891f10514305
+type: Request
+parentId: fld_35bf54522bcf478f8b6d2fe0d33c83cf
+modified: 1606163596918
+created: 1606161184326
+url: "{{ urlbase }}/agregarTipoIdentificacion/1"
+name: agregarTipoIdentificacion
+description: |-
+  agregar tipo identificacion
+  parametro por url: cod_empresa
+  parametro body:descripcion,cod_pais,abreviatura
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: Nit
+      name: descripcion
+      disabled: false
+      id: pair_288e5ae188ab4eab8ff48385b8f0839a
+    - value: "1"
+      name: cod_pais
+      disabled: false
+      id: pair_644d48e441b54701823833b2bcace4db
+    - value: Nit
+      name: abreviatura
+      disabled: false
+      id: pair_74d9de8ac4274c4b8e32105321a6b155
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzQzMDMsImp0aSI6Im13bTd4XC9tNEV3TTRBM0krNXBFZnZrT2JSUGl0ZEprSFdaWG1xSk5PTExrPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzQzMDQsImV4cCI6MTYwMzc3NzkwNCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.uN-V6y_HcKPhFjs_K3bwQH3_0YAF88JR7sAbXHflEm8
+  prefix: ""
+metaSortKey: -1606161184326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

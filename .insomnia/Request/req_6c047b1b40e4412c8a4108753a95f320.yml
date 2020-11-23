@@ -1,0 +1,35 @@
+_id: req_6c047b1b40e4412c8a4108753a95f320
+type: Request
+parentId: fld_e8ba5240a4d4400d85b6ef4c78d7175f
+modified: 1606162743280
+created: 1606161325792
+url: "{{ urlbase }}/eliminarEstadoOrdenPedido/1/1"
+name: eliminarEstadoOrdenPedido
+description: "parametros por url:cod_estado,code_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se elimino el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5NDQxNzQsImp0aSI6InFyUEd3UVZaSkE4MnExblNOczVkM2R6cjVJNTU4VXk3TzhtWlpRaStOemc9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzk0NDE3NSwiZXhwIjoxNjAzOTQ3Nzc1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.WyZJzTo-l862bod6P9-vaAqT55ylCETAUNKWa1SaWE8
+  prefix: ""
+metaSortKey: -1606161325792
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

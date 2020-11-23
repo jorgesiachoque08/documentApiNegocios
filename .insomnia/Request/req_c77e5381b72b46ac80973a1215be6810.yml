@@ -1,0 +1,58 @@
+_id: req_c77e5381b72b46ac80973a1215be6810
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162034888
+created: 1606161389600
+url: "{{ urlbase }}/listarDataUser"
+name: lista informacion del usuario logiado
+description: |-
+  {
+      "code": 200,
+      "status": "success",
+      "message": "success",
+      "data": {
+          "usuario": "jorgesiachoque",
+          "cod": "3",
+          "razon_social": "Campos",
+          "nombres": "jorge enrique",
+          "apellidos": "siachoque marin",
+          "fecha_nacimiento": "1996-01-31",
+          "cod_tipo_identificacion": "2",
+          "numero_identificacion": "1047487884",
+          "email": "jorgesiachoque@gmail.com",
+          "telefono": "(+57) 6531414",
+          "celular": "(+57)3013420572",
+          "cod_estado_tercero": "1",
+          "tipoIdentTercero": "Nit",
+          "abrevTipoIdentTercero": "NIT",
+          "afiliacionEmpresas": [
+              {
+                  "cod_empresa": "1",
+                  "cod": "1",
+                  "cod_perfil": "1",
+                  "nombreEmpresa": "Campo1",
+                  "identificacionEmpresa": "9876543210",
+                  "descripcion": "Admind"
+              }
+          ]
+      }
+  }
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5OTM3NjgsImp0aSI6IkowWHJtak53SGx3UjJrVlZ2eXc5SHlNd1hLQldEMnpnRFBuY3JoSU9pbWM9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzk5Mzc2OSwiZXhwIjoxNjAzOTk3MzY5LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.h0nR4OFeAD6f9ZKVWLakwXufy6CQ57WrB_eBpQ0EW0Y
+  prefix: ""
+metaSortKey: -1606161389600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

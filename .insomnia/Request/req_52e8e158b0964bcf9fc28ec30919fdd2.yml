@@ -1,0 +1,43 @@
+_id: req_52e8e158b0964bcf9fc28ec30919fdd2
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162091854
+created: 1606161389596
+url: "{{ urlbase }}/asignarPerfilAUser/1"
+name: asignarPerfilAUser
+description: |-
+  asigna perfil a usuario
+  parametros url :cod_empresa
+  parametro body: cod_afiliacion,cod_perfil
+  {
+      "code": 200,
+      "message": "Se asigno el perfil a la afiliacion",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "3"
+      name: cod_afiliacion
+      disabled: false
+      id: pair_869b0d5c3eba448d996b16509d227c9b
+    - value: "4"
+      name: cod_perfil
+      disabled: false
+      id: pair_8a7e6f45820149b58db5d8ce883270d1
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  prefix: ""
+metaSortKey: -1606161389596
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

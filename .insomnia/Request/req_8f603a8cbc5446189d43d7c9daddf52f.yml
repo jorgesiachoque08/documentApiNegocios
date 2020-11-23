@@ -1,0 +1,41 @@
+_id: req_8f603a8cbc5446189d43d7c9daddf52f
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162464625
+created: 1606161367320
+url: "{{ urlbase }}/listarProductos"
+name: listarProductos
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_producto": "3",
+              "nombre_producto": "naranja",
+              "cod_unidad_medida": "1",
+              "unidad_medida": "kilos",
+              "nro_decimales": "3",
+              "cod_categoria": "3",
+              "categoria": "frutas",
+              "referencia": "referencia"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTg0MTUsImp0aSI6ImZlaHJ2TVhjalBSbEpoTFFjRlhYZ0wxenoxQ242NnFrU0NrNVhOblNKU1k9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzg5ODQxNiwiZXhwIjoxNjAzOTAyMDE2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.KC6g7zl0HTLQ8y8x6wgGoZKbl2CeUwPL4UcJ5RC-l4c
+  prefix: ""
+metaSortKey: -1606161367320
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

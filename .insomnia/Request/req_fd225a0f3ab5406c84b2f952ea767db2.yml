@@ -1,0 +1,41 @@
+_id: req_fd225a0f3ab5406c84b2f952ea767db2
+type: Request
+parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
+modified: 1606162827376
+created: 1606161315748
+url: "{{ urlbase }}/cambiarEstadoEmpresa/2"
+name: cambiarEstadoEmpresa
+description: |-
+  Cambia el estado de la empresa
+  parametro url: cod_empresa
+  paramedro body:estado
+
+  {
+      "code": 200,
+      "status": "success",
+      "message": "Se Cambio el estado a la empresa",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "1"
+      name: estado
+      disabled: false
+      id: pair_ca65686ee1ad4b5fb5bc931135d417a0
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDU2NzIsImp0aSI6ImJKWDgxMjEwTFo5TGRZSFwvNXhmcm1LMGJ2Mk5HXC9hWFhFTWduWnREMmFBYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA1NjczLCJleHAiOjE2MDM4MDkyNzMsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.lmvq9zlOSG6gRlGDVvZbsheVM4vIvO8Kp4g2h7zlFG8
+  prefix: ""
+metaSortKey: -1606161315748
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_b5149217048c4f3fa8ac476762a5bc01
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162080089
+created: 1606161389597
+url: "{{ urlbase }}/cambiarEstadoSolicitudAfili"
+name: cambiarEstadoSolicitudAfiliado
+description: "{\r
+
+  \    \"code\": 200,\r
+
+  \    \"status\": \"success\",\r
+
+  \    \"message\": \"Se Cambio el estado a la solicitud\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: PUT
+body:
+  params:
+    - value: "1"
+      name: codSolicitud
+      disabled: false
+      id: pair_ac7f0c27e9dc403fa53c3e3313a3b180
+    - value: "1"
+      name: estado
+      disabled: false
+      id: pair_bedc36f5654d4ef0b90928613f850f16
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3MzA3NTQsImp0aSI6IkpPbjdEQ201aHpoek5vWFp3dVl5YzJINmxRbk9pNWxkU1N5QldnNXJBWU09IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzczMDc1NSwiZXhwIjoxNjAzNzM0MzU1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.MTBwsywr5ngZPWfsn8M1OnpPtAsDHnWV8qo76Hi1d_0
+  prefix: ""
+metaSortKey: -1606161389597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

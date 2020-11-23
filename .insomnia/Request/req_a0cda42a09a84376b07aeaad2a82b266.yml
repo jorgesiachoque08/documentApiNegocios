@@ -1,0 +1,39 @@
+_id: req_a0cda42a09a84376b07aeaad2a82b266
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162686332
+created: 1606161355589
+url: "{{ urlbase }}/eliminarPerfil/7/1"
+name: eliminarPerfil
+description: "eliminar perfil\r
+
+  parametro por url: cod_perfil,cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"status\": \"success\",\r
+
+  \    \"message\": \"Se elimino el Perfil\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606161355589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

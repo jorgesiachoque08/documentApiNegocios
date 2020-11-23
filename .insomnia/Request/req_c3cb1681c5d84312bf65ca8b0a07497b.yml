@@ -1,0 +1,69 @@
+_id: req_c3cb1681c5d84312bf65ca8b0a07497b
+type: Request
+parentId: fld_639585eba583428ab3827b0250c1e5bf
+modified: 1606163825784
+created: 1606160988337
+url: "{{ urlbase }}/listarOfertas/1"
+name: listarOfertas
+description: "parametro url :cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"ok\",\r
+
+  \    \"data\": [\r
+
+  \        {\r
+
+  \            \"cod_orden_pedido\": \"10\",\r
+
+  \            \"vlr_descuentos\": 474789.92,\r
+
+  \            \"vlr_subtotal\": 4273109.24,\r
+
+  \            \"vlr_impuestos\": 902100.84,\r
+
+  \            \"vlr_neto\": 5175210.08,\r
+
+  \            \"cod_oferta\": \"5fa5c881b26acd0448cb32bc\",\r
+
+  \            \"cod_cotizacion_pedido\": \"4\",\r
+
+  \            \"cod_detalle_pedido\": \"8\",\r
+
+  \            \"precio_unitario\": 11300,\r
+
+  \            \"cantidad\": \"500.000\",\r
+
+  \            \"vlr_bruto\": 4747899.16,\r
+
+  \            \"nombre_producto\": \"melon\",\r
+
+  \            \"cod_imp_aplic\": \"1\",\r
+
+  \            \"cod_det_dscto_aplic\": \"1\"\r
+
+  \        }\r
+
+  \    ]\r
+
+  }"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ4OTE1MzMsImp0aSI6IlB5ck5iY2FFUkVcL2R4SWM4NWFZVlZPQXg4WURQSTM1ZHhOU2FUY051UTFNPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ4OTE1MzQsImV4cCI6MTYwNDg5NTEzNCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.o2zRPeiBiY-r6oC1ywLT73GFrqadXlSg1tPnEQGe31o
+  prefix: ""
+metaSortKey: -1606160988337
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

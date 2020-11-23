@@ -1,0 +1,68 @@
+_id: req_16afba67a0d449118a01372502c4eed2
+type: Request
+parentId: fld_98f9201d18d146fa89a39c4fcd7d04df
+modified: 1606162908691
+created: 1606161304746
+url: "{{ urlbase }}/actualizarDireccion/6"
+name: actualizarDireccion
+description: |-
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "2"
+      name: cod_tipo_direccion
+      disabled: false
+      id: pair_914e4031f3454d5eb318a584ee09b1cf
+    - value: "3"
+      name: cod_municipio
+      disabled: false
+      id: pair_80c9f42c8d2641faadb5d9b748fe0afd
+    - value: barrio cerezoa
+      name: direccion_1
+      disabled: false
+      id: pair_8ea61aa216374f00a834ba5fede9ea9f
+    - value: "10.3997249"
+      name: latitud
+      disabled: false
+      id: pair_1dbb937bdda6485dbcaec6dd10cb0cb0
+    - value: "-75.51444910"
+      name: longitud
+      disabled: false
+      id: pair_7ad18e9a13e84ce4bd641a22daaebafd
+    - value: "1"
+      name: ind_compra
+      disabled: false
+      id: pair_32b1bd7e94b746ab9ced7b2cf02e1821
+    - value: "0"
+      name: ind_venta
+      disabled: false
+      id: pair_77d19f70f4dc4a728e2da0977ca4e36e
+    - value: ""
+      name: direccion_2
+      disabled: false
+      id: pair_6090ef387a734fc8839a720ca4a0ac68
+    - value: ""
+      name: direccion_3
+      disabled: false
+      id: pair_af14aae9eeeb40b1ba7a03ab77644441
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NDA0NzgsImp0aSI6IkhyOWVZUE9iOW5uelZvcUM3Z1pTZVlUcDdTMlhKTDh0U3RGZTVxVVpwUlE9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc0MDQ3OSwiZXhwIjoxNjAzNzQ0MDc5LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.Sn279uKU987CHc7ekjxTjGXxGT_pjDKx-f6LyBbON5U
+  prefix: ""
+metaSortKey: -1606161304746
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_e9c221ea9f504179a9a8dbd026dbdd9a
+type: Request
+parentId: fld_794a825cef854192bb7ed375bfd22f5e
+modified: 1606163033166
+created: 1606161289281
+url: "{{ urlbase }}/actualizarEstadoEmpresa/2/1"
+name: actualizarEstadoEmpresa
+description: "actualizar estados empresa\r
+
+  parametro por url: cod_estado,cod_empresa\r
+
+  parametro body:descripcion\r
+
+  \r
+
+  \r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se actualizo el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: PUT
+body:
+  params:
+    - value: desactivado
+      name: descripcion
+      disabled: false
+      id: pair_c7382a3cfc294c8fa55148d78943178e
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3Njc0NTEsImp0aSI6ImNVdXYyKzd3bVNWOFJXQ3ZKT3B0V3E1eTkydWdZd01WVEFVd1o1ZmIya2M9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc2NzQ1MiwiZXhwIjoxNjAzNzcxMDUyLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4xInsIo1mcqoOGBGg3RJrMFPBObAuI8cy5JfvFBpfzA
+  prefix: ""
+metaSortKey: -1606161289281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

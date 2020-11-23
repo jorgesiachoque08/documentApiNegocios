@@ -1,0 +1,66 @@
+_id: req_f8e1c1c90cf24b45b2b87fc939c01e33
+type: Request
+parentId: fld_6da23766d3bf4e2d8a9ef39d760974c7
+modified: 1606162228815
+created: 1606161378808
+url: "{{ urlbase }}/actualizarTercero"
+name: actualizarTercero
+description: "{\"identificacion\":1047487884,\r
+
+  \"nombres\":\"jorge enrique\",\r
+
+  \"apellidos\":\"siachoque marin\",\r
+
+  \"fecha_nac\":\"1996-01-31\",\r
+
+  \"cod_tipo_id\":4,\r
+
+  \"email\":\"jorgesiachoque08@gmail.com\",\r
+
+  \"razon_social\":\"Campos\",\r
+
+  \"telefono\":\"(+57) 6531414\",\r
+
+  \"celular\":\"(+57)3013420572\",\r
+
+  \"sexo\":1}"
+method: PUT
+body:
+  mimeType: ""
+  text: "{\"identificacion\":1047487884,\r
+
+    \"nombres\":\"jorge enrique\",\r
+
+    \"apellidos\":\"siachoque marin\",\r
+
+    \"fecha_nac\":\"1996-01-31\",\r
+
+    \"cod_tipo_id\":4,\r
+
+    \"email\":\"jorgesiachoque08@gmail.com\",\r
+
+    \"razon_social\":\"Campos\",\r
+
+    \"telefono\":\"(+57) 6531414\",\r
+
+    \"celular\":\"(+57)3013420572\",\r
+
+    \"sexo\":1}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd792b146ce349e2857469337421a22a
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDk4MzYsImp0aSI6IkVoOEV3NGtNd2FHVEhybWdWRTNJOXp4N1dkZXZndk1Oa0trVlpnaUtaY289IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgwOTgzNywiZXhwIjoxNjAzODEzNDM3LCJkYXRhIjp7ImlkIjoiMiIsImNvZF90ZXJjZXJvIjoiMiJ9fQ.w3gu5rQE0iEucPA0mB7MGmAdWqb4B9YsmRvHjrjnmGQ
+  prefix: ""
+metaSortKey: -1606161378808
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

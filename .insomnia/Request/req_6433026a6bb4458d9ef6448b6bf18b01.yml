@@ -1,0 +1,49 @@
+_id: req_6433026a6bb4458d9ef6448b6bf18b01
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162696289
+created: 1606161355588
+url: "{{ urlbase }}/asignarRutaAperfil/1"
+name: asignarRutaAperfil
+description: "asignar ruta a perfil\r
+
+  parametro por url: cod_empresa\r
+
+  parametro body:cod_perfil,cod_ruta\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se asigno la funcion al perfil\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: POST
+body:
+  params:
+    - value: "1"
+      name: cod_perfil
+      disabled: false
+      id: pair_c7764b70b1de4d10a5574d90b8a01357
+    - value: "50"
+      name: cod_ruta
+      disabled: false
+      id: pair_9deb10f3d0dc489fb6c24f5e44b84752
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606161355588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

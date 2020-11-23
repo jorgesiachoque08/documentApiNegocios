@@ -1,0 +1,39 @@
+_id: req_28ed8a7673e348aaa7dfa187bf947247
+type: Request
+parentId: fld_d705e2d113ce40e18b63e440af6c3ef8
+modified: 1606162980457
+created: 1606161294244
+url: "{{ urlbase }}/listarComisiones"
+name: listarComisiones
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_tipo_comision": "1",
+              "tipos_comision": "comision3",
+              "cod_proceso": "3",
+              "proceso": "proceso 3",
+              "cod_modulo": "1",
+              "modulo": "moduo 1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4Mjk2MTksImp0aSI6InR2YTFWU1E4aWdqRUJEZVozbCtEU1VYNGdYXC9cL2p4dFJJNnZSOVA3aVhrVT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODI5NjIwLCJleHAiOjE2MDM4MzMyMjAsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.nZ0HsDiRI6DhsJOM9qnEUqjbCbI7tQ09abv4_5JMVAs
+  prefix: ""
+metaSortKey: -1606161294244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

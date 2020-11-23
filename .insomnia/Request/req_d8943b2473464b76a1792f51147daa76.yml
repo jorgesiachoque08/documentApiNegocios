@@ -1,0 +1,45 @@
+_id: req_d8943b2473464b76a1792f51147daa76
+type: Request
+parentId: fld_e8ba5240a4d4400d85b6ef4c78d7175f
+modified: 1606162735909
+created: 1606161325793
+url: "{{ urlbase }}/agregarEstadoOrdenPedido/1"
+name: agregarEstadoOrdenPedido
+description: "parametro url:cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se guardo el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: POST
+body:
+  params:
+    - value: "1"
+      name: cod_estado_anterior
+      disabled: false
+      id: pair_d4a999c6ecb24ab98f318679266f9530
+    - value: estado 2
+      name: descripcion
+      disabled: false
+      id: pair_f408cdccf86745418e0e01b93b6a2040
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5NDQxNzQsImp0aSI6InFyUEd3UVZaSkE4MnExblNOczVkM2R6cjVJNTU4VXk3TzhtWlpRaStOemc9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzk0NDE3NSwiZXhwIjoxNjAzOTQ3Nzc1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.WyZJzTo-l862bod6P9-vaAqT55ylCETAUNKWa1SaWE8
+  prefix: ""
+metaSortKey: -1606161325793
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

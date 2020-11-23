@@ -1,0 +1,33 @@
+_id: req_c2a3913e90e54405834b28e20e2baddf
+type: Request
+parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
+modified: 1606163215880
+created: 1606161253251
+url: "{{ urlbase }}/refrescarToken"
+name: refrescarToken
+description: >-
+  {
+      "code": 200,
+      "status": "success",
+      "message": "ingreso exitosamenten",
+      "expira": 3600,
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM0ODUyNDQsImp0aSI6ImlGMEFtQ3FhOVwveHJxWTl2aFdnMFVxUTB1eVNvKysrQVFpK2U1dDVJYkxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM0ODUyNDUsImV4cCI6MTYwMzQ4ODg0NSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.AxiY0spDfTeMi9I73NvbGsTg6jxbj4oEaulnSFPLRGU",
+      "data": true
+  }
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2MDUwMDUsImp0aSI6InBGS3RLZnp5bkxEaFhySWVjZ0ZOMjdza1VJa081Vml5MDh4czMwZGo0Nm89IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDYwNTAwNiwiZXhwIjoxNjA0NjA4NjA2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.mXO92ak93YX0qEVFhltcg7jDHX_24OuMqOCY6oIdXLo
+  prefix: ""
+metaSortKey: -1606161253251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

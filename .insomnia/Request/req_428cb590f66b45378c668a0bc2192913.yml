@@ -1,0 +1,44 @@
+_id: req_428cb590f66b45378c668a0bc2192913
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162543207
+created: 1606161361906
+url: "{{ urlbase }}/api/agregarPedido/1"
+name: agregarPedido
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: '[{"cod_producto":3,"cantidades":500}]'
+      name: detalle
+      disabled: false
+      id: pair_fbd67318a08440a39af76e665e518566
+    - value: "1"
+      name: cod_sucursal
+      disabled: false
+      id: pair_d875e2b259d64811a6717e8330e40325
+    - value: 2020-12-15
+      name: fecha_entrega
+      disabled: false
+      id: pair_b5f76540fa754cdcbfc5671c669b8df5
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2OTc5OTYsImp0aSI6IkhLZkluQ0c5SUFOQ0w2b1V3Zm1LOGhqM2VTeGhzXC9rVzV4dE1sdzJrVGNFPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ2OTc5OTcsImV4cCI6MTYwNDcwMTU5NywiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.JIN7-6YlRHUkAfZ8VkY8wdKEx5eiaDj8XaPb6Tuhy9w
+  prefix: ""
+metaSortKey: -1606161361906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

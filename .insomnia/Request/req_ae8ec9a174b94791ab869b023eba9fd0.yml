@@ -1,0 +1,87 @@
+_id: req_ae8ec9a174b94791ab869b023eba9fd0
+type: Request
+parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
+modified: 1606162128042
+created: 1606161253250
+url: "{{ urlbase }}/listarDatosSeleccionablesAuth"
+name: listarDatosSeleccionablesAuth
+description: "{\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Ok\",\r
+
+  \    \"data\": {\r
+
+  \        \"paisesIdentificacion\": [\r
+
+  \            {\r
+
+  \                \"cod_pais\": \"1\",\r
+
+  \                \"pais\": \"Colombia\",\r
+
+  \                \"TiposIndentificaciones\": [\r
+
+  \                    {\r
+
+  \                        \"cod\": \"1\",\r
+
+  \                        \"descripcion\": \"Cedula de ciudadania\",\r
+
+  \                        \"abreviatura\": \"CC\"\r
+
+  \                    },\r
+
+  \                    {\r
+
+  \                        \"cod\": \"2\",\r
+
+  \                        \"descripcion\": \"Nit\",\r
+
+  \                        \"abreviatura\": \"NIT\"\r
+
+  \                    }\r
+
+  \                ]\r
+
+  \            }\r
+
+  \        ],\r
+
+  \        \"sexo\": [\r
+
+  \            {\r
+
+  \                \"cod\": 1,\r
+
+  \                \"descripcion\": \"Masculino\"\r
+
+  \            },\r
+
+  \            {\r
+
+  \                \"cod\": 2,\r
+
+  \                \"descripcion\": \"Femeninoo\"\r
+
+  \            }\r
+
+  \        ]\r
+
+  \    }\r
+
+  }"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606161253250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

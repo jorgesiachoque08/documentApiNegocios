@@ -1,0 +1,37 @@
+_id: req_c285d012346f4869a7eee5ca777e4fe3
+type: Request
+parentId: fld_794a825cef854192bb7ed375bfd22f5e
+modified: 1606163044889
+created: 1606161289280
+url: "{{ urlbase }}/eliminarEstadoEmpresa/2"
+name: eliminarEstadoEmpresa
+description: "eliminar estado empresa\r
+
+  parametro por url: cod_estado,cod_empresa\r
+
+  \r
+
+  \r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se elimino el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606161289280
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

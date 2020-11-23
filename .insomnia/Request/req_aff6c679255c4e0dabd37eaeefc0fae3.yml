@@ -1,0 +1,30 @@
+_id: req_aff6c679255c4e0dabd37eaeefc0fae3
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162502600
+created: 1606161367315
+url: "{{ urlbase }}/listarFichaTecnicaProducto/1"
+name: listarFichaTecnicaProducto
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": []
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5NDExODgsImp0aSI6IjN3dVduUVFHUG1VdlwvOWhFeHdwT2t5V0JcL0wxTGFJSENQN0tVNTFyM3Ricz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTQxMTg5LCJleHAiOjE2MDM5NDQ3ODksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.sCeMeggup5eAjcKSR6g5Y1LLKMnPPHHydq2jxZc3SdM
+  prefix: ""
+metaSortKey: -1606161367315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

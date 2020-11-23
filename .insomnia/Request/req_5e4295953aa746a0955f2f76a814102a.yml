@@ -1,0 +1,49 @@
+_id: req_5e4295953aa746a0955f2f76a814102a
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162678808
+created: 1606161355591
+url: "{{ urlbase }}/actualizarPerfil/2/1"
+name: actualizarPerfil
+description: "actalizar Perfil\r
+
+  parametro por url: cod_perfil,cod_empresa\r
+
+  parametro body:descripcion,backend(1 o 0)\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se actualizo el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: PUT
+body:
+  params:
+    - value: "0"
+      name: backend
+      disabled: false
+      id: pair_5153dced6783486f8ec263e0ab8b6d19
+    - value: Preparador
+      name: descripcion
+      disabled: false
+      id: pair_361b503bf2af4afc95ef373b9a09008e
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606161355591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

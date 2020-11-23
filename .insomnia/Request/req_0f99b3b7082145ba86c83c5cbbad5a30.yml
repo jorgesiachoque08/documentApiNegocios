@@ -1,0 +1,39 @@
+_id: req_0f99b3b7082145ba86c83c5cbbad5a30
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162705861
+created: 1606161355587
+url: "{{ urlbase }}/eliminarRutaDelPerfil/5555/1/1"
+name: eliminarRutaDelPerfil
+description: "eliminar ruta asiganda al perfil\r
+
+  parametro por url: cod_ruta,cod_perfil,cod_empresa\r
+
+  \r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se elimino el la funcion del Perfil\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606161355587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

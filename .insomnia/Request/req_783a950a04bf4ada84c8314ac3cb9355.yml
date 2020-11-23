@@ -1,0 +1,37 @@
+_id: req_783a950a04bf4ada84c8314ac3cb9355
+type: Request
+parentId: fld_3c55fde35f1c4b268e538a92757eb662
+modified: 1606163816011
+created: 1606161002645
+url: "{{ urlbase }}/cambiarEstadoConsolidacion/1/95"
+name: cambiarEstadoConsolidacion
+description: |-
+  parametro url: cod_empresa,con_consolidado
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "2"
+      name: estado
+      disabled: false
+      id: pair_c30c4c76abf74006b9239190ed3ea6ec
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2OTg3MDEsImp0aSI6Ik9hZzQ5c2x2YVB6QmpNM1FRUHZ6MlwvN0ZmdjdpVFgwNCs0cHpFKzBBS1VVPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ2OTg3MDIsImV4cCI6MTYwNDcwMjMwMiwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.qpF9RApShxjjfQgtorkSNJEKjjNIdIiWx3ujIukW-5M
+  prefix: ""
+metaSortKey: -1606161002645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

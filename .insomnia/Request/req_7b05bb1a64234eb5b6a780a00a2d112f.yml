@@ -1,0 +1,45 @@
+_id: req_7b05bb1a64234eb5b6a780a00a2d112f
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162563612
+created: 1606161361904
+url: "{{ urlbase }}/actualizarCabeceraPedido/2"
+name: actualizarCabeceraPedido
+description: |-
+  parametro url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "3"
+      name: cod_sucursal
+      disabled: false
+      id: pair_0bb2564abb974274b1a6ee2437e7df29
+    - value: 2020-10-31
+      name: fecha_entrega
+      disabled: false
+      id: pair_2712a825fc3348fd8d8fc8fa138326e8
+    - value: "9"
+      name: cod_pedido
+      disabled: false
+      id: pair_1e4e9cb874504176bfab3980ec4d8197
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwNzgwNTIsImp0aSI6IjBRaW1QdWR2ZCtBM2RQVWFcLzBoMXZudXUrbGZkWHdMWmVrZ2ZUMzdTUXdzPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQwNzgwNTMsImV4cCI6MTYwNDA4MTY1MywiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.8E4MupGBi5kpSOgn9RH-Ptqe3970ThVc4b1D8NkWsBI
+  prefix: ""
+metaSortKey: -1606161361904
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

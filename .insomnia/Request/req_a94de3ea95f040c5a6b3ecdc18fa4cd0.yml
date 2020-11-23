@@ -1,0 +1,39 @@
+_id: req_a94de3ea95f040c5a6b3ecdc18fa4cd0
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162613817
+created: 1606161361900
+url: "{{ urlbase }}/listarDetallePedido/2/1/9"
+name: listarDetallePedido
+description: |-
+  parametros url:cod_empresa,cod_sucursal,cod_pedido
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_detalle": "13",
+              "cod_producto": "3",
+              "nombre_producto": "naranja2",
+              "unidades_medidas": "kilos",
+              "cantidades": "2.000"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwOTU0MjUsImp0aSI6InBRUVEzQVwvVGNoZFpBZjRBdWcyMXpMak1qM3JzV01zN3B1T3RJNlwvM1VrUT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjA0MDk1NDI2LCJleHAiOjE2MDQwOTkwMjYsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.2YE1-kc2mlKKEIEFpcH0s2pi19tBRcyZoZeA1w1KNvM
+  prefix: ""
+metaSortKey: -1606161361900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

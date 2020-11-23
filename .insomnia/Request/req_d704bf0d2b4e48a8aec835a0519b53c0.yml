@@ -1,0 +1,31 @@
+_id: req_d704bf0d2b4e48a8aec835a0519b53c0
+type: Request
+parentId: fld_d705e2d113ce40e18b63e440af6c3ef8
+modified: 1606163007249
+created: 1606161294226
+url: "{{ urlbase }}/eliminarComision/88/1"
+name: eliminarComision
+description: |-
+  parametros url:cod_comision,cod_empresa
+  {
+      "code": 200,
+      "message": "Se eliminar el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4Mjk2MTksImp0aSI6InR2YTFWU1E4aWdqRUJEZVozbCtEU1VYNGdYXC9cL2p4dFJJNnZSOVA3aVhrVT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODI5NjIwLCJleHAiOjE2MDM4MzMyMjAsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.nZ0HsDiRI6DhsJOM9qnEUqjbCbI7tQ09abv4_5JMVAs
+  prefix: ""
+metaSortKey: -1606161294226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

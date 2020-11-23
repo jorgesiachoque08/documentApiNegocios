@@ -1,0 +1,58 @@
+_id: req_c8d099b79e8747fcba12bb0a3ac7245d
+type: Request
+parentId: fld_b6a9f0ac3c21430b8604ba5f1ac868ad
+modified: 1606163091839
+created: 1606161280617
+url: "{{ urlbase }}/listarProductosImpuestosPorPais/1"
+name: listarProductosImpuestosPorPais
+description: |-
+  parametro por url:cod_pais
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_producto_impuesto": "10",
+              "cod_producto": "3",
+              "nombre_producto": "naranja2",
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "cod_impuesto": "3",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_producto_impuesto": "12",
+              "cod_producto": "3",
+              "nombre_producto": "naranja2",
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "cod_impuesto": "2",
+              "impuesto": "impuesto 1",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MTI3NzcsImp0aSI6Ik9aelZRXC9PVmF3cGVsdmVBVWhjM1hKUUt1YVZHNUJ2aHhCQWZzNEtra2cwPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM5MTI3NzgsImV4cCI6MTYwMzkxNjM3OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.n6VsTCYX8ZkYJq-CxU4RTEVzBsLVuzXnqCEm7YKHIEE
+  prefix: ""
+metaSortKey: -1606161280617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

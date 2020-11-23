@@ -1,0 +1,51 @@
+_id: req_3a085593f0b04e358a46303f476ffcb2
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162400531
+created: 1606161372216
+url: "{{ urlbase }}/listarDireccionSucursal/1/1"
+name: listarDireccionSucursal
+description: |-
+  parametro url:cod_empresa,cod_sucursal
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": "3",
+              "cod_tipo_direccion": "1",
+              "cod_sucursal": "1",
+              "cod_municipio": "1",
+              "direccion_linea_1": "barrio pozon calle 34-4",
+              "direccion_linea_2": null,
+              "direccion_linea_3": null,
+              "latitud": "10.3944440000",
+              "longitud": "-75.5144440000",
+              "municipio": "Bucaramanga",
+              "cod_departamento": "1",
+              "departamentos": "Santander",
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "descripcion": "barrio"
+          }
+      ]
+  }
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MTY3NzIsImp0aSI6IlU1VnpzZlphbk5WNE5xSXpXblYwa2hUR21xdllhNkZFM1ZXUkc3SEVmeVE9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQxNjc3MywiZXhwIjoxNjA0NDIwMzczLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.PSa0iYOhqOxXykRn9kzsBXLVP-j7fXaG_AFOkvih-Vs
+  prefix: ""
+metaSortKey: -1606161372216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,48 @@
+_id: req_6f8b77fb81ba4d76b670f83173c26aaa
+type: Request
+parentId: fld_639585eba583428ab3827b0250c1e5bf
+modified: 1606163853308
+created: 1606160988333
+url: "{{ urlbase }}/listarDetalleCotizaciones/1/5"
+name: listarDetalleCotizaciones
+description: |-
+  parametro url:cod_empresa,cod_cotizacion
+  {
+      "code": 200,
+      "message": "ok",
+      "data": [
+          {
+              "cod": "5",
+              "cod_cotizacion_pedido": "5",
+              "cod_detalle_pedido": "8",
+              "precio_unitario": "11300.00",
+              "cantidad": "500.000",
+              "vlr_bruto": "4747899.16",
+              "vlr_descuentos": "474789.92",
+              "vlr_subtotal": "4273109.24",
+              "vlr_impuestos": "902100.84",
+              "vlr_neto": "5175210.08",
+              "cod_det_dscto_aplic": "1",
+              "cod_imp_aplic": "1",
+              "nombre_producto": "melon",
+              "unidad_medida": "UND"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ5MzQyODksImp0aSI6Im1tRkZGdnk4Y0dFQjJmY3NxNHRqXC91b2drME9ldFBxdE4rOExPTjd6TWtRPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ5MzQyOTAsImV4cCI6MTYwNDkzNzg5MCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.jqEZcbVKH-j0zF7_QEC8vNkWhH-hHzKu6gTUgWJKaMo
+  prefix: ""
+metaSortKey: -1606160988333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

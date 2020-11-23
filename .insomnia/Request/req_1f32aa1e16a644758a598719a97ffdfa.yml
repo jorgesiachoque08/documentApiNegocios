@@ -1,0 +1,32 @@
+_id: req_1f32aa1e16a644758a598719a97ffdfa
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162327200
+created: 1606161372222
+url: "{{ urlbase }}/eliminarSucursal/3/2"
+name: eliminarSucursal
+description: |-
+  eliminar la sucursal
+  parametros url:cod_sucursal,cod_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDk1NTEsImp0aSI6InpRcHN4OXdaYm5wbzFZT0Z3bnBrRFlySU1cL1dtTDBHK2lcL0pjWm9jQ3gyYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA5NTUyLCJleHAiOjE2MDM4MTMxNTIsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.hQddKbcOrU5XCmFmoFs6v-8yZtmYVdvBz1u9U7Slf_c
+  prefix: ""
+metaSortKey: -1606161372222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

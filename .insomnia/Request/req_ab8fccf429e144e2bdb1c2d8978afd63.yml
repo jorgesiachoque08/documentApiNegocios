@@ -1,0 +1,37 @@
+_id: req_ab8fccf429e144e2bdb1c2d8978afd63
+type: Request
+parentId: fld_065bd31ca77a4aa496ed7ca113900964
+modified: 1606163637569
+created: 1606161174174
+url: "{{ urlbase }}/actualizarTipoDatoFt/1/1"
+name: actualizarTipoDatoFt
+description: |-
+  parametros url :cod_tipo,cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: tipo2
+      name: descripcion
+      disabled: false
+      id: pair_3fec5fecac7345ceb7df38b9aa78cfd9
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjE2NjQsImp0aSI6Im82WHhKRVRuQ3g4alZFcVVNWkx0bjVXRFU1a1hIRkdocmZcL2x3dEthNW1ZPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4MjE2NjUsImV4cCI6MTYwMzgyNTI2NSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.tF0_zpWAhfgWF_Eb6MAnix5Q3cu5eVvHFpa_f2vFeew
+  prefix: ""
+metaSortKey: -1606161174174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_f506547d007a42d4932c8ac3bc3bafa0
+type: Request
+parentId: fld_065bd31ca77a4aa496ed7ca113900964
+modified: 1606163617989
+created: 1606161174176
+url: "{{ urlbase }}/agregarTipoDatoFt/1"
+name: agregarTipoDatoFt
+description: |-
+  parametro por url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: cadena
+      name: descripcion
+      disabled: false
+      id: pair_447c86b594764d07b4adb950d0f2ca16
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5Mjg0NzIsImp0aSI6IlBLTEJcLzE0dExBMXRwQkVPZlwvRUNaT1lPK2ZsQStJOWtwMWpPcUVtdGNaOD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTI4NDczLCJleHAiOjE2MDM5MzIwNzMsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.KsXmoKzudt-iBl6GAQ9QE5wl13OSkRYfxP1fmyfP5w8
+  prefix: ""
+metaSortKey: -1606161174176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

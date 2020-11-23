@@ -1,0 +1,96 @@
+_id: req_989e9ac30c034c74bf292b94de3b044d
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162553971
+created: 1606161361905
+url: "{{ urlbase }}/listarPedidosSucursal/2/1"
+name: listarPedidosSucursal
+description: |-
+  parametros url:cod_empresa,cod_sucursal
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_pedido": "1",
+              "sucursal": "sucursal 3",
+              "fecha_creacion": "2020-10-29",
+              "fecha_entrega": "2020-12-01",
+              "cod_estado_pedido": "1",
+              "estado": "Elaboración",
+              "detalle": [
+                  {
+                      "cod_producto": "3",
+                      "nombre_producto": "naranja2",
+                      "unidades_medidas": "kilos",
+                      "cantidades": "3.000"
+                  }
+              ]
+          },
+          {
+              "cod_pedido": "3",
+              "sucursal": "sucursal 3",
+              "fecha_creacion": "2020-10-29",
+              "fecha_entrega": "2020-12-01",
+              "cod_estado_pedido": "1",
+              "estado": "Elaboración",
+              "detalle": [
+                  {
+                      "cod_producto": "3",
+                      "nombre_producto": "naranja2",
+                      "unidades_medidas": "kilos",
+                      "cantidades": "3.000"
+                  }
+              ]
+          },
+          {
+              "cod_pedido": "4",
+              "sucursal": "sucursal 3",
+              "fecha_creacion": "2020-10-29",
+              "fecha_entrega": "2020-12-01",
+              "cod_estado_pedido": "1",
+              "estado": "Elaboración",
+              "detalle": [
+                  {
+                      "cod_producto": "3",
+                      "nombre_producto": "naranja2",
+                      "unidades_medidas": "kilos",
+                      "cantidades": "3000.000"
+                  }
+              ]
+          },
+          {
+              "cod_pedido": "7",
+              "sucursal": "sucursal 3",
+              "fecha_creacion": "2020-10-29",
+              "fecha_entrega": "2020-12-01",
+              "cod_estado_pedido": "1",
+              "estado": "Elaboración",
+              "detalle": [
+                  {
+                      "cod_producto": "3",
+                      "nombre_producto": "naranja2",
+                      "unidades_medidas": "kilos",
+                      "cantidades": "3.000"
+                  }
+              ]
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwOTA5MTYsImp0aSI6IlNpNE5WeWdIUmNRXC9XUVVUcXRyVlNtenY2TUVNdlU0Z1ZFRG53c3J0OTBBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQwOTA5MTcsImV4cCI6MTYwNDA5NDUxNywiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.0xgYRMTusyQ1LE0KqO_XxUnuEdLBmFPV57uoQvXuXDs
+  prefix: ""
+metaSortKey: -1606161361905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

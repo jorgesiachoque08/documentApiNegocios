@@ -1,0 +1,44 @@
+_id: req_96fc6dfcb9b7409790f1ee39bdb1903c
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162319805
+created: 1606161372224
+url: "{{ urlbase }}/actualizarSucursal/1/2"
+name: actualizarSucursal
+description: |-
+  actualizar sucursal
+  parametros url :cod_sucursal,cod_empresa
+  paraemtros body : cod_tercero_contacto(entero),nombre
+
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "2"
+      name: cod_tercero_contacto
+      disabled: false
+      id: pair_fedb4e4fd8184b819bc6e5a942e3ddb2
+    - value: sucursal 3
+      name: nombre
+      disabled: false
+      id: pair_3c031465e1a7466fb54d2a40aac046bf
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDk1NTEsImp0aSI6InpRcHN4OXdaYm5wbzFZT0Z3bnBrRFlySU1cL1dtTDBHK2lcL0pjWm9jQ3gyYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA5NTUyLCJleHAiOjE2MDM4MTMxNTIsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.hQddKbcOrU5XCmFmoFs6v-8yZtmYVdvBz1u9U7Slf_c
+  prefix: ""
+metaSortKey: -1606161372224
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_0f295c4c83f04fbb96acf1f5bfec3788
+type: Environment
+parentId: env_6c37753472e31d2a8b50792e50b1974a59aa31c3
+modified: 1606162050316
+created: 1606161570094
+name: variables bases
+data:
+  urlbase: https://newapi.acercate.com.co/AcercateNegociosBackend/api
+dataPropertyOrder:
+  "&":
+    - urlbase
+color: null
+isPrivate: false
+metaSortKey: 1606161570094

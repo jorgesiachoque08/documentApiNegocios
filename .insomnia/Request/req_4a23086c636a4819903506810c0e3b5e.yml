@@ -1,0 +1,47 @@
+_id: req_4a23086c636a4819903506810c0e3b5e
+type: Request
+parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
+modified: 1606162763046
+created: 1606161315754
+url: "{{ urlbase }}/agregarEmpresa"
+name: agregar empresa
+description: |-
+  se crea la empresa
+  parametros body:razon_social,cod_tipo_id(entero),identificacion
+
+  {
+      "code": 200,
+      "message": "La empresa se registro exitosamente",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: empresapruebajorge
+      name: razon_social
+      disabled: false
+      id: pair_e44177f3f928410eb21391e999aea2d3
+    - value: "1"
+      name: cod_tipo_id
+      disabled: false
+      id: pair_107a9c3781ce4328963126b211cba0fa
+    - value: 123456b
+      name: identificacion
+      disabled: false
+      id: pair_13dfa89c13bd4aaaad8747aa98f3bed0
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUyMTI0OTAsImp0aSI6IkdXNG5uanBRRmtPUlwvRTlqQTRCTHFpS0ZxRFJmUXZxY1pUN21sWnFXYzZVPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDUyMTI0OTEsImV4cCI6MTYwNTIxNjA5MSwiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.2wyDg2a2iCzWsIMk4B1hBzsure1p-sjmwK6udRpJVRk
+  prefix: ""
+metaSortKey: -1606161315754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

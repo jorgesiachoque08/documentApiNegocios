@@ -1,0 +1,49 @@
+_id: req_161642964bee4ea78d9a3afe63c1a36c
+type: Request
+parentId: fld_1c517331648b40c1a3d8a149734d4b05
+modified: 1606162959062
+created: 1606161299096
+url: "{{ urlbase }}/actualizarImpuesto/9/1"
+name: actualizarImpuesto
+description: |-
+  parametros url:cod_impuesto,cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: impuesto 9
+      name: descripcion
+      disabled: false
+      id: pair_188c9c17fc9248389986a41fa6e0ee7c
+    - value: "1"
+      name: cod_tipo_impuesto
+      disabled: false
+      id: pair_49d153487e5b494582ed7a75986aa89c
+    - value: "1"
+      name: ind_venta
+      disabled: false
+      id: pair_5124ae51acfa4498a503f63246c1bc45
+    - value: "0"
+      name: ind_compras
+      disabled: false
+      id: pair_2e8eabd9ed47487f9678f0bdb8b1938c
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTQzNzksImp0aSI6IlJ2MCtCNVJJTGczSkdibHhtejBaa0h0Q21OWHRsY2ltNlNHXC9QQmxhU2g0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4OTQzODAsImV4cCI6MTYwMzg5Nzk4MCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.xIywsipkg7Jl_k_-BE7CppiaRkuw78WbD3SeKHM2yIw
+  prefix: ""
+metaSortKey: -1606161299096
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

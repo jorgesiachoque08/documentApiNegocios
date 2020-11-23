@@ -1,0 +1,117 @@
+_id: req_1f6b6b9755df40c7a8b1016b01af9441
+type: Request
+parentId: fld_bf1827384b33426aad059a41f152c8d6
+modified: 1606163666117
+created: 1606161159726
+url: "{{ urlbase }}/listarCategoriasinfCompleta"
+name: listarCategoriasinfCompleta
+description: "lista las categorias con las fichas tecnicas asignadas\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Ok\",\r
+
+  \    \"data\": [\r
+
+  \        {\r
+
+  \            \"cod\": \"1\",\r
+
+  \            \"descripcion\": \"categ1\",\r
+
+  \            \"cod_padre\": null,\r
+
+  \            \"padre\": null,\r
+
+  \            \"cod_ficha\": null,\r
+
+  \            \"ficha_tecnica\": null\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": \"2\",\r
+
+  \            \"descripcion\": \"categ2\",\r
+
+  \            \"cod_padre\": \"1\",\r
+
+  \            \"padre\": \"categ1\",\r
+
+  \            \"cod_ficha\": null,\r
+
+  \            \"ficha_tecnica\": null\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": \"3\",\r
+
+  \            \"descripcion\": \"categ3\",\r
+
+  \            \"cod_padre\": \"2\",\r
+
+  \            \"padre\": \"categ2\",\r
+
+  \            \"cod_ficha\": null,\r
+
+  \            \"ficha_tecnica\": null\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": \"4\",\r
+
+  \            \"descripcion\": \"categ4\",\r
+
+  \            \"cod_padre\": null,\r
+
+  \            \"padre\": null,\r
+
+  \            \"cod_ficha\": null,\r
+
+  \            \"ficha_tecnica\": null\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": \"6\",\r
+
+  \            \"descripcion\": \"categ4\",\r
+
+  \            \"cod_padre\": \"2\",\r
+
+  \            \"padre\": \"categ2\",\r
+
+  \            \"cod_ficha\": \"1\",\r
+
+  \            \"ficha_tecnica\": \"ficha 1\"\r
+
+  \        }\r
+
+  \    ]\r
+
+  }"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4NTIxMDQsImp0aSI6IlErMDdWN1wvYVNYVkFhUzhwWTluS3pNT3JBZHNuMTZPanRpSGFcL2laM013Yz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODUyMTA1LCJleHAiOjE2MDM4NTU3MDUsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.GlcXDyO6_thvxcCD_tHZ0nRE7rL3rWhMD59xOLqIuaY
+  prefix: ""
+metaSortKey: -1606161159726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

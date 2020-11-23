@@ -1,0 +1,41 @@
+_id: req_227599b819924afc9829edb765c3b6e8
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162621237
+created: 1606161361899
+url: "{{ urlbase }}/cambiarEstadoPedido/1"
+name: cambiarEstadoPedido
+description: |-
+  parametro url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se cambio el estado al registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "2"
+      name: estado
+      disabled: false
+      id: pair_f96d1adbefbf449ea1c139c9084ba2f6
+    - value: "10"
+      name: cod_pedido
+      disabled: false
+      id: pair_9f3225c75b344582876b2408edc354a9
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2OTgzNDksImp0aSI6IktzWnRkUWJWVHlcL0FDeHpXejF3VU0zeEtEVFk4eFFHeStzSVZXQXNrZTBrPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ2OTgzNTAsImV4cCI6MTYwNDcwMTk1MCwiZGF0YSI6eyJpZCI6IjIiLCJjb2RfdGVyY2VybyI6IjIifX0.tw0YTwRjzizFQ7KI66VXiTr-s_bKfhioPpKuO8ca4V8
+  prefix: ""
+metaSortKey: -1606161361899
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

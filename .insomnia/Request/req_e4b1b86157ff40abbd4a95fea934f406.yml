@@ -1,0 +1,44 @@
+_id: req_e4b1b86157ff40abbd4a95fea934f406
+type: Request
+parentId: fld_3c55fde35f1c4b268e538a92757eb662
+modified: 1606163792156
+created: 1606161002648
+url: "{{ urlbase }}/listarPedidosConsolidado/1/83"
+name: listarPedidosConsolidado
+description: |-
+  parametros url:cod_empresa,cod_consolidado
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_pedido": "6",
+              "cod_empresa": "1",
+              "razon_social": "EmpresaPrueba",
+              "cod_sucursal": "3",
+              "sucursal": "sucursal3 prueba",
+              "fecha_creacion": "2020-11-02",
+              "fecha_entrega": "2020-12-10",
+              "cod_estado_pedido": "3",
+              "estado": "Consolidado",
+              "cod_consolidado": "83"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MzY2NjQsImp0aSI6ImZBXC9YV2JWT1wvU21CUDExMjBBVStUTEFpTVp6NmFJaEd5VTdZVWlkXC9mR0E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQzNjY2NSwiZXhwIjoxNjA0NDQwMjY1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ZcEdIMmZzpergqZKZlHUdv8uaiwDCnc3mIOUolAsKk8
+  prefix: ""
+metaSortKey: -1606161002648
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

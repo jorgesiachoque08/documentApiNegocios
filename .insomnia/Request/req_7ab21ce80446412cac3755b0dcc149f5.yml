@@ -1,0 +1,49 @@
+_id: req_7ab21ce80446412cac3755b0dcc149f5
+type: Request
+parentId: fld_bf1827384b33426aad059a41f152c8d6
+modified: 1606163656934
+created: 1606161159727
+url: "{{ urlbase }}/agregarCategoria/1"
+name: agregarCategoria
+description: "parametro url:cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se guardo el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: POST
+body:
+  params:
+    - value: naranjas
+      name: descripcion
+      disabled: false
+      id: pair_ffcec8c0ef924387bbb707d43c86289d
+    - value: "8"
+      name: cod_categoria_padre
+      disabled: false
+      id: pair_b0401f13c59947bea64fd671c0876438
+    - value: "1"
+      name: cod_ficha_tecnica
+      disabled: true
+      id: pair_4b2ea84639ed449e90e4ea494fe62f9e
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5Mjg0NzIsImp0aSI6IlBLTEJcLzE0dExBMXRwQkVPZlwvRUNaT1lPK2ZsQStJOWtwMWpPcUVtdGNaOD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTI4NDczLCJleHAiOjE2MDM5MzIwNzMsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.KsXmoKzudt-iBl6GAQ9QE5wl13OSkRYfxP1fmyfP5w8
+  prefix: ""
+metaSortKey: -1606161159727
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

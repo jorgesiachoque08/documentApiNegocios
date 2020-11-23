@@ -1,0 +1,32 @@
+_id: req_b5d7305ca770470585d05bc7081cc78f
+type: Request
+parentId: fld_ab7519b1849941d684077134c986aafc
+modified: 1606163450705
+created: 1606161224285
+url: "{{ urlbase }}/eliminarDepartamento/2/1"
+name: eliminarDepartamento
+description: |-
+  eliminar los departamentos
+  parametro por url: cod_departamento,cod_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NjM5NzYsImp0aSI6ImZMcURuNVFwSU9LWE1uY2ZUam9PNm5ONXRCeHdJVWhWS2ZmQUtxcmMwS1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc2Mzk3NywiZXhwIjoxNjAzNzY3NTc3LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ZGhqWOasWXnm0Mx2ltYMmK_nLFMjz1mwOYe9iQJl9tQ
+  prefix: ""
+metaSortKey: -1606161224285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

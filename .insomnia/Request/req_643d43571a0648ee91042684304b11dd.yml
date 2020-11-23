@@ -1,0 +1,50 @@
+_id: req_643d43571a0648ee91042684304b11dd
+type: Request
+parentId: fld_3c55fde35f1c4b268e538a92757eb662
+modified: 1606163777691
+created: 1606161002653
+url: "{{ urlbase }}/listarConsolidacionesPedidos/1"
+name: listarConsolidacionesPedidos
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_consolidado": "82",
+              "fecha_registro": "2020-11-03",
+              "fecha_entrega": "2020-12-01",
+              "cod_centro_operacion": "1",
+              "centro_operacion": "centro operacion 1",
+              "cod_estado_consolidacion": "2",
+              "estado": "Pendiente"
+          },
+          {
+              "cod_consolidado": "83",
+              "fecha_registro": "2020-11-03",
+              "fecha_entrega": "2020-12-10",
+              "cod_centro_operacion": "1",
+              "centro_operacion": "centro operacion 1",
+              "cod_estado_consolidacion": "2",
+              "estado": "Pendiente"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MzQ5NjksImp0aSI6ImU5VG9kYlRRTWd4RUtcL3UwZW1KQzl0Y3cwbEZMSmJqUTJqUXNlampcL0dtQT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjA0NDM0OTcwLCJleHAiOjE2MDQ0Mzg1NzAsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.p-clt6pcf9XkVsc_wwaHeAnlB6Has3IdsfPgr6FpBK8
+  prefix: ""
+metaSortKey: -1606161002653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

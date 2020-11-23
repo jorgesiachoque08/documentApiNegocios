@@ -1,0 +1,67 @@
+_id: req_a8f2f0ebc284457784139eff62168aa3
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162341531
+created: 1606161372221
+url: "{{ urlbase }}/listarContactosEmpresa/1"
+name: listarContactosEmpresa
+description: "parametro url:cod_empresa\r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Ok\",\r
+
+  \    \"data\": [\r
+
+  \        {\r
+
+  \            \"razon_social\": \"usuario prueba\",\r
+
+  \            \"cod_tipo_identificacion\": \"1\",\r
+
+  \            \"numero_identificacion\": \"11111111\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"razon_social\": \"usuario Aprobador\",\r
+
+  \            \"cod_tipo_identificacion\": \"1\",\r
+
+  \            \"numero_identificacion\": \"222222222\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"razon_social\": \"usuario Preparador\",\r
+
+  \            \"cod_tipo_identificacion\": \"1\",\r
+
+  \            \"numero_identificacion\": \"33333333333\"\r
+
+  \        }\r
+
+  \    ]\r
+
+  }"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  prefix: ""
+metaSortKey: -1606161372221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

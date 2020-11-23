@@ -1,0 +1,37 @@
+_id: req_dd4d771968354743bfecac94f38afd78
+type: Request
+parentId: fld_91abb63f3b82442495465543a0e62262
+modified: 1606163318102
+created: 1606161240880
+url: "{{ urlbase }}/listarEstadosUsuarios"
+name: listarEstadosUsuarios
+description: |-
+  lista los estados de los usuarios
+
+  {
+      "code": 200,
+      "message": "success",
+      "data": [
+          {
+              "cod": 1,
+              "descripcion": "Activo"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NjM5NzYsImp0aSI6ImZMcURuNVFwSU9LWE1uY2ZUam9PNm5ONXRCeHdJVWhWS2ZmQUtxcmMwS1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc2Mzk3NywiZXhwIjoxNjAzNzY3NTc3LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ZGhqWOasWXnm0Mx2ltYMmK_nLFMjz1mwOYe9iQJl9tQ
+  prefix: ""
+metaSortKey: -1606161240880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

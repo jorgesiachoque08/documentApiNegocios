@@ -1,0 +1,45 @@
+_id: req_4a9cee008f734538a5d10c7908ea6631
+type: Request
+parentId: fld_d705e2d113ce40e18b63e440af6c3ef8
+modified: 1606162988993
+created: 1606161294243
+url: "{{ urlbase }}/agregarComision/1"
+name: agregarComision
+description: |-
+  parametro por url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: "3"
+      name: cod_proceso
+      disabled: false
+      id: pair_363ff02776b84ef1b75431595ee1cba2
+    - value: "1"
+      name: cod_tipo_comision
+      disabled: false
+      id: pair_b2d79503599c4d588e525e877c4915ec
+    - value: "3.3"
+      name: valor
+      disabled: false
+      id: pair_291a672ba39b43b49d8c8403e05f3d99
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4Mjk2MTksImp0aSI6InR2YTFWU1E4aWdqRUJEZVozbCtEU1VYNGdYXC9cL2p4dFJJNnZSOVA3aVhrVT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODI5NjIwLCJleHAiOjE2MDM4MzMyMjAsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.nZ0HsDiRI6DhsJOM9qnEUqjbCbI7tQ09abv4_5JMVAs
+  prefix: ""
+metaSortKey: -1606161294243
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

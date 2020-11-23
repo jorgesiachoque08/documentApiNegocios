@@ -1,0 +1,41 @@
+_id: req_353aac200f694d8f8e9a0dd2f40bba81
+type: Request
+parentId: fld_ee791a659bfb4c18ba55dd3d4d4b2b88
+modified: 1606163462072
+created: 1606161218250
+url: "{{ urlbase }}/agregarProceso/1"
+name: agregarProceso
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: proeceso 1
+      name: descripcion
+      disabled: false
+      id: pair_709eb39dd97c4ba98f606defa6907f19
+    - value: "1"
+      name: cod_modulo
+      disabled: false
+      id: pair_9c405434a30f4090862145c5c34e18e2
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4Mjk2MTksImp0aSI6InR2YTFWU1E4aWdqRUJEZVozbCtEU1VYNGdYXC9cL2p4dFJJNnZSOVA3aVhrVT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODI5NjIwLCJleHAiOjE2MDM4MzMyMjAsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.nZ0HsDiRI6DhsJOM9qnEUqjbCbI7tQ09abv4_5JMVAs
+  prefix: ""
+metaSortKey: -1606161218250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

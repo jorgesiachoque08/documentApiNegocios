@@ -1,0 +1,31 @@
+_id: req_c0e70c3d25d94ba08d8761c2abc46ee2
+type: Request
+parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
+modified: 1606162594382
+created: 1606161361902
+url: "{{ urlbase }}/eliminarItemDetalle/2/9/11"
+name: eliminarItemDetalle
+description: |-
+  parametro por url: cod_empresa,cod_pedido,cod_detalle
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwODcxODUsImp0aSI6IjJnT0VyZFwvdmM5NlE0OFIyN1JTb2p4M0Y5cFBXcDUzaVhhUUJzUlRXdUQ4PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQwODcxODYsImV4cCI6MTYwNDA5MDc4NiwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.E3lvqAOgfEPyoHPyl12Ov7AlYsRQJ8cHhhAcr-jYoRg
+  prefix: ""
+metaSortKey: -1606161361902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_f1938635f2b447c0a692c781e64ef9d8
+type: Request
+parentId: fld_ee791a659bfb4c18ba55dd3d4d4b2b88
+modified: 1606163485786
+created: 1606161218246
+url: "{{ urlbase }}/eliminarProceso/8/1"
+name: eliminarProceso
+description: |-
+  parametro url: cod_proceso,cod_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjU0ODUsImp0aSI6Imp0Q2dudUxUZWxoMTYwVVB3N2s3QmhubmE2dDFueG5PUFBpdEZGRlNTZUU9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgyNTQ4NiwiZXhwIjoxNjAzODI5MDg2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4Q9oIQ7A1hqVEXMgRJq_V6N-cP-U0UT9hw4xuehXkRA
+  prefix: ""
+metaSortKey: -1606161218246
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

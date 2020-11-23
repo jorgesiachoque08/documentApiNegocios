@@ -1,0 +1,39 @@
+_id: req_e694eb8063dd4eff8318cba29c20ea04
+type: Request
+parentId: fld_3c55fde35f1c4b268e538a92757eb662
+modified: 1606163785456
+created: 1606161002652
+url: "{{ urlbase }}/listarDetalleConsolidacionesPedidos/1/82"
+name: listarDetalleConsolidacionesPedidos
+description: |-
+  parametro url:cod_empresa,cod_consolidado
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_detalle_consolidacion": "21",
+              "cod_producto": "3",
+              "nombre_producto": "naranja2",
+              "unidades_medidas": "kilos",
+              "cantidad": "73.000"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MzY2NjQsImp0aSI6ImZBXC9YV2JWT1wvU21CUDExMjBBVStUTEFpTVp6NmFJaEd5VTdZVWlkXC9mR0E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQzNjY2NSwiZXhwIjoxNjA0NDQwMjY1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ZcEdIMmZzpergqZKZlHUdv8uaiwDCnc3mIOUolAsKk8
+  prefix: ""
+metaSortKey: -1606161002652
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

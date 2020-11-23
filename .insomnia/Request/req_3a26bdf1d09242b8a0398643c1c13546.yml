@@ -1,0 +1,36 @@
+_id: req_3a26bdf1d09242b8a0398643c1c13546
+type: Request
+parentId: fld_893a60bf535e476d9191022d0d3de96a
+modified: 1606163369690
+created: 1606161235339
+url: "{{ urlbase }}/listarUnidadesMedidas"
+name: listarUnidadesMedidas
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": 1,
+              "descripcion": "unidad111",
+              "nro_decimales": "4"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjE2NjQsImp0aSI6Im82WHhKRVRuQ3g4alZFcVVNWkx0bjVXRFU1a1hIRkdocmZcL2x3dEthNW1ZPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4MjE2NjUsImV4cCI6MTYwMzgyNTI2NSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.tF0_zpWAhfgWF_Eb6MAnix5Q3cu5eVvHFpa_f2vFeew
+  prefix: ""
+metaSortKey: -1606161235339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

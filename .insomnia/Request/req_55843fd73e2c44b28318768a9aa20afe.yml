@@ -1,0 +1,53 @@
+_id: req_55843fd73e2c44b28318768a9aa20afe
+type: Request
+parentId: fld_bf1827384b33426aad059a41f152c8d6
+modified: 1606163694334
+created: 1606161159725
+url: "{{ urlbase }}/listarCategorias"
+name: listarCategorias
+description: |-
+  lista categorias para los selecte
+
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": "1",
+              "descripcion": "categ1"
+          },
+          {
+              "cod": "2",
+              "descripcion": "categ2"
+          },
+          {
+              "cod": "3",
+              "descripcion": "categ3"
+          },
+          {
+              "cod": "4",
+              "descripcion": "categ4"
+          },
+          {
+              "cod": "6",
+              "descripcion": "categ4"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4NTIxMDQsImp0aSI6IlErMDdWN1wvYVNYVkFhUzhwWTluS3pNT3JBZHNuMTZPanRpSGFcL2laM013Yz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODUyMTA1LCJleHAiOjE2MDM4NTU3MDUsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.GlcXDyO6_thvxcCD_tHZ0nRE7rL3rWhMD59xOLqIuaY
+  prefix: ""
+metaSortKey: -1606161159725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

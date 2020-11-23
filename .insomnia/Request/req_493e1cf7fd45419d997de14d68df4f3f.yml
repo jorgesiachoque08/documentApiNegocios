@@ -1,0 +1,31 @@
+_id: req_493e1cf7fd45419d997de14d68df4f3f
+type: Request
+parentId: fld_b6a9f0ac3c21430b8604ba5f1ac868ad
+modified: 1606163100917
+created: 1606161280614
+url: "{{ urlbase }}/eliminarProductosImpuestos/10/1"
+name: eliminarProductosImpuestos
+description: |-
+  parametros por url:cod_producto_impuesto,code_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MTI3NzcsImp0aSI6Ik9aelZRXC9PVmF3cGVsdmVBVWhjM1hKUUt1YVZHNUJ2aHhCQWZzNEtra2cwPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM5MTI3NzgsImV4cCI6MTYwMzkxNjM3OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.n6VsTCYX8ZkYJq-CxU4RTEVzBsLVuzXnqCEm7YKHIEE
+  prefix: ""
+metaSortKey: -1606161280614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

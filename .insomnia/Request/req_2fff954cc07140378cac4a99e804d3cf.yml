@@ -1,0 +1,37 @@
+_id: req_2fff954cc07140378cac4a99e804d3cf
+type: Request
+parentId: fld_ee791a659bfb4c18ba55dd3d4d4b2b88
+modified: 1606163470353
+created: 1606161218249
+url: "{{ urlbase }}/listarProcesos"
+name: listarProcesos
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_proceso": "3",
+              "procesos": "proeceso 1",
+              "cod_modulo": "1",
+              "modulo": "moduo 1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjU0ODUsImp0aSI6Imp0Q2dudUxUZWxoMTYwVVB3N2s3QmhubmE2dDFueG5PUFBpdEZGRlNTZUU9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgyNTQ4NiwiZXhwIjoxNjAzODI5MDg2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4Q9oIQ7A1hqVEXMgRJq_V6N-cP-U0UT9hw4xuehXkRA
+  prefix: ""
+metaSortKey: -1606161218249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

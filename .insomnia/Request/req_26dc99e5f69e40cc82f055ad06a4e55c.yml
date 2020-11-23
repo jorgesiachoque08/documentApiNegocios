@@ -1,0 +1,37 @@
+_id: req_26dc99e5f69e40cc82f055ad06a4e55c
+type: Request
+parentId: fld_edd16a9af8994f3abebde90af3bc4ce5
+modified: 1606163278900
+created: 1606161246524
+url: "{{ urlbase }}/agregarModulo/1"
+name: agregarModulo
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: Modulo 1
+      name: descripcion
+      disabled: false
+      id: pair_58880468854b489783de806839c33c56
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjU0ODUsImp0aSI6Imp0Q2dudUxUZWxoMTYwVVB3N2s3QmhubmE2dDFueG5PUFBpdEZGRlNTZUU9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgyNTQ4NiwiZXhwIjoxNjAzODI5MDg2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4Q9oIQ7A1hqVEXMgRJq_V6N-cP-U0UT9hw4xuehXkRA
+  prefix: ""
+metaSortKey: -1606161246524
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

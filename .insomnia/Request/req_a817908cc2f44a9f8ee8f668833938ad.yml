@@ -1,0 +1,65 @@
+_id: req_a817908cc2f44a9f8ee8f668833938ad
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162356474
+created: 1606161372219
+url: "{{ urlbase }}/agregarDireccionesSucursal/1"
+name: agregarDireccionesSucursal
+description: |-
+  parametro url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: "-75.514444"
+      name: longitud
+      disabled: false
+      id: pair_6866a0bc9ae54fcd805d97697bd30bba
+    - value: "10.394444"
+      name: latitud
+      disabled: false
+      id: pair_d2f75423b0ac4fde9aee079098533fea
+    - value: barrio pozon calle 100-4
+      name: direccion_1
+      disabled: false
+      id: pair_054e6567f1d34e8cbcc7a4587672ac3b
+    - value: "1"
+      name: cod_municipio
+      disabled: false
+      id: pair_f39b81f146b94e85a426445e6ea80910
+    - value: "1"
+      name: cod_tipo_direccion
+      disabled: false
+      id: pair_0e0d208108fa4e65a858a7ccec22e269
+    - value: "2"
+      name: cod_sucursal
+      disabled: false
+      id: pair_84e45cc03899422c802332d5199f8432
+    - value: ""
+      name: direccion_2
+      disabled: true
+      id: pair_a6994caffb0c4233aa38fd26a405b3c8
+    - value: ""
+      name: direccion_3
+      disabled: true
+      id: pair_28cd6746faf4448dab1c4f26edc91f54
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MjA0MjksImp0aSI6IjlYajRQNzFUeEhwRkFaODRuR2RsSEFRUkZzWExRcWsybEZaYmlFanBET009IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQyMDQzMCwiZXhwIjoxNjA0NDI0MDMwLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ilQvpPKy8TeQ4G5jm1bXjyX7I6w4PmelGVnGmjyZCD8
+  prefix: ""
+metaSortKey: -1606161372219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

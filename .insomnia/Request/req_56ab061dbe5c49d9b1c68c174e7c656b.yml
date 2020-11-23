@@ -1,0 +1,41 @@
+_id: req_56ab061dbe5c49d9b1c68c174e7c656b
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162108649
+created: 1606161389594
+url: "{{ urlbase }}/invitarAUser/1"
+name: invitarAUser
+description: |-
+  parametro url: cod_empresa
+  {
+      "code": 200,
+      "message": "La invitación se envio correctamente",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: jorgesiachoque08@gmail.com
+      name: email
+      disabled: false
+      id: pair_145e48ee79244020b92779b2612b5e28
+    - value: "3"
+      name: cod_perfil
+      disabled: false
+      id: pair_7599a4d191eb409a91018c5794202d14
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUwMTY0MTgsImp0aSI6IldqTDhJbXVlUEltYW5ZczVZanRrcW9jNDZ0bnVUR3owYlc3RTN5MWpOU2s9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNTAxNjQxOSwiZXhwIjoxNjA1MDIwMDE5LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.RtjVJPRxRK-YbNRk-Svld6-CIT1zUhwaBwuITbkl7z4
+  prefix: ""
+metaSortKey: -1606161389594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

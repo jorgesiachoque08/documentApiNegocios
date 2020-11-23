@@ -1,0 +1,41 @@
+_id: req_dee8d6c8c12842b69cc8b710ec9ac36f
+type: Request
+parentId: fld_893a60bf535e476d9191022d0d3de96a
+modified: 1606163360959
+created: 1606161235341
+url: "{{ urlbase }}/agregarUnidadMedida/1"
+name: agregarUnidadMedida
+description: |-
+  parametro por url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: kilos
+      name: descripcion
+      disabled: false
+      id: pair_066e0a708606490190655f2589b98e0f
+    - value: "3"
+      name: nro_decimales
+      disabled: false
+      id: pair_6ca8dba284e3491b81e612a9271495b2
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5Mjg0NzIsImp0aSI6IlBLTEJcLzE0dExBMXRwQkVPZlwvRUNaT1lPK2ZsQStJOWtwMWpPcUVtdGNaOD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTI4NDczLCJleHAiOjE2MDM5MzIwNzMsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.KsXmoKzudt-iBl6GAQ9QE5wl13OSkRYfxP1fmyfP5w8
+  prefix: ""
+metaSortKey: -1606161235341
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

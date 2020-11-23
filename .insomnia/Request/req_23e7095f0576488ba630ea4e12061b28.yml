@@ -1,0 +1,67 @@
+_id: req_23e7095f0576488ba630ea4e12061b28
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162671200
+created: 1606161355592
+url: "{{ urlbase }}/listarPerfiles"
+name: listarPerfiles
+description: "{\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Ok\",\r
+
+  \    \"data\": [\r
+
+  \        {\r
+
+  \            \"cod\": 1,\r
+
+  \            \"descripcion\": \"Administrador\",\r
+
+  \            \"backend\": \"1\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": 2,\r
+
+  \            \"descripcion\": \"Admind\",\r
+
+  \            \"backend\": \"0\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": 3,\r
+
+  \            \"descripcion\": \"preparador\",\r
+
+  \            \"backend\": \"0\"\r
+
+  \        }\r
+
+  \    ]\r
+
+  }"
+method: GET
+body:
+  params: []
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQxNTA0OTQsImp0aSI6IlhWbUV2VlZLc1ZZNDkrN0pQdlNFbjl1NlRrUGloWVk5ZEVVb1Bmazg5R1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDE1MDQ5NSwiZXhwIjoxNjA0MTU0MDk1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.CHIIqA31ppkP5dv2bJF2fBJbTY69GFECWeJuCFvTfjk
+  prefix: ""
+metaSortKey: -1606161355592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,55 @@
+_id: req_5d1383f67ee84f9a8d54a02467588642
+type: Request
+parentId: fld_8622f9a5f9664c6a9860af0bab0a6a19
+modified: 1606162715779
+created: 1606161355584
+url: "{{ urlbase }}/listarPerfilesClientes"
+name: listarPerfilesClientes
+description: "{\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Ok\",\r
+
+  \    \"data\": [\r
+
+  \        {\r
+
+  \            \"cod\": 2,\r
+
+  \            \"descripcion\": \"Admin\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": 3,\r
+
+  \            \"descripcion\": \"Aprobador\"\r
+
+  \        },\r
+
+  \        {\r
+
+  \            \"cod\": 4,\r
+
+  \            \"descripcion\": \"Preparador\"\r
+
+  \        }\r
+
+  \    ]\r
+
+  }"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1606161355584
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

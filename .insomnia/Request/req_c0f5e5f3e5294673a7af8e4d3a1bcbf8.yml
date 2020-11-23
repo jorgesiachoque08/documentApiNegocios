@@ -1,0 +1,31 @@
+_id: req_c0f5e5f3e5294673a7af8e4d3a1bcbf8
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162493568
+created: 1606161367317
+url: "{{ urlbase }}/eliminarProducto/5/1"
+name: eliminarProducto
+description: |-
+  parametros por url:cod_producto,code_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTg0MTUsImp0aSI6ImZlaHJ2TVhjalBSbEpoTFFjRlhYZ0wxenoxQ242NnFrU0NrNVhOblNKU1k9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzg5ODQxNiwiZXhwIjoxNjAzOTAyMDE2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.KC6g7zl0HTLQ8y8x6wgGoZKbl2CeUwPL4UcJ5RC-l4c
+  prefix: ""
+metaSortKey: -1606161367317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

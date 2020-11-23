@@ -1,0 +1,95 @@
+_id: req_f5beaeb725fa4c069d189c23736986f7
+type: Request
+parentId: fld_1c517331648b40c1a3d8a149734d4b05
+modified: 1606162950500
+created: 1606161299098
+url: "{{ urlbase }}/listarImpuestos"
+name: listarImpuestos
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_impuesto": "2",
+              "impuesto": "impuesto 1",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "3",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "4",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "5",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "1",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "6",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "7",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "0",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "8",
+              "impuesto": "impuesto 2",
+              "ind_compras": "0",
+              "ind_venta": "1",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          },
+          {
+              "cod_impuesto": "9",
+              "impuesto": "impuesto 2",
+              "ind_compras": "1",
+              "ind_venta": "1",
+              "cod_tipo_impuesto": "1",
+              "tipo_impuesto": "impuesto 2"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTQzNzksImp0aSI6IlJ2MCtCNVJJTGczSkdibHhtejBaa0h0Q21OWHRsY2ltNlNHXC9QQmxhU2g0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4OTQzODAsImV4cCI6MTYwMzg5Nzk4MCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.xIywsipkg7Jl_k_-BE7CppiaRkuw78WbD3SeKHM2yIw
+  prefix: ""
+metaSortKey: -1606161299098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

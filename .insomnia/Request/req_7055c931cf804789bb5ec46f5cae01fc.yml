@@ -1,0 +1,47 @@
+_id: req_7055c931cf804789bb5ec46f5cae01fc
+type: Request
+parentId: fld_35bf54522bcf478f8b6d2fe0d33c83cf
+modified: 1606163580796
+created: 1606161184327
+url: "{{ urlbase }}/listarTiposIdentificacion"
+name: listarTiposIdentificacion
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_pais": "1",
+              "pais": "Colombia",
+              "TiposIndentificaciones": [
+                  {
+                      "cod": "1",
+                      "descripcion": "Cedula de ciudadania",
+                      "abreviatura": "CC"
+                  },
+                  {
+                      "cod": "2",
+                      "descripcion": "Nit",
+                      "abreviatura": "NIT"
+                  }
+              ]
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzQzMDMsImp0aSI6Im13bTd4XC9tNEV3TTRBM0krNXBFZnZrT2JSUGl0ZEprSFdaWG1xSk5PTExrPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzQzMDQsImV4cCI6MTYwMzc3NzkwNCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.uN-V6y_HcKPhFjs_K3bwQH3_0YAF88JR7sAbXHflEm8
+  prefix: ""
+metaSortKey: -1606161184327
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

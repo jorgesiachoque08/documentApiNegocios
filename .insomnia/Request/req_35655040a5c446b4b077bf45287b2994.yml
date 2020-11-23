@@ -1,0 +1,51 @@
+_id: req_35655040a5c446b4b077bf45287b2994
+type: Request
+parentId: fld_c52e729fa751409995f4aea04784de3a
+modified: 1606162277952
+created: 1606161372227
+url: "{{ urlbase }}/api/listarSucursales/1"
+name: listarSucursales
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_sucursal": "1",
+              "sucursal": "sucursal 1",
+              "cod_tercero_contacto": "2",
+              "estado": "1",
+              "ident_contacto": "104748788",
+              "nombre_contacto": "jorge siachoque",
+              "email": "jorgesiachoque09@gmail.com",
+              "telefono": "(+57) 6531414"
+          },
+          {
+              "cod_sucursal": "2",
+              "sucursal": "sucursal 1",
+              "cod_tercero_contacto": "2",
+              "estado": "1",
+              "ident_contacto": "104748788",
+              "nombre_contacto": "jorge siachoque",
+              "email": "jorgesiachoque09@gmail.com",
+              "telefono": "(+57) 6531414"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  prefix: ""
+metaSortKey: -1606161372227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

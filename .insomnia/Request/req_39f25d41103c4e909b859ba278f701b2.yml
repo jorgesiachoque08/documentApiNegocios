@@ -1,0 +1,41 @@
+_id: req_39f25d41103c4e909b859ba278f701b2
+type: Request
+parentId: fld_374651dc7aba42948921850568f36a72
+modified: 1606162867617
+created: 1606161310069
+url: "{{ urlbase }}/eliminarEstadosAfiliacion/2/1"
+name: eliminarEstadosAfiliacion
+description: "eliminar estados afiliacion\r
+
+  parametro por url: cod_estado,cod_empresa\r
+
+  \r
+
+  \r
+
+  {\r
+
+  \    \"code\": 200,\r
+
+  \    \"message\": \"Se elimino el registro\",\r
+
+  \    \"data\": true\r
+
+  }"
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3Njc0NTEsImp0aSI6ImNVdXYyKzd3bVNWOFJXQ3ZKT3B0V3E1eTkydWdZd01WVEFVd1o1ZmIya2M9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc2NzQ1MiwiZXhwIjoxNjAzNzcxMDUyLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4xInsIo1mcqoOGBGg3RJrMFPBObAuI8cy5JfvFBpfzA
+  prefix: ""
+metaSortKey: -1606161310069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

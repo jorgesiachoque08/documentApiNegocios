@@ -1,0 +1,35 @@
+_id: req_c4ba6b2720dd47cb992030c647ed03c2
+type: Request
+parentId: fld_edd16a9af8994f3abebde90af3bc4ce5
+modified: 1606163288487
+created: 1606161246523
+url: "{{ urlbase }}/listarModulos"
+name: listarModulos
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": 1,
+              "descripcion": "moduo 1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjU0ODUsImp0aSI6Imp0Q2dudUxUZWxoMTYwVVB3N2s3QmhubmE2dDFueG5PUFBpdEZGRlNTZUU9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzgyNTQ4NiwiZXhwIjoxNjAzODI5MDg2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.4Q9oIQ7A1hqVEXMgRJq_V6N-cP-U0UT9hw4xuehXkRA
+  prefix: ""
+metaSortKey: -1606161246523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

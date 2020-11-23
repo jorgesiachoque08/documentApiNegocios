@@ -1,0 +1,49 @@
+_id: req_350882fe61144d48802b398f70482706
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606162477009
+created: 1606161367319
+url: "{{ urlbase }}/agregarProducto/1"
+name: agregarProducto
+description: |-
+  parametro url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: referencia
+      name: referencia
+      disabled: false
+      id: pair_81ffc3c8a86346719ab035ca64fa115b
+    - value: naranja
+      name: nombre_producto
+      disabled: false
+      id: pair_f0c27b468060422bb0552b22dbd3b15c
+    - value: "1"
+      name: cod_unidad_medida
+      disabled: false
+      id: pair_be801828e45044c7b4ac5a140e2ae152
+    - value: "8"
+      name: cod_categoria
+      disabled: false
+      id: pair_0a859dc466fc4c3a91c4f02839f8fc41
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5Mjg0NzIsImp0aSI6IlBLTEJcLzE0dExBMXRwQkVPZlwvRUNaT1lPK2ZsQStJOWtwMWpPcUVtdGNaOD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTI4NDczLCJleHAiOjE2MDM5MzIwNzMsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.KsXmoKzudt-iBl6GAQ9QE5wl13OSkRYfxP1fmyfP5w8
+  prefix: ""
+metaSortKey: -1606161367319
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_8921cedf6c9949f696d5df82957340b0
+type: Request
+parentId: fld_639585eba583428ab3827b0250c1e5bf
+modified: 1606163835065
+created: 1606160988336
+url: "{{ urlbase }}/cambiarEstadoCotizacion/1/5"
+name: cambiarEstadoCotizacion
+description: |-
+  parametros url : cod_empresa,cod_cotizacion
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "3"
+      name: estado
+      disabled: false
+      id: pair_65c3a4eafafd49d79d1b6e171e3a8160
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ5MzI2OTgsImp0aSI6IlwvMVE3Q0x5QlpPK2FRTFAyVTVldkNFK3pmbzJmbzE2aFRNS3BIejI1Wm04PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ5MzI2OTksImV4cCI6MTYwNDkzNjI5OSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.EAxSpkNLixcBhovr2nhfD28RxbZE7xafNxonmhT7zm4
+  prefix: ""
+metaSortKey: -1606160988336
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

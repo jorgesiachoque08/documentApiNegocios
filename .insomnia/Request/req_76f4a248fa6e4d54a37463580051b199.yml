@@ -1,0 +1,60 @@
+_id: req_76f4a248fa6e4d54a37463580051b199
+type: Request
+parentId: fld_98f9201d18d146fa89a39c4fcd7d04df
+modified: 1606162885294
+created: 1606161304748
+url: "{{ urlbase }}/agregarDirecciones"
+name: agregarDirecciones
+description: |-
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: "-75.514444"
+      name: longitud
+      disabled: false
+      id: pair_da30b10921214ff8b1c915bbb0fbc3c5
+    - value: "10.394444"
+      name: latitud
+      disabled: false
+      id: pair_ac75f326d2d3413c9d1745b84abb6b1a
+    - value: barrio pozon calle 34-4
+      name: direccion_1
+      disabled: false
+      id: pair_8c0a3e47e3284fc4a37f1faa41b55a86
+    - value: "1"
+      name: cod_municipio
+      disabled: false
+      id: pair_9710977f9afe4a0da8e89b558b7fb7b4
+    - value: "1"
+      name: cod_tipo_direccion
+      disabled: false
+      id: pair_f52aa2a832b940909f3d82d6c565f15a
+    - value: conjuto el club
+      name: direccion_2
+      disabled: true
+      id: pair_6fdd9ee03eee4737b058aae46b7a5767
+    - value: torre 5 apto 408
+      name: direccion_3
+      disabled: true
+      id: pair_696ccf642a2a44648c9455cd2ee88a6b
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTcwMDQsImp0aSI6Ijh0emJSajM5aXhYTUNBbFFFdzdUcE80Q2pKR2xHYjdSRllJSGUzYyszcmM9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDM1NzAwNSwiZXhwIjoxNjA0NDc3MDA1LCJkYXRhIjp7ImlkIjoiMiIsImNvZF90ZXJjZXJvIjoiMiJ9fQ.59mm8eI585ZWqrtxklSJTxsQl-UKdmG7GVIM5wxvwys
+  prefix: ""
+metaSortKey: -1606161304748
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

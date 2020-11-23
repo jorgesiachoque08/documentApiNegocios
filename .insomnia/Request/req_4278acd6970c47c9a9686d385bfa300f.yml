@@ -1,0 +1,33 @@
+_id: req_4278acd6970c47c9a9686d385bfa300f
+type: Request
+parentId: fld_91abb63f3b82442495465543a0e62262
+modified: 1606163341819
+created: 1606161240877
+url: "{{ urlbase }}/eliminarEstadoUsuario/3/1"
+name: eliminarEstadoUsuario
+description: |-
+  elimina estados del usuarios
+  parametro por url: cod_estado,cod_empresa
+
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NjM5NzYsImp0aSI6ImZMcURuNVFwSU9LWE1uY2ZUam9PNm5ONXRCeHdJVWhWS2ZmQUtxcmMwS1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzc2Mzk3NywiZXhwIjoxNjAzNzY3NTc3LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ZGhqWOasWXnm0Mx2ltYMmK_nLFMjz1mwOYe9iQJl9tQ
+  prefix: ""
+metaSortKey: -1606161240877
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_625da9d10a34464f8c85ec840a22e3fe
+type: Request
+parentId: fld_1c517331648b40c1a3d8a149734d4b05
+modified: 1606162935830
+created: 1606161299100
+url: "{{ urlbase }}/agregarImpuesto/1"
+name: agregarImpuesto
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: impuesto 2
+      name: descripcion
+      disabled: false
+      id: pair_59c9538adc42481f8c659162c3cf92c8
+    - value: "1"
+      name: cod_tipo_impuesto
+      disabled: false
+      id: pair_e371feda95c142c6951b35c9716f6269
+    - value: "1"
+      name: ind_venta
+      disabled: false
+      id: pair_2ce60e2bc28f41c3863420cef6a0157c
+    - value: "1"
+      name: ind_compras
+      disabled: false
+      id: pair_b1a8028ee8eb43008b0bb67b75f55d32
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTQzNzksImp0aSI6IlJ2MCtCNVJJTGczSkdibHhtejBaa0h0Q21OWHRsY2ltNlNHXC9QQmxhU2g0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4OTQzODAsImV4cCI6MTYwMzg5Nzk4MCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.xIywsipkg7Jl_k_-BE7CppiaRkuw78WbD3SeKHM2yIw
+  prefix: ""
+metaSortKey: -1606161299100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

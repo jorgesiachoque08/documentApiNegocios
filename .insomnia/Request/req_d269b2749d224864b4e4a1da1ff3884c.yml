@@ -1,0 +1,44 @@
+_id: req_d269b2749d224864b4e4a1da1ff3884c
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1606162099290
+created: 1606161389595
+url: "{{ urlbase }}/listarPermisosUser/1"
+name: listarPermisosUser
+description: |-
+  lista los permisos del usuario enla empresa
+  {
+      "code": 200,
+      "status": "success",
+      "message": "success",
+      "data": [
+          {
+              "perfil": "Admind",
+              "cod_empresa": "1",
+              "cod_funcion": "2",
+              "cod_perfil": "1",
+              "insertar": "1",
+              "actualizar": "0",
+              "consultar": "0",
+              "borrar": "1",
+              "funcion": "Funcion"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQxNTA0OTQsImp0aSI6IlhWbUV2VlZLc1ZZNDkrN0pQdlNFbjl1NlRrUGloWVk5ZEVVb1Bmazg5R1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDE1MDQ5NSwiZXhwIjoxNjA0MTU0MDk1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.CHIIqA31ppkP5dv2bJF2fBJbTY69GFECWeJuCFvTfjk
+  prefix: ""
+metaSortKey: -1606161389595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
