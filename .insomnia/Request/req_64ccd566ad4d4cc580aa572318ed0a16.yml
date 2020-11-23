@@ -1,0 +1,41 @@
+_id: req_64ccd566ad4d4cc580aa572318ed0a16
+type: Request
+parentId: fld_6cc84aea86fc4e6baf06fe033905310e
+modified: 1606160461296
+created: 1606160461296
+url: http://localhost:8000/api/listarDetallesFtPorFichaTecnica/1
+name: listarDetallesFtPorFichaTecnica
+description: |-
+  parametro por url: cod_ft(ficha tecnica)
+
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_campo": "3",
+              "campo": "nombre cientifico",
+              "cod_tipo_dato": "1",
+              "tipo_dato": "String",
+              "cod_ft": "1",
+              "ficha": "ficha  tecnicas Frutas"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTAxMjMsImp0aSI6IndSNkNcL09GUzRlbXZsaFZSQVV0UTJQRFVLUUd3WVUrS3dcL0NkSmtFalU2dz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODkwMTI0LCJleHAiOjE2MDM4OTM3MjQsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.GNNFeR1-8lKPrqs87mbDN2Phfont_zhdlS0OQbiHU1U
+  prefix: ""
+metaSortKey: -1606160461296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

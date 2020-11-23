@@ -1,0 +1,31 @@
+_id: req_5223b5fc75f04f689b1b62f794b479a5
+type: Request
+parentId: fld_6cc84aea86fc4e6baf06fe033905310e
+modified: 1606160461291
+created: 1606160461291
+url: http://localhost:8000/api/eliminarDetalleFt/5/2
+name: eliminarDetalleFt
+description: |-
+  parametro por url: cod_ft,cod_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTAxMjMsImp0aSI6IndSNkNcL09GUzRlbXZsaFZSQVV0UTJQRFVLUUd3WVUrS3dcL0NkSmtFalU2dz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODkwMTI0LCJleHAiOjE2MDM4OTM3MjQsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.GNNFeR1-8lKPrqs87mbDN2Phfont_zhdlS0OQbiHU1U
+  prefix: ""
+metaSortKey: -1606160461291
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

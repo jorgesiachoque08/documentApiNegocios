@@ -1,0 +1,45 @@
+_id: req_75b9f890820f4f7381628fd69738fd17
+type: Request
+parentId: fld_06dc135522c645d8bd3316011933ed87
+modified: 1606160487573
+created: 1606160487573
+url: http://localhost:8000/api/actualizarEquivalenciaProducto/8/1
+name: actualizarEquivalenciaProducto
+description: |-
+  parametro url:cod_equivalencia,cod_empresa
+  {
+      "code": 200,
+      "message": "Se actualizo el registro",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: "3"
+      name: cod_producto
+      disabled: false
+    - value: "1"
+      name: cod_st
+      disabled: false
+    - value: "123456"
+      name: codigo_equivalente
+      disabled: false
+    - value: perfecto
+      name: comentario
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MDIxNDgsImp0aSI6IjlnUmdscTNOeE5mXC90bFBiN1ZlVk1DTVRzQkJjM3BcLzBqeGNJc3NlY0ZjMD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTAyMTQ5LCJleHAiOjE2MDM5MDU3NDksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.3MFmrFIY5o_Q1byGRoL6GVNgKl0u9ZZ-rfG1XvllvxE
+  prefix: ""
+metaSortKey: -1606160487574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_bb3ab41aaa90469f80bea59c4fac2395
+type: Request
+parentId: fld_054a5fc0077e42739b61b80eddbba2d7
+modified: 1606160478878
+created: 1606160478878
+url: http://localhost:8000/api/listarRutas
+name: listarRutas
+description: |-
+  {
+      "code": 200,
+      "message": "success",
+      "data": [
+          {
+              "cod": 1,
+              "descripcion": "Funcion1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQxNTA0OTQsImp0aSI6IlhWbUV2VlZLc1ZZNDkrN0pQdlNFbjl1NlRrUGloWVk5ZEVVb1Bmazg5R1E9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDE1MDQ5NSwiZXhwIjoxNjA0MTU0MDk1LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.CHIIqA31ppkP5dv2bJF2fBJbTY69GFECWeJuCFvTfjk
+  prefix: ""
+metaSortKey: -1606160478878
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

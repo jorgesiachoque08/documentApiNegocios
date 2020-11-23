@@ -1,0 +1,38 @@
+_id: req_3a5ec9a763ab42669bbe272cf2f9a976
+type: Request
+parentId: fld_054a5fc0077e42739b61b80eddbba2d7
+modified: 1606160478876
+created: 1606160478876
+url: http://localhost:8000/api/actualizarRuta/45/1
+name: actualizarRuta
+description: |-
+  actualizar rutas
+  parametro por url: cod_ruta,cod_empresa
+  parametro body:descripcion
+  {
+      "code": 200,
+      "message": "Se actualizo la Funcion",
+      "data": true
+  }
+method: PUT
+body:
+  params:
+    - value: /api/eliminarRuta
+      name: descripcion
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM3NzY5NTcsImp0aSI6InJsZVFKV1REQ1wvS1VTckFDMXhha2N5ejBndFJ2ZHZoWktvU3ljSUtvVmw0PSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM3NzY5NTgsImV4cCI6MTYwMzc4MDU1OCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.5XTsfqfUzC4zIbm9WnN1Rc7ciukMYy535aUAA56YHCE
+  prefix: ""
+metaSortKey: -1606160478876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

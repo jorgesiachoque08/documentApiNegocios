@@ -1,0 +1,42 @@
+_id: req_4c49078f4343451dae7acbedeed0504e
+type: Request
+parentId: fld_6cc84aea86fc4e6baf06fe033905310e
+modified: 1606160461314
+created: 1606160461314
+url: http://localhost:8000/api/agregarDetalleFt/1
+name: agregarDetalleFt
+description: |-
+  parametros url:cod_empresa
+  {
+      "code": 200,
+      "message": "Se guardo el registro",
+      "data": true
+  }
+method: POST
+body:
+  params:
+    - value: "1"
+      name: cod_ft_producto
+      disabled: false
+    - value: Nombre cientifico
+      name: descripcion
+      disabled: false
+    - value: "1"
+      name: cod_tipo_datos_ft
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MzIxNjYsImp0aSI6ImJwTjVFamZQMmFMbmZhajhPWllNM1wvdWM3WjBHem1od2Q5TVdhMkN3bU5VPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM5MzIxNjcsImV4cCI6MTYwMzkzNTc2NywiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.LvM4t39_ba-0MIZZkio5QqX3wiRWsZs4KiyfSdXDgYw
+  prefix: ""
+metaSortKey: -1606160461314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

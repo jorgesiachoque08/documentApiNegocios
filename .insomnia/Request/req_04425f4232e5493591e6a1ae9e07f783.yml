@@ -1,0 +1,31 @@
+_id: req_04425f4232e5493591e6a1ae9e07f783
+type: Request
+parentId: fld_ea9fd4a9756644b3a20c5d033874ce33
+modified: 1606160516800
+created: 1606160516800
+url: http://localhost:8000/api/eliminarFichaTecnica/1/1
+name: http://localhost:8000/api/eliminarFichaTecnica/1/1
+description: |-
+  parametro url :cod_ficha,cod_empresa
+  {
+      "code": 200,
+      "message": "Se elimino el registro",
+      "data": true
+  }
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MjE2NjQsImp0aSI6Im82WHhKRVRuQ3g4alZFcVVNWkx0bjVXRFU1a1hIRkdocmZcL2x3dEthNW1ZPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM4MjE2NjUsImV4cCI6MTYwMzgyNTI2NSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.tF0_zpWAhfgWF_Eb6MAnix5Q3cu5eVvHFpa_f2vFeew
+  prefix: ""
+metaSortKey: -1606160516800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

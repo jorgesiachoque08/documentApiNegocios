@@ -1,0 +1,41 @@
+_id: req_2514b99ec5c64f41a3c0ee240757623f
+type: Request
+parentId: fld_06dc135522c645d8bd3316011933ed87
+modified: 1606160487562
+created: 1606160487562
+url: http://localhost:8000/api/listarEquivalenciaProductosPorSistema/1
+name: listarEquivalenciaProductosPorSistema
+description: |-
+  parametro url:cod_sistema
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_equivalencia": "7",
+              "cod_producto": "3",
+              "nombre_producto": "naranja2",
+              "cod_st": "1",
+              "sitema_tercero": "sistemas 2",
+              "codigo_equivalente": "1234",
+              "comentario": "comentario 1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MDIxNDgsImp0aSI6IjlnUmdscTNOeE5mXC90bFBiN1ZlVk1DTVRzQkJjM3BcLzBqeGNJc3NlY0ZjMD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTAyMTQ5LCJleHAiOjE2MDM5MDU3NDksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.3MFmrFIY5o_Q1byGRoL6GVNgKl0u9ZZ-rfG1XvllvxE
+  prefix: ""
+metaSortKey: -1606160487562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

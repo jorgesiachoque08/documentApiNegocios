@@ -1,0 +1,35 @@
+_id: req_7ab98c50b7424ac3b571b94ed253f333
+type: Request
+parentId: fld_54e5effc88534f75841ec58ec084c22d
+modified: 1606160446609
+created: 1606160446609
+url: http://localhost:8000/api/listarSistemasTerceros
+name: listarSistemasTerceros
+description: |-
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod": 1,
+              "descripcion": "sistema 1"
+          }
+      ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MDIxNDgsImp0aSI6IjlnUmdscTNOeE5mXC90bFBiN1ZlVk1DTVRzQkJjM3BcLzBqeGNJc3NlY0ZjMD0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzOTAyMTQ5LCJleHAiOjE2MDM5MDU3NDksImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.3MFmrFIY5o_Q1byGRoL6GVNgKl0u9ZZ-rfG1XvllvxE
+  prefix: ""
+metaSortKey: -1606160446609
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
