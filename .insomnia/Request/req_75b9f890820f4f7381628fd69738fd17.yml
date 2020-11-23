@@ -1,9 +1,9 @@
 _id: req_75b9f890820f4f7381628fd69738fd17
 type: Request
 parentId: fld_06dc135522c645d8bd3316011933ed87
-modified: 1606160487573
+modified: 1606163999844
 created: 1606160487573
-url: http://localhost:8000/api/actualizarEquivalenciaProducto/8/1
+url: "{{ urlbase }}/actualizarEquivalenciaProducto/8/1"
 name: actualizarEquivalenciaProducto
 description: |-
   parametro url:cod_equivalencia,cod_empresa
@@ -18,15 +18,19 @@ body:
     - value: "3"
       name: cod_producto
       disabled: false
+      id: pair_e8989ea65b884be6833a31a7ea489dc2
     - value: "1"
       name: cod_st
       disabled: false
+      id: pair_3073d22371d148a684f257e631b23b7e
     - value: "123456"
       name: codigo_equivalente
       disabled: false
+      id: pair_c531e18001c74411a6746dd016eeeefd
     - value: perfecto
       name: comentario
       disabled: false
+      id: pair_05758bbff07243648b3f2ad13f1b9e60
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

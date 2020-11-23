@@ -1,9 +1,9 @@
 _id: req_aa18fec49f2c41e5b21fc0c1f7da977d
 type: Request
 parentId: fld_54e5effc88534f75841ec58ec084c22d
-modified: 1606160446603
+modified: 1606164212181
 created: 1606160446603
-url: http://localhost:8000/api/eliminarSistemaTercero/2/1
+url: "{{ urlbase }}/eliminarSistemaTercero/2/1"
 name: eliminarSistemaTercero
 description: |-
   parametros por url:cod_sistema,code_empresa

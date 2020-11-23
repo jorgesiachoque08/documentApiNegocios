@@ -1,9 +1,9 @@
 _id: req_4441f62172de48389d8c2db9b9d39e5c
 type: Request
 parentId: fld_35671c9fe23d40d48da3bb59b29dd0c8
-modified: 1606160508755
+modified: 1606163956899
 created: 1606160508755
-url: http://localhost:8000/api/listarTiposComisiones
+url: "{{ urlbase }}/listarTiposComisiones"
 name: listarTiposComisiones
 description: |-
   {

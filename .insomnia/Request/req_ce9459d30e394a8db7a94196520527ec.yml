@@ -1,9 +1,9 @@
 _id: req_ce9459d30e394a8db7a94196520527ec
 type: Request
 parentId: fld_054a5fc0077e42739b61b80eddbba2d7
-modified: 1606160478872
+modified: 1606164107795
 created: 1606160478872
-url: http://localhost:8000/api/eliminarRuta/288/1
+url: "{{ urlbase }}/eliminarRuta/288/1"
 name: Eliminar Ruta
 description: |-
   

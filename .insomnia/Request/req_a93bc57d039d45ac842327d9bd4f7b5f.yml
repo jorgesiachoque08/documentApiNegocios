@@ -1,9 +1,9 @@
 _id: req_a93bc57d039d45ac842327d9bd4f7b5f
 type: Request
 parentId: fld_06dc135522c645d8bd3316011933ed87
-modified: 1606160487566
+modified: 1606164053440
 created: 1606160487566
-url: http://localhost:8000/api/listarEquivalenciaProductos
+url: "{{ urlbase }}/listarEquivalenciaProductos"
 name: listarEquivalenciaProductos
 description: |-
   {

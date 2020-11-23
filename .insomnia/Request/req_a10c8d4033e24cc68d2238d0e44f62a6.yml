@@ -1,12 +1,13 @@
 _id: req_a10c8d4033e24cc68d2238d0e44f62a6
 type: Request
 parentId: fld_35671c9fe23d40d48da3bb59b29dd0c8
-modified: 1606160508761
+modified: 1606163945721
 created: 1606160508761
-url: http://localhost:8000/api/agregarTipoComision/1
-name: http://localhost:8000/api/agregarTipoComision/1
+url: "{{ urlbase }}/agregarTipoComision/1"
+name: agregarTipoComision/1
 description: |-
   parametro url: cod_empresa
+
   {
       "code": 200,
       "message": "Se guardo el registro",
@@ -18,6 +19,7 @@ body:
     - value: comision 1
       name: descripcion
       disabled: false
+      id: pair_cac090783278436581321ccdf8f7b7a2
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

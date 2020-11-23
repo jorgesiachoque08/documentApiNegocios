@@ -1,9 +1,9 @@
 _id: req_26fd162d998b42abb7d288062466365d
 type: Request
 parentId: fld_c95ee530fc4a4cf3925b5fb9cc95f1cf
-modified: 1606160224109
+modified: 1606164221783
 created: 1606160224109
-url: http://localhost:8000/api/agregarEstadoTercero/1
+url: "{{ urlbase }}/agregarEstadoTercero/1"
 name: agregarEstadoTercero
 description: |-
   agregar estados tercero
@@ -20,6 +20,7 @@ body:
     - value: Activado
       name: descripcion
       disabled: false
+      id: pair_5b65ad1413564d399b400fc49d91b1be
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

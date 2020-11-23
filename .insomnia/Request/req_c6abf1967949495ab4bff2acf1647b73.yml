@@ -1,9 +1,9 @@
 _id: req_c6abf1967949495ab4bff2acf1647b73
 type: Request
 parentId: fld_26941a7198324a3aadf2ffc3f775a52a
-modified: 1606159882397
+modified: 1606164286982
 created: 1606159882397
-url: http://localhost:8000/api/eliminarMoneda/3/1
+url: "{{ urlbase }}/eliminarMoneda/3/1"
 name: eliminarMoneda
 description: |-
   

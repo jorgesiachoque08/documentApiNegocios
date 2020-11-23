@@ -1,9 +1,9 @@
 _id: req_2462d326afdd44589e1113091907d568
 type: Request
 parentId: fld_54e5effc88534f75841ec58ec084c22d
-modified: 1606160446611
+modified: 1606164187380
 created: 1606160446611
-url: http://localhost:8000/api/agregarSistemaTercero/1
+url: "{{ urlbase }}/agregarSistemaTercero/1"
 name: agregarSistemaTercero
 description: |-
   parametros url:cod_empresa
@@ -18,6 +18,7 @@ body:
     - value: sistema 1
       name: descripcion
       disabled: false
+      id: pair_e07be4ccd26344f684af80227965059c
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

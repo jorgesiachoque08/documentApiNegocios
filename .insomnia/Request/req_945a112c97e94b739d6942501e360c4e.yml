@@ -1,9 +1,9 @@
 _id: req_945a112c97e94b739d6942501e360c4e
 type: Request
 parentId: fld_c95ee530fc4a4cf3925b5fb9cc95f1cf
-modified: 1606160224099
+modified: 1606164248055
 created: 1606160224099
-url: http://localhost:8000/api/eliminarEstadoTercero/2/1
+url: "{{ urlbase }}/eliminarEstadoTercero/2/1"
 name: eliminarEstadoTercero
 description: |-
   eliminar estado tercero

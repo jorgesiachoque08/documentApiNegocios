@@ -1,9 +1,9 @@
 _id: req_0f3720aebc234e32b7b86a7acfeb99e6
 type: Request
 parentId: fld_54e5effc88534f75841ec58ec084c22d
-modified: 1606160446607
+modified: 1606164204587
 created: 1606160446607
-url: http://localhost:8000/api/actualizarSistemaTercero/1/1
+url: "{{ urlbase }}/actualizarSistemaTercero/1/1"
 name: actualizarSistemaTercero
 description: |-
   parametro url: cod_sistema,cod_empresa
@@ -18,6 +18,7 @@ body:
     - value: sistemas 2
       name: descripcion
       disabled: false
+      id: pair_1211455ecb744be4af308c41dce7e5f8
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

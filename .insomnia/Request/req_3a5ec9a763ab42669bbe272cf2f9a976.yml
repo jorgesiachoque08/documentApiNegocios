@@ -1,9 +1,9 @@
 _id: req_3a5ec9a763ab42669bbe272cf2f9a976
 type: Request
 parentId: fld_054a5fc0077e42739b61b80eddbba2d7
-modified: 1606160478876
+modified: 1606164099552
 created: 1606160478876
-url: http://localhost:8000/api/actualizarRuta/45/1
+url: "{{ urlbase }}/actualizarRuta/45/1"
 name: actualizarRuta
 description: |-
   actualizar rutas
@@ -20,6 +20,7 @@ body:
     - value: /api/eliminarRuta
       name: descripcion
       disabled: false
+      id: pair_74828b99e43a482f81ed8f52935c2cb9
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

@@ -1,9 +1,9 @@
 _id: req_bb3ab41aaa90469f80bea59c4fac2395
 type: Request
 parentId: fld_054a5fc0077e42739b61b80eddbba2d7
-modified: 1606160478878
+modified: 1606164090974
 created: 1606160478878
-url: http://localhost:8000/api/listarRutas
+url: "{{ urlbase }}/listarRutas"
 name: listarRutas
 description: |-
   {

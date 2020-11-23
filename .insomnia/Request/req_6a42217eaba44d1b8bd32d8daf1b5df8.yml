@@ -1,9 +1,9 @@
 _id: req_6a42217eaba44d1b8bd32d8daf1b5df8
 type: Request
 parentId: fld_26941a7198324a3aadf2ffc3f775a52a
-modified: 1606159882408
+modified: 1606164262701
 created: 1606159882408
-url: http://localhost:8000/api/agregarMoneda/1
+url: "{{ urlbase }}/agregarMoneda/1"
 name: agregarMoneda
 description: |-
   agregar moneda
@@ -22,12 +22,15 @@ body:
     - value: pesos
       name: nombre
       disabled: false
+      id: pair_9d1d68b912a74f96bcbf954d6c753e63
     - value: "1"
       name: cod_pais
       disabled: false
+      id: pair_4f62987991904ed6b27c9d3b1eb796ed
     - value: $
       name: simbolo
       disabled: false
+      id: pair_1aeb8b63236649099dced3fba1667f79
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

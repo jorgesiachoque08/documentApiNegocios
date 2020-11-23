@@ -1,12 +1,13 @@
 _id: req_2ec28ff150464323a87ae27f157bfcd1
 type: Request
 parentId: fld_ea9fd4a9756644b3a20c5d033874ce33
-modified: 1606160516803
+modified: 1606163900536
 created: 1606160516803
-url: http://localhost:8000/api/actualizarFichaTecnica/1/1
-name: http://localhost:8000/api/actualizarFichaTecnica/1/1
+url: "{{ urlbase }}/actualizarFichaTecnica/1/1"
+name: actualizarFichaTecnica/1/1
 description: |-
   parametro url:cod_ficha,cod_empresa
+
   {
       "code": 200,
       "message": "Se actualizo el registro",
@@ -18,6 +19,7 @@ body:
     - value: ficha 2
       name: nombre
       disabled: false
+      id: pair_39eae34f55dc4af19e7d2624acaa80e7
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

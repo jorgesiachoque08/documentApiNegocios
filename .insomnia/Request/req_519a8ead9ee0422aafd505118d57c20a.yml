@@ -1,12 +1,13 @@
 _id: req_519a8ead9ee0422aafd505118d57c20a
 type: Request
 parentId: fld_ea9fd4a9756644b3a20c5d033874ce33
-modified: 1606160516807
+modified: 1606163875278
 created: 1606160516807
-url: http://localhost:8000/api/agregarFichaTecnica/1
+url: "{{ urlbase }}/agregarFichaTecnica/1"
 name: agregarFichaTecnica
 description: |-
   parametro url:code_empresa
+
   {
       "code": 200,
       "message": "Se guardo el registro",
@@ -18,6 +19,7 @@ body:
     - value: ficha  tecnicas Frutas
       name: nombre
       disabled: false
+      id: pair_f3de4384c42748b2931d8dc43048f608
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

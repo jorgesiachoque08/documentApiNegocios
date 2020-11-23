@@ -1,12 +1,13 @@
 _id: req_04425f4232e5493591e6a1ae9e07f783
 type: Request
 parentId: fld_ea9fd4a9756644b3a20c5d033874ce33
-modified: 1606160516800
+modified: 1606163923833
 created: 1606160516800
-url: http://localhost:8000/api/eliminarFichaTecnica/1/1
-name: http://localhost:8000/api/eliminarFichaTecnica/1/1
+url: "{{ urlbase }}/eliminarFichaTecnica/1/1"
+name: eliminarFichaTecnica/1/1
 description: |-
   parametro url :cod_ficha,cod_empresa
+
   {
       "code": 200,
       "message": "Se elimino el registro",

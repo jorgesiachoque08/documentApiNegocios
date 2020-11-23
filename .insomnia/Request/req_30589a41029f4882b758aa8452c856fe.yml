@@ -1,9 +1,9 @@
 _id: req_30589a41029f4882b758aa8452c856fe
 type: Request
 parentId: fld_6cc84aea86fc4e6baf06fe033905310e
-modified: 1606160461309
+modified: 1606164149732
 created: 1606160461309
-url: http://localhost:8000/api/actualizarDetalleFt/3/1
+url: "{{ urlbase }}/actualizarDetalleFt/3/1"
 name: actualizarDetalleFt
 description: |-
   parametros url:cod_detelleFt,cod_empresa
@@ -18,12 +18,15 @@ body:
     - value: "1"
       name: cod_ft_producto
       disabled: false
+      id: pair_f4fc2c2952a94b50aaa6c050bf159748
     - value: nombre
       name: descripcion
       disabled: false
+      id: pair_44639af1e2d64ce1ba79e30a00d9e2ac
     - value: "1"
       name: cod_tipo_datos_ft
       disabled: false
+      id: pair_90edf9f73e7749d2b7ec493b6fa5d580
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

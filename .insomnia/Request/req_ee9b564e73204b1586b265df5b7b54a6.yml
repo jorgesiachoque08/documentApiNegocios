@@ -1,9 +1,9 @@
 _id: req_ee9b564e73204b1586b265df5b7b54a6
 type: Request
 parentId: fld_26941a7198324a3aadf2ffc3f775a52a
-modified: 1606159882391
+modified: 1606164294877
 created: 1606159882391
-url: http://localhost:8000/api/listarMonedas
+url: "{{ urlbase }}/listarMonedas"
 name: listarMonedas
 description: "\r
 

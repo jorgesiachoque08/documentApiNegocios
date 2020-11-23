@@ -1,9 +1,9 @@
 _id: req_fb8cff973aa1497eb65d16a3c8891e84
 type: Request
 parentId: fld_06dc135522c645d8bd3316011933ed87
-modified: 1606160487570
+modified: 1606164009127
 created: 1606160487570
-url: http://localhost:8000/api/agregarEquivalenciaProducto/1
+url: "{{ urlbase }}/agregarEquivalenciaProducto/1"
 name: agregarEquivalenciaProducto
 description: |-
   parametro url:cod_empresa
@@ -18,15 +18,19 @@ body:
     - value: "3"
       name: cod_producto
       disabled: false
+      id: pair_631d571b80ba457f8dfb85b8af6014ba
     - value: "1"
       name: cod_st
       disabled: false
+      id: pair_63d2e829035a469e95931698c4713f4a
     - value: "1234"
       name: codigo_equivalente
       disabled: false
+      id: pair_00d5fd9b367947e1b6e82852ad7597db
     - value: comentario 1
       name: comentario
       disabled: false
+      id: pair_fd21042e571b49f4b0f5ed0a733108ce
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

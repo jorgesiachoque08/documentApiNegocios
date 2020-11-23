@@ -1,9 +1,9 @@
 _id: req_049155fc12b141efadf00b98d82d7266
 type: Request
 parentId: fld_ea9fd4a9756644b3a20c5d033874ce33
-modified: 1606160516806
+modified: 1606163883739
 created: 1606160516806
-url: http://localhost:8000/api/listarFichasTecnicas
+url: "{{ urlbase }}/listarFichasTecnicas"
 name: listarFichasTecnicas
 description: |-
   {

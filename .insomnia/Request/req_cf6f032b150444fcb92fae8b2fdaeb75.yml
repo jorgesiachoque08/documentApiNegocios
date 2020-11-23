@@ -1,9 +1,9 @@
 _id: req_cf6f032b150444fcb92fae8b2fdaeb75
 type: Request
 parentId: fld_054a5fc0077e42739b61b80eddbba2d7
-modified: 1606160478880
+modified: 1606164076489
 created: 1606160478880
-url: http://localhost:8000/api/agregarRuta/1
+url: "{{ urlbase }}/agregarRuta/1"
 name: agregarRuta
 description: |-
   agregar rutas
@@ -20,6 +20,7 @@ body:
     - value: /api/eliminarRuta
       name: descripcion
       disabled: false
+      id: pair_0ecce6f06d3d485ba892671416f69d7d
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

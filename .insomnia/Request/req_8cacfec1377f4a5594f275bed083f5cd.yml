@@ -1,9 +1,9 @@
 _id: req_8cacfec1377f4a5594f275bed083f5cd
 type: Request
 parentId: fld_35671c9fe23d40d48da3bb59b29dd0c8
-modified: 1606160508741
+modified: 1606163986807
 created: 1606160508741
-url: http://localhost:8000/api/eliminarTipoComision/8/1
+url: "{{ urlbase }}/eliminarTipoComision/8/1"
 name: eliminarTipoComision
 description: |-
   parametros por url:cod_comision,code_empresa

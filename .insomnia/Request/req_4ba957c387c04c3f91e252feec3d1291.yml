@@ -1,9 +1,9 @@
 _id: req_4ba957c387c04c3f91e252feec3d1291
 type: Request
 parentId: fld_26941a7198324a3aadf2ffc3f775a52a
-modified: 1606159882401
+modified: 1606164276285
 created: 1606159882401
-url: http://localhost:8000/api/actualizarMoneda/1/1
+url: "{{ urlbase }}/actualizarMoneda/1/1"
 name: actualizarMoneda
 description: |-
   actualizar moneda
@@ -21,12 +21,15 @@ body:
     - value: Pesos
       name: nombre
       disabled: false
+      id: pair_6f45a5cf11234c1399ac9b2730764731
     - value: "1"
       name: cod_pais
       disabled: false
+      id: pair_136633ce996840e2919d850a6a582f97
     - value: $
       name: simbolo
       disabled: false
+      id: pair_b082896806ab4e24871ba71dbbf47a3a
   mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []

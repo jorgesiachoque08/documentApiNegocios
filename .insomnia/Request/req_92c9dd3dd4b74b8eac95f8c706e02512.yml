@@ -1,9 +1,9 @@
 _id: req_92c9dd3dd4b74b8eac95f8c706e02512
 type: Request
 parentId: fld_c95ee530fc4a4cf3925b5fb9cc95f1cf
-modified: 1606160224106
+modified: 1606164230137
 created: 1606160224106
-url: http://localhost:8000/api/listarEstadosTerceros
+url: "{{ urlbase }}/listarEstadosTerceros"
 name: listarEstadosTerceros
 description: |-
   
