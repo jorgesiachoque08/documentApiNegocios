@@ -1,7 +1,7 @@
 _id: req_df5c9552ca384683adbaa8f6187f07af
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606165705996
+modified: 1606246729263
 created: 1606161253252
 url: "{{ urlbase }}/login"
 name: login
@@ -32,7 +32,7 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - value: UsuariopruebPreparador
+    - value: usuarioDemo@gmail.com
       name: usuario
       disabled: false
       id: pair_b69a6c6225fd471ca80707ad495a531f
@@ -44,6 +44,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
+    id: pair_97b5c302545b4306a8c6c8a3d4cca039
 authentication:
   type: bearer
   disabled: false

@@ -1,61 +1,45 @@
 _id: req_39397e930dc24ac6943c5301ddfe27fb
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1606162514304
+modified: 1606166758333
 created: 1606161367312
-url: "{{ urlbase }}/listarPlantillaFichaTecnicaDelProducto/1"
+url: "{{ urlbase }}/listarPlantillaFichaTecnicaDelProducto/3"
 name: listarPlantillaFichaTecnicaDelProducto
-description: "parametro url:cod_producto\r
+description: |-
+  parametro url:cod_producto
 
-  {\r
-
-  \    \"code\": 200,\r
-
-  \    \"message\": \"Ok\",\r
-
-  \    \"data\": [\r
-
-  \        {\r
-
-  \            \"cod_ficha_tecnica\": \"1\",\r
-
-  \            \"ficha_tecnica\": \"ficha 1\",\r
-
-  \            \"cod_campo\": \"3\",\r
-
-  \            \"campo\": \"forma de agricultura\",\r
-
-  \            \"tipo_dato\": \"cadena\"\r
-
-  \        },\r
-
-  \        {\r
-
-  \            \"cod_ficha_tecnica\": \"1\",\r
-
-  \            \"ficha_tecnica\": \"ficha 1\",\r
-
-  \            \"cod_campo\": \"4\",\r
-
-  \            \"campo\": \"Nombre cientifico\",\r
-
-  \            \"tipo_dato\": \"cadena\"\r
-
-  \        }\r
-
-  \    ]\r
-
-  }"
+  {
+      "code": 200,
+      "message": "Ok",
+      "data": [
+          {
+              "cod_ficha_tecnica": "1",
+              "ficha_tecnica": "ficha 1",
+              "cod_campo": "3",
+              "campo": "forma de agricultura",
+              "tipo_dato": "cadena"
+          },
+          {
+              "cod_ficha_tecnica": "1",
+              "ficha_tecnica": "ficha 1",
+              "cod_campo": "4",
+              "campo": "Nombre cientifico",
+              "tipo_dato": "cadena"
+          }
+      ]
+  }
 method: GET
 body:
+  mimeType: multipart/form-data
   params: []
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM5MzIxNjYsImp0aSI6ImJwTjVFamZQMmFMbmZhajhPWllNM1wvdWM3WjBHem1od2Q5TVdhMkN3bU5VPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDM5MzIxNjcsImV4cCI6MTYwMzkzNTc2NywiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.LvM4t39_ba-0MIZZkio5QqX3wiRWsZs4KiyfSdXDgYw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYxNjU3MDgsImp0aSI6IkFqZGhvMlVDVkptT3JyRlQwSFB2Y04rSHZCTXQwSzBCcE51SDFRZlJMR0k9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjE2NTcwOSwiZXhwIjoxNjA2MTY5MzA5LCJkYXRhIjp7ImlkIjoiMyIsImNvZF90ZXJjZXJvIjoiMyJ9fQ.Y3frPfMDRU_Uvtv3BegQPm0h1LVPURI3T1shDuNk3XE
   prefix: ""
 metaSortKey: -1606161367312
 isPrivate: false

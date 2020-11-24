@@ -1,7 +1,7 @@
 _id: req_313573ad5572422fb550f8f7f7f08536
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606163197552
+modified: 1606242757507
 created: 1606161253254
 url: "{{ urlbase }}/RegistrarUsuario"
 name: RegistrarUsuario
@@ -14,8 +14,9 @@ description: |-
   }
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
-    - value: "5555555555"
+    - value: "123456789"
       name: identificacion
       disabled: false
       id: pair_cc9ff444c0934b36ac0dd189cbeee64f
@@ -23,7 +24,7 @@ body:
       name: nombres
       disabled: false
       id: pair_b1e5e35eb4d64da182c9594155563190
-    - value: Preparador
+    - value: Demo
       name: apellidos
       disabled: false
       id: pair_720c78f22154404e95150baea139ee29
@@ -31,7 +32,7 @@ body:
       name: cod_tipo_id
       disabled: false
       id: pair_317cd9ed45df4f74affc08c6b7a5795b
-    - value: UsuariopruebPreparador81@gmail.com
+    - value: usuarioDemo@gmail.com
       name: email
       disabled: false
       id: pair_99a61c83b04c43378d22fe3c2b0c85c8
@@ -39,12 +40,14 @@ body:
       name: clave
       disabled: false
       id: pair_59ff7123b64b44d5bb4acce3f5833d0b
-  mimeType: application/x-www-form-urlencoded
 parameters: []
 headers:
   - name: Authorization
     value: "Bearer "
     id: pair_1a246aaacd82478d87504b2d6df5419f
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_7a2cebcf912247d89bbf2baa685b8bbd
 authentication: {}
 metaSortKey: -1606161253254
 isPrivate: false

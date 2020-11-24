@@ -1,7 +1,7 @@
 _id: req_4a23086c636a4819903506810c0e3b5e
 type: Request
 parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
-modified: 1606162763046
+modified: 1606243416668
 created: 1606161315754
 url: "{{ urlbase }}/agregarEmpresa"
 name: agregar empresa
@@ -16,8 +16,9 @@ description: |-
   }
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
-    - value: empresapruebajorge
+    - value: empresaDemo
       name: razon_social
       disabled: false
       id: pair_e44177f3f928410eb21391e999aea2d3
@@ -25,17 +26,18 @@ body:
       name: cod_tipo_id
       disabled: false
       id: pair_107a9c3781ce4328963126b211cba0fa
-    - value: 123456b
+    - value: "11111111"
       name: identificacion
       disabled: false
       id: pair_13dfa89c13bd4aaaad8747aa98f3bed0
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUyMTI0OTAsImp0aSI6IkdXNG5uanBRRmtPUlwvRTlqQTRCTHFpS0ZxRFJmUXZxY1pUN21sWnFXYzZVPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDUyMTI0OTEsImV4cCI6MTYwNTIxNjA5MSwiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.2wyDg2a2iCzWsIMk4B1hBzsure1p-sjmwK6udRpJVRk
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYyNDMzNzksImp0aSI6IjYzdGtvQkE0dEVlMFdlUzV6ZDF2T0ltZnZqMmJLMmh1UksramJMNFhTUTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjI0MzM4MCwiZXhwIjoxNjA2MjQ2OTgwLCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.dyjQUs75K13KinbC9kx21mRuISnK4_q-Q4C4wdggPCc
   prefix: ""
 metaSortKey: -1606161315754
 isPrivate: false

@@ -1,0 +1,47 @@
+_id: req_a4264ba3b479472dbc8ce75036193477
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1606252074292
+created: 1606251722191
+url: "{{ urlbase }}/filterProduct/aguacate"
+name: filterProduct
+description: |-
+  
+
+  {
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "cod": 3565,
+        "nombre_producto": "AGUACATE * KG"
+      },
+      {
+        "cod": 9913,
+        "nombre_producto": "FRUTAS AGUACATE HASS *KG"
+      },
+      {
+        "cod": 15512,
+        "nombre_producto": "FRUTAS AGUACATE *UND"
+      },
+      {
+        "cod": 29305,
+        "nombre_producto": "FRUTAS AGUACATE  HASS * MALLA"
+      }
+    ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYyNTE4ODAsImp0aSI6Ijdrc29DU0UxU29mR25vbktQakdzOVdzRkNhcyt4MXY3eFI2T3FlT09PTnc9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjI1MTg4MSwiZXhwIjoxNjA2MjU1NDgxLCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.dwrlAubWOV059G6QJiHobMi_VGN1chscQ5a-3S8tijI
+metaSortKey: -1606251722191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
