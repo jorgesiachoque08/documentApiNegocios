@@ -1,31 +1,23 @@
 _id: req_97203745bdce4c64bec4a64e57c7c93d
 type: Request
 parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
-modified: 1606162794559
+modified: 1606321141673
 created: 1606161315753
-url: "{{ urlbase }}/listarEmpresas"
-name: listarEmpresas de usuario conectado
+url: "{{ urlbase }}/listarEmpresasAfiliadasUser"
+name: listarEmpresasAfiliadasUser
 description: |-
+  lista las empresas activas a la que un usuario pertenece
+
   {
       "code": 200,
       "message": "Ok",
       "data": [
           {
-              "cod_empresa": "3",
-              "razon_social": "Campo",
-              "ident_empresa": "9876543210",
-              "tipo_ident_empresa": "Nit",
-              "abrev_tipo_ident_empresa": "Nit",
-              "razon_social_tercero": "Campos",
-              "nombre_tercero": "jorge enrique siachoque marin",
-              "fecha_nacimiento": "1996-01-31",
-              "email": "jorgesiachoque08@gmail.com",
-              "telefono": "(+57) 6531414",
-              "celular": "(+57)3013420572",
-              "ident_tercero": "1047487884",
-              "tipo_ident_tercero": "Nit",
-              "abrev_tipo_ident_tercero": "Nit",
-              "estado_empresa": "Activo"
+              "cod_empresa": "1",
+              "razon_social": "empresaDemo",
+              "identificacion_empresa": "11111111",
+              "cod_perfil": "2",
+              "perfil": "Admin"
           }
       ]
   }
@@ -36,7 +28,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDU2NzIsImp0aSI6ImJKWDgxMjEwTFo5TGRZSFwvNXhmcm1LMGJ2Mk5HXC9hWFhFTWduWnREMmFBYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA1NjczLCJleHAiOjE2MDM4MDkyNzMsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.lmvq9zlOSG6gRlGDVvZbsheVM4vIvO8Kp4g2h7zlFG8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMjEwODUsImp0aSI6IkV1TlF2RDJiWVJIWFwvYmZybXpxQkdsRDRUS2RPczlLWUZwdm11U0tRVkFnPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDYzMjEwODYsImV4cCI6MTYwNjMyNDY4NiwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0._tGeESfRcjaWjwyfwKQYX12ZwmioH06H1HP5TohUQw8
   prefix: ""
 metaSortKey: -1606161315753
 isPrivate: false

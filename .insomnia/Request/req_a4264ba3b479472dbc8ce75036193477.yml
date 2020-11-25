@@ -1,9 +1,9 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1606252074292
+modified: 1606316881936
 created: 1606251722191
-url: "{{ urlbase }}/filterProduct/aguacate"
+url: "{{ urlbase }}/filterProduct/agua"
 name: filterProduct
 description: |-
   
@@ -36,7 +36,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYyNTE4ODAsImp0aSI6Ijdrc29DU0UxU29mR25vbktQakdzOVdzRkNhcyt4MXY3eFI2T3FlT09PTnc9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjI1MTg4MSwiZXhwIjoxNjA2MjU1NDgxLCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.dwrlAubWOV059G6QJiHobMi_VGN1chscQ5a-3S8tijI
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMTY3NDQsImp0aSI6InhoQ2FwYlFiVzJZVmFoRUVLZjkyUzkzV1hYUitXUGpnZzZ3RFJwck82TmM9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjMxNjc0NSwiZXhwIjoxNjA2MzIwMzQ1LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.9CCacX7_VaD0gQF7OgEW9KiH-VqQd3ALvDl1Q5eh8r4
 metaSortKey: -1606251722191
 isPrivate: false
 settingStoreCookies: true
