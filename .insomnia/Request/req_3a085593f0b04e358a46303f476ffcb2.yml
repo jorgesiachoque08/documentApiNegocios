@@ -1,9 +1,9 @@
 _id: req_3a085593f0b04e358a46303f476ffcb2
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162400531
+modified: 1606338801845
 created: 1606161372216
-url: "{{ urlbase }}/listarDireccionSucursal/1/1"
+url: "{{ urlbase }}/listarDireccionSucursal/1/4"
 name: listarDireccionSucursal
 description: |-
   parametro url:cod_empresa,cod_sucursal
@@ -32,14 +32,17 @@ description: |-
   }
 method: GET
 body:
+  mimeType: multipart/form-data
   params: []
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8cdb242d3da74207940683e8ee2dca5f
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MTY3NzIsImp0aSI6IlU1VnpzZlphbk5WNE5xSXpXblYwa2hUR21xdllhNkZFM1ZXUkc3SEVmeVE9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQxNjc3MywiZXhwIjoxNjA0NDIwMzczLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.PSa0iYOhqOxXykRn9kzsBXLVP-j7fXaG_AFOkvih-Vs
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMzc5MTksImp0aSI6IjlFcW45N3I0QUV4SHRpRGhhRTZ2QUIwSkZKeE9tVncrUlwvXC9taitJbkFRUT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2MzM3OTIwLCJleHAiOjE2MDYzNDE1MjAsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GZXpK7KOU-dFyVUbzK10H9W4hqDCdNo_oyVmGAmFk1A
   prefix: ""
 metaSortKey: -1606161372216
 isPrivate: false

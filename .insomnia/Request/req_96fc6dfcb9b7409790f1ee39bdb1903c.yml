@@ -1,7 +1,7 @@
 _id: req_96fc6dfcb9b7409790f1ee39bdb1903c
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162319805
+modified: 1606338321550
 created: 1606161372224
 url: "{{ urlbase }}/actualizarSucursal/1/2"
 name: actualizarSucursal
@@ -17,16 +17,16 @@ description: |-
   }
 method: PUT
 body:
+  mimeType: application/x-www-form-urlencoded
   params:
-    - value: "2"
+    - value: "5"
       name: cod_tercero_contacto
       disabled: false
       id: pair_fedb4e4fd8184b819bc6e5a942e3ddb2
-    - value: sucursal 3
+    - value: sucursal demo
       name: nombre
       disabled: false
       id: pair_3c031465e1a7466fb54d2a40aac046bf
-  mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []
 authentication:

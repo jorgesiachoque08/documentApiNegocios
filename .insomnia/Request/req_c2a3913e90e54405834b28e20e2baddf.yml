@@ -1,7 +1,7 @@
 _id: req_c2a3913e90e54405834b28e20e2baddf
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606163215880
+modified: 1606336935511
 created: 1606161253251
 url: "{{ urlbase }}/refrescarToken"
 name: refrescarToken
@@ -15,13 +15,26 @@ description: >-
       "data": true
   }
 method: PUT
-body: {}
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: refresh_token
+      value: ""
+      description: ""
+      id: pair_0c90af04a8ba4a5ab2392bf55bd2463c
+    - name: grant_type
+      value: S
+      description: ""
+      id: pair_da0f886046734d3796f656764240f68b
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_0248c95693b245a2a6872480c611111d
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2MDUwMDUsImp0aSI6InBGS3RLZnp5bkxEaFhySWVjZ0ZOMjdza1VJa081Vml5MDh4czMwZGo0Nm89IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDYwNTAwNiwiZXhwIjoxNjA0NjA4NjA2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.mXO92ak93YX0qEVFhltcg7jDHX_24OuMqOCY6oIdXLo
+  token: ""
   prefix: ""
 metaSortKey: -1606161253251
 isPrivate: false

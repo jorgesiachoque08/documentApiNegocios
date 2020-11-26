@@ -1,9 +1,9 @@
 _id: req_35655040a5c446b4b077bf45287b2994
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162277952
+modified: 1606396745484
 created: 1606161372227
-url: "{{ urlbase }}/api/listarSucursales/1"
+url: "{{ urlbase }}/listarSucursales/1"
 name: listarSucursales
 description: |-
   {
@@ -39,7 +39,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzOTYyNzYsImp0aSI6InAraG1ZdjR0NDkzblwvZmtNUytDb2txQzZFdmF0VElLYUN0MHpNbE9udkNvPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDYzOTYyNzcsImV4cCI6MTYwNjM5OTg3NywiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.-xHKC4JNSz3T4tYpASDCJ5NXTsDRpx9BgXD0cHx4W0w
   prefix: ""
 metaSortKey: -1606161372227
 isPrivate: false

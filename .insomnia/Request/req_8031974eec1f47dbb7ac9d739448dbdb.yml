@@ -1,7 +1,7 @@
 _id: req_8031974eec1f47dbb7ac9d739448dbdb
 type: Request
 parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
-modified: 1606318771669
+modified: 1606328385576
 created: 1606161315751
 url: "{{ urlbase }}/listarEmpresa/1/123456789"
 name: listar una empresa
@@ -38,7 +38,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMTY3NDQsImp0aSI6InhoQ2FwYlFiVzJZVmFoRUVLZjkyUzkzV1hYUitXUGpnZzZ3RFJwck82TmM9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjMxNjc0NSwiZXhwIjoxNjA2MzIwMzQ1LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.9CCacX7_VaD0gQF7OgEW9KiH-VqQd3ALvDl1Q5eh8r4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMTY3NDQsImp0aSI6InhoQ2FwYlFiVzJZVmFoRUVLZjkyUzkzV1hYUitXUGpnZzZ3RFJwck82TmM9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjMxNjc0NSwiZXhwIjoxNjA2MzIwMzQ1LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.9CCacX7_VaD0gQF7OgEW9KiH-VqQd3ALvDl1Q5eh8r
   prefix: ""
 metaSortKey: -1606161315751
 isPrivate: false

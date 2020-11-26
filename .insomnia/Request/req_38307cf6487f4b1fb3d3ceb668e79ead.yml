@@ -1,7 +1,7 @@
 _id: req_38307cf6487f4b1fb3d3ceb668e79ead
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162312188
+modified: 1606337987298
 created: 1606161372225
 url: "{{ urlbase }}/agregarSucursal/1"
 name: agregarSucursal
@@ -16,22 +16,25 @@ description: |-
   }
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
-    - value: "3"
+    - value: "9"
       name: cod_tercero_contacto
       disabled: false
       id: pair_2c93d829ecd7463f90aaeb38c8790900
-    - value: sucursal3 prueba
+    - value: sucursal demo 1
       name: nombre
       disabled: false
       id: pair_2287a6d5889c4e92a2e7f49cd0b50dd3
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_9b16798674224249a0c645ccd581e0f4
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMzc5MTksImp0aSI6IjlFcW45N3I0QUV4SHRpRGhhRTZ2QUIwSkZKeE9tVncrUlwvXC9taitJbkFRUT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2MzM3OTIwLCJleHAiOjE2MDYzNDE1MjAsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GZXpK7KOU-dFyVUbzK10H9W4hqDCdNo_oyVmGAmFk1A
   prefix: ""
 metaSortKey: -1606161372225
 isPrivate: false

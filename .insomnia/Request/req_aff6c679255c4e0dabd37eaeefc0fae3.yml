@@ -1,7 +1,7 @@
 _id: req_aff6c679255c4e0dabd37eaeefc0fae3
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1606253073818
+modified: 1606340640785
 created: 1606161367315
 url: "{{ urlbase }}/listarFichaTecnicaProducto/3565"
 name: listarFichaTecnicaProducto
@@ -23,7 +23,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYyNTMwMzksImp0aSI6IitlN3R5dTBnMGNUTThjbnZMZWR0K2hGVjBOaWRrWlwvdWpXaHQ4MjJMdjN3PSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDYyNTMwNDAsImV4cCI6MTYwNjI1NjY0MCwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.cpT7DiAPq-vaXIUAiBZm-7APo9jQ5_9sZ2iDGCxhKKQ
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzNDA2MjUsImp0aSI6IlNnQ1BuNmk1eENnRWFQRkdmN2F5Y2dlVUhPV1Q3WDg4QUdGc1JpNlRHQ289IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjM0MDYyNiwiZXhwIjoxNjA2MzQ0MjI2LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.yQUOBlVW4bE4Rv0UNOCRmgh3FlfVSYBpxmhAU3PLuQk
   prefix: ""
 metaSortKey: -1606161367315
 isPrivate: false

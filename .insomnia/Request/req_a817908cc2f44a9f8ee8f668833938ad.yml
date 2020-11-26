@@ -1,7 +1,7 @@
 _id: req_a817908cc2f44a9f8ee8f668833938ad
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162356474
+modified: 1606338512389
 created: 1606161372219
 url: "{{ urlbase }}/agregarDireccionesSucursal/1"
 name: agregarDireccionesSucursal
@@ -14,6 +14,7 @@ description: |-
   }
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - value: "-75.514444"
       name: longitud
@@ -35,7 +36,7 @@ body:
       name: cod_tipo_direccion
       disabled: false
       id: pair_0e0d208108fa4e65a858a7ccec22e269
-    - value: "2"
+    - value: "4"
       name: cod_sucursal
       disabled: false
       id: pair_84e45cc03899422c802332d5199f8432
@@ -47,13 +48,14 @@ body:
       name: direccion_3
       disabled: true
       id: pair_28cd6746faf4448dab1c4f26edc91f54
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ0MjA0MjksImp0aSI6IjlYajRQNzFUeEhwRkFaODRuR2RsSEFRUkZzWExRcWsybEZaYmlFanBET009IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNDQyMDQzMCwiZXhwIjoxNjA0NDI0MDMwLCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.ilQvpPKy8TeQ4G5jm1bXjyX7I6w4PmelGVnGmjyZCD8
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMzc5MTksImp0aSI6IjlFcW45N3I0QUV4SHRpRGhhRTZ2QUIwSkZKeE9tVncrUlwvXC9taitJbkFRUT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2MzM3OTIwLCJleHAiOjE2MDYzNDE1MjAsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GZXpK7KOU-dFyVUbzK10H9W4hqDCdNo_oyVmGAmFk1A
   prefix: ""
 metaSortKey: -1606161372219
 isPrivate: false
