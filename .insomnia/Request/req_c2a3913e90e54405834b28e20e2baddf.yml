@@ -1,7 +1,7 @@
 _id: req_c2a3913e90e54405834b28e20e2baddf
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606336935511
+modified: 1606399033129
 created: 1606161253251
 url: "{{ urlbase }}/refrescarToken"
 name: refrescarToken
@@ -16,20 +16,20 @@ description: >-
   }
 method: PUT
 body:
-  mimeType: multipart/form-data
+  mimeType: application/x-www-form-urlencoded
   params:
     - name: refresh_token
       value: ""
       description: ""
-      id: pair_0c90af04a8ba4a5ab2392bf55bd2463c
+      id: pair_7ad3adc1aa784ed78660e37e70418b7c
     - name: grant_type
-      value: S
+      value: a
       description: ""
-      id: pair_da0f886046734d3796f656764240f68b
+      id: pair_fe5359cffea14e0ba5557aa2fd7285c7
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/x-www-form-urlencoded
     id: pair_0248c95693b245a2a6872480c611111d
 authentication:
   type: bearer

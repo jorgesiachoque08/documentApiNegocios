@@ -1,0 +1,30 @@
+_id: req_ca8e13d63e154d489e72fced800c7eb2
+type: Request
+parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
+modified: 1606488925763
+created: 1606488879684
+url: "{{ urlbase }}/confirmarCuenta"
+name: confirmar cuenta
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: token_confirmacion
+      value: dasdasd
+      description: ""
+      id: pair_816404a92d5f476c9140a088c6b6670d
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8edacb7087214eca977fad25545a5007
+authentication: {}
+metaSortKey: -1606488879684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
