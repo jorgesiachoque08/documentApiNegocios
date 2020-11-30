@@ -1,7 +1,7 @@
 _id: req_38307cf6487f4b1fb3d3ceb668e79ead
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606747068779
+modified: 1606749205052
 created: 1606161372225
 url: "{{ urlbase }}/agregarSucursal/1"
 name: agregarSucursal
@@ -22,7 +22,7 @@ body:
       name: cod_tercero_contacto
       disabled: false
       id: pair_2c93d829ecd7463f90aaeb38c8790900
-    - value: sucursal demo 1
+    - value: sucursal demo 3
       name: nombre
       disabled: false
       id: pair_2287a6d5889c4e92a2e7f49cd0b50dd3
