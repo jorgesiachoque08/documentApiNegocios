@@ -1,7 +1,7 @@
 _id: req_38307cf6487f4b1fb3d3ceb668e79ead
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606749205052
+modified: 1606761183198
 created: 1606161372225
 url: "{{ urlbase }}/agregarSucursal/1"
 name: agregarSucursal
@@ -26,31 +26,31 @@ body:
       name: nombre
       disabled: false
       id: pair_2287a6d5889c4e92a2e7f49cd0b50dd3
-    - name: ""
-      value: ""
-      description: ""
-      id: pair_db45a89176cd41aba0a12dad6a590a49
-    - name: ""
-      value: ""
-      description: ""
-      id: pair_b94d6459ab0f43e5ae6f59c5e82269fd
     - name: direccion_1
       value: barrio pozon calle 100-4
       description: ""
-      id: pair_b9e6e6ba26d1427099a6bc2bc2e6f87a
+      id: pair_db45a89176cd41aba0a12dad6a590a49
     - name: cod_municipio
       value: "1"
       description: ""
-      id: pair_41bb5b49c544494caa4510ff0d34105a
-    - name: cod_tipo_direccion
-      value: "1"
-      description: ""
-      id: pair_c5ff54f6cec944d49cf5e08e31584ed4
+      id: pair_b94d6459ab0f43e5ae6f59c5e82269fd
     - name: direccion_2
       value: ""
       description: ""
-      id: pair_9f44ac2de7814deeb61c17317a060a2d
+      id: pair_b9e6e6ba26d1427099a6bc2bc2e6f87a
     - name: direccion_3
+      value: ""
+      description: ""
+      id: pair_41bb5b49c544494caa4510ff0d34105a
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_c5ff54f6cec944d49cf5e08e31584ed4
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_9f44ac2de7814deeb61c17317a060a2d
+    - name: ""
       value: ""
       description: ""
       id: pair_4fa58a23caaf469db8d8565e45c1cb51
