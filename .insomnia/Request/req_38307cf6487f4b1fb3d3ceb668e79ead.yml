@@ -1,7 +1,7 @@
 _id: req_38307cf6487f4b1fb3d3ceb668e79ead
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606337987298
+modified: 1606747068779
 created: 1606161372225
 url: "{{ urlbase }}/agregarSucursal/1"
 name: agregarSucursal
@@ -26,6 +26,34 @@ body:
       name: nombre
       disabled: false
       id: pair_2287a6d5889c4e92a2e7f49cd0b50dd3
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_db45a89176cd41aba0a12dad6a590a49
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_b94d6459ab0f43e5ae6f59c5e82269fd
+    - name: direccion_1
+      value: barrio pozon calle 100-4
+      description: ""
+      id: pair_b9e6e6ba26d1427099a6bc2bc2e6f87a
+    - name: cod_municipio
+      value: "1"
+      description: ""
+      id: pair_41bb5b49c544494caa4510ff0d34105a
+    - name: cod_tipo_direccion
+      value: "1"
+      description: ""
+      id: pair_c5ff54f6cec944d49cf5e08e31584ed4
+    - name: direccion_2
+      value: ""
+      description: ""
+      id: pair_9f44ac2de7814deeb61c17317a060a2d
+    - name: direccion_3
+      value: ""
+      description: ""
+      id: pair_4fa58a23caaf469db8d8565e45c1cb51
 parameters: []
 headers:
   - name: Content-Type
@@ -34,7 +62,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzMzc5MTksImp0aSI6IjlFcW45N3I0QUV4SHRpRGhhRTZ2QUIwSkZKeE9tVncrUlwvXC9taitJbkFRUT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2MzM3OTIwLCJleHAiOjE2MDYzNDE1MjAsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GZXpK7KOU-dFyVUbzK10H9W4hqDCdNo_oyVmGAmFk1A
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3NDcwNDMsImp0aSI6IklER1FXTGpTWWF4dFFPenFXZUE5NFhQK0FzajVqSnBDZnZMQXRjUm5FXC8wPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDY3NDcwNDQsImV4cCI6MTYwNjc1MDY0NCwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.lxMV0tTkSInWoDpB9qCY95UMsqDGYLyjsaKDEXJBx6A
   prefix: ""
 metaSortKey: -1606161372225
 isPrivate: false

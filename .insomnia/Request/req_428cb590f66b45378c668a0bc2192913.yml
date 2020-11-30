@@ -1,7 +1,7 @@
 _id: req_428cb590f66b45378c668a0bc2192913
 type: Request
 parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
-modified: 1606162543207
+modified: 1606506697553
 created: 1606161361906
 url: "{{ urlbase }}/api/agregarPedido/1"
 name: agregarPedido
@@ -9,7 +9,7 @@ description: |-
   {
       "code": 200,
       "message": "Ok",
-      "data": true
+      "data": {"id_orden":"12"}
   }
 method: POST
 body:

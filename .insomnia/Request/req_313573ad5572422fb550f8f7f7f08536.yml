@@ -1,7 +1,7 @@
 _id: req_313573ad5572422fb550f8f7f7f08536
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606242757507
+modified: 1606506782903
 created: 1606161253254
 url: "{{ urlbase }}/RegistrarUsuario"
 name: RegistrarUsuario
@@ -16,7 +16,7 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - value: "123456789"
+    - value: "5555555555"
       name: identificacion
       disabled: false
       id: pair_cc9ff444c0934b36ac0dd189cbeee64f
@@ -24,15 +24,15 @@ body:
       name: nombres
       disabled: false
       id: pair_b1e5e35eb4d64da182c9594155563190
-    - value: Demo
-      name: apellidos
+    - value: "3013420123"
+      name: celular
       disabled: false
       id: pair_720c78f22154404e95150baea139ee29
     - value: "1"
       name: cod_tipo_id
       disabled: false
       id: pair_317cd9ed45df4f74affc08c6b7a5795b
-    - value: usuarioDemo@gmail.com
+    - value: jorgesiachoque08@gmail.com
       name: email
       disabled: false
       id: pair_99a61c83b04c43378d22fe3c2b0c85c8

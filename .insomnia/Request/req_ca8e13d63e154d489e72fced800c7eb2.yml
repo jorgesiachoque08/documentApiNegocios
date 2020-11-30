@@ -1,7 +1,7 @@
 _id: req_ca8e13d63e154d489e72fced800c7eb2
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606488925763
+modified: 1606489577423
 created: 1606488879684
 url: "{{ urlbase }}/confirmarCuenta"
 name: confirmar cuenta
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: token_confirmacion
-      value: dasdasd
+      value: HeohSuqLija2g3jHTDNXZhLlx80mAtkDTENPqLggcjs=
       description: ""
       id: pair_816404a92d5f476c9140a088c6b6670d
 parameters: []
