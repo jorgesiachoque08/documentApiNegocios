@@ -1,13 +1,13 @@
 _id: req_96fc6dfcb9b7409790f1ee39bdb1903c
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606338321550
+modified: 1606857561587
 created: 1606161372224
-url: "{{ urlbase }}/actualizarSucursal/1/2"
+url: "{{ urlbase }}/actualizarSucursal/1/15"
 name: actualizarSucursal
 description: |-
   actualizar sucursal
-  parametros url :cod_sucursal,cod_empresa
+  parametros url :cod_empresa,cod_sucursal
   paraemtros body : cod_tercero_contacto(entero),nombre
 
   {
@@ -19,7 +19,7 @@ method: PUT
 body:
   mimeType: application/x-www-form-urlencoded
   params:
-    - value: "5"
+    - value: "9"
       name: cod_tercero_contacto
       disabled: false
       id: pair_fedb4e4fd8184b819bc6e5a942e3ddb2
@@ -27,12 +27,20 @@ body:
       name: nombre
       disabled: false
       id: pair_3c031465e1a7466fb54d2a40aac046bf
+    - name: direccion_1
+      value: barrio boquilla calle 100-5
+      description: ""
+      id: pair_e6946c3b42e54199b19fe6c2ab15c9e1
+    - name: cod_municipio
+      value: "1"
+      description: ""
+      id: pair_27fe1d8ae7324a36834d1fc3c440a841
 parameters: []
 headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4MDk1NTEsImp0aSI6InpRcHN4OXdaYm5wbzFZT0Z3bnBrRFlySU1cL1dtTDBHK2lcL0pjWm9jQ3gyYz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODA5NTUyLCJleHAiOjE2MDM4MTMxNTIsImRhdGEiOnsiaWQiOiIyIiwiY29kX3RlcmNlcm8iOiIyIn19.hQddKbcOrU5XCmFmoFs6v-8yZtmYVdvBz1u9U7Slf_c
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY4NTQ3NTIsImp0aSI6Ik5PTW1WVEhSUjk5SlZibEo1c1ZLZUxYSXdYMk1BMnhcL0JSXC92UlRNK1JUWT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2ODU0NzUzLCJleHAiOjE2MDY4NTgzNTMsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GyUpvN3dXHYVgm-gbK-4nEQMrPeLYzp8QUVjewD6238
   prefix: ""
 metaSortKey: -1606161372224
 isPrivate: false

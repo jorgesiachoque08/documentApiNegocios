@@ -1,9 +1,9 @@
 _id: req_428cb590f66b45378c668a0bc2192913
 type: Request
 parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
-modified: 1606506697553
+modified: 1606767259981
 created: 1606161361906
-url: "{{ urlbase }}/api/agregarPedido/1"
+url: "{{ urlbase }}/agregarPedido/8"
 name: agregarPedido
 description: |-
   {
@@ -13,26 +13,29 @@ description: |-
   }
 method: POST
 body:
+  mimeType: application/x-www-form-urlencoded
   params:
-    - value: '[{"cod_producto":3,"cantidades":500}]'
+    - value: '[{"cod_producto":3565,"cantidades":10},{"cod_producto":3516,"cantidades":5}]'
       name: detalle
       disabled: false
       id: pair_fbd67318a08440a39af76e665e518566
-    - value: "1"
+    - value: "13"
       name: cod_sucursal
       disabled: false
       id: pair_d875e2b259d64811a6717e8330e40325
-    - value: 2020-12-15
+    - value: 2020-12-26
       name: fecha_entrega
       disabled: false
       id: pair_b5f76540fa754cdcbfc5671c669b8df5
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_5bf133b8c1854c99be129e471174abcb
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ2OTc5OTYsImp0aSI6IkhLZkluQ0c5SUFOQ0w2b1V3Zm1LOGhqM2VTeGhzXC9rVzV4dE1sdzJrVGNFPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ2OTc5OTcsImV4cCI6MTYwNDcwMTU5NywiZGF0YSI6eyJpZCI6IjMiLCJjb2RfdGVyY2VybyI6IjMifX0.JIN7-6YlRHUkAfZ8VkY8wdKEx5eiaDj8XaPb6Tuhy9w
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3NjY2NzksImp0aSI6IjYzN3hxVVhBbFI5WHZJUWxUNDlxWHhvUmhsZDBtUlpXYkNRSzhZc0F3ZDg9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjc2NjY4MCwiZXhwIjoxNjA2NzcwMjgwLCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.mFOPLG-FYdp7wxaNDvKqQpPvhPR6M6p7fmAM9PgFWyQ
   prefix: ""
 metaSortKey: -1606161361906
 isPrivate: false

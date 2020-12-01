@@ -1,7 +1,7 @@
 _id: req_56ab061dbe5c49d9b1c68c174e7c656b
 type: Request
 parentId: fld_01af4dc723a249689471861dc2877570
-modified: 1606162108649
+modified: 1606761725271
 created: 1606161389594
 url: "{{ urlbase }}/invitarAUser/1"
 name: invitarAUser
@@ -14,6 +14,7 @@ description: |-
   }
 method: POST
 body:
+  mimeType: application/x-www-form-urlencoded
   params:
     - value: jorgesiachoque08@gmail.com
       name: email
@@ -23,13 +24,15 @@ body:
       name: cod_perfil
       disabled: false
       id: pair_7599a4d191eb409a91018c5794202d14
-  mimeType: application/x-www-form-urlencoded
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_c53b0805fb7a4de6bc3a05c3d3f1ab46
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDUwMTY0MTgsImp0aSI6IldqTDhJbXVlUEltYW5ZczVZanRrcW9jNDZ0bnVUR3owYlc3RTN5MWpOU2s9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwNTAxNjQxOSwiZXhwIjoxNjA1MDIwMDE5LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.RtjVJPRxRK-YbNRk-Svld6-CIT1zUhwaBwuITbkl7z4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3NjE2NzAsImp0aSI6Iit1Y1hkbTFEUDRSdGs5Zk5WSW1KNWhnaWJEclk5NzlQTWNEamZcL0xQZ0dRPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDY3NjE2NzEsImV4cCI6MTYwNjc2NTI3MSwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.JSC58eTLOaFbTVby_mt7r32YRx8TgCeAoRM_WPz8_p0
   prefix: ""
 metaSortKey: -1606161389594
 isPrivate: false

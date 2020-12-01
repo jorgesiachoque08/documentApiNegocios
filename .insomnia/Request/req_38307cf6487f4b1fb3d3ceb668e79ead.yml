@@ -1,9 +1,9 @@
 _id: req_38307cf6487f4b1fb3d3ceb668e79ead
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606761183198
+modified: 1606854809060
 created: 1606161372225
-url: "{{ urlbase }}/agregarSucursal/1"
+url: "{{ urlbase }}/agregarSucursal/8"
 name: agregarSucursal
 description: |-
   agregar sucursal
@@ -18,16 +18,16 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - value: "9"
+    - value: "8"
       name: cod_tercero_contacto
       disabled: false
       id: pair_2c93d829ecd7463f90aaeb38c8790900
-    - value: sucursal demo 3
+    - value: sucursal demo 4
       name: nombre
       disabled: false
       id: pair_2287a6d5889c4e92a2e7f49cd0b50dd3
     - name: direccion_1
-      value: barrio pozon calle 100-4
+      value: barrio boquilla calle 100-4
       description: ""
       id: pair_db45a89176cd41aba0a12dad6a590a49
     - name: cod_municipio
@@ -62,7 +62,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3NDcwNDMsImp0aSI6IklER1FXTGpTWWF4dFFPenFXZUE5NFhQK0FzajVqSnBDZnZMQXRjUm5FXC8wPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDY3NDcwNDQsImV4cCI6MTYwNjc1MDY0NCwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.lxMV0tTkSInWoDpB9qCY95UMsqDGYLyjsaKDEXJBx6A
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY4NTQ3NTIsImp0aSI6Ik5PTW1WVEhSUjk5SlZibEo1c1ZLZUxYSXdYMk1BMnhcL0JSXC92UlRNK1JUWT0iLCJpc3MiOiJuZXdhcGkuYWNlcmNhdGUuY29tLmNvIiwibmJmIjoxNjA2ODU0NzUzLCJleHAiOjE2MDY4NTgzNTMsImRhdGEiOnsiaWQiOiI5IiwiY29kX3RlcmNlcm8iOiI5In19.GyUpvN3dXHYVgm-gbK-4nEQMrPeLYzp8QUVjewD6238
   prefix: ""
 metaSortKey: -1606161372225
 isPrivate: false

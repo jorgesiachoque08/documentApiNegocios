@@ -1,9 +1,9 @@
 _id: req_c3cb1681c5d84312bf65ca8b0a07497b
 type: Request
 parentId: fld_639585eba583428ab3827b0250c1e5bf
-modified: 1606163825784
+modified: 1606773149573
 created: 1606160988337
-url: "{{ urlbase }}/listarOfertas/1"
+url: "{{ urlbase }}/listarOfertas"
 name: listarOfertas
 description: "parametro url :cod_empresa\r
 
@@ -50,14 +50,35 @@ description: "parametro url :cod_empresa\r
   \    ]\r
 
   }"
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: id_demand
+      value: 5fc5639845daee53a398422e
+      description: ""
+      id: pair_798efb9e7811433f9cdc8ea441df2a28
+    - name: amount
+      value: "5"
+      description: ""
+      id: pair_4dff48a2b7b0487d8e91e1489215625d
+    - name: id_oferta
+      value: sss22
+      description: ""
+      id: pair_18d93d978f3b4c1f8b3b9c8036e1aa30
+    - name: price
+      value: "500"
+      description: ""
+      id: pair_a023ac4df1324c7b903c48f296d5b716
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_c19e518bb9f043d6b73368a2d833bafc
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ4OTE1MzMsImp0aSI6IlB5ck5iY2FFUkVcL2R4SWM4NWFZVlZPQXg4WURQSTM1ZHhOU2FUY051UTFNPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ4OTE1MzQsImV4cCI6MTYwNDg5NTEzNCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.o2zRPeiBiY-r6oC1ywLT73GFrqadXlSg1tPnEQGe31o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3NzI5NzcsImp0aSI6Ilo3ajFIU3JLVmFkUllSZ3U0TWJScEQ1ckM5aTR1c0xcL2diNmk5bWR1ZFM4PSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDY3NzI5NzgsImV4cCI6MTYwNjc3NjU3OCwiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.ER_t-es3eUGtNJSashI0cTOY-asXH44hMoWZkfpLR-4
   prefix: ""
 metaSortKey: -1606160988337
 isPrivate: false
