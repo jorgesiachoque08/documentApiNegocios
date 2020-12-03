@@ -1,9 +1,9 @@
 _id: req_b5149217048c4f3fa8ac476762a5bc01
 type: Request
 parentId: fld_01af4dc723a249689471861dc2877570
-modified: 1607026536854
+modified: 1607031051955
 created: 1606161389597
-url: "{{ urlbase }}/cambiarEstadoSolicitudAfili"
+url: "{{ urlbase }}/cambiarEstadoSolicitudAfili/1"
 name: cambiarEstadoSolicitudAfiliado
 description: |-
   estado: 1 (Aprobado),3(Rechazado)
