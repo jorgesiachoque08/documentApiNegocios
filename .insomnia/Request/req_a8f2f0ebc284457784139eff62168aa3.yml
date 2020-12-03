@@ -1,7 +1,7 @@
 _id: req_a8f2f0ebc284457784139eff62168aa3
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1606162341531
+modified: 1606925346062
 created: 1606161372221
 url: "{{ urlbase }}/listarContactosEmpresa/1"
 name: listarContactosEmpresa
@@ -55,7 +55,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQzNTY4MTAsImp0aSI6IkdXcnV4SFlGN0dHXC8wblB3Qk0xdkVNdnJPT0pUalBueTZ5WkR4UTlMSWxBPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQzNTY4MTEsImV4cCI6MTYwNDQ3NjgxMSwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.30XywC-K9QW9v7DH9798RDwuKko4QGJH12TeqK9-SVI
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY5MjUyNjYsImp0aSI6IlZpV0s1TGtjRE4zRU1QSm1sQWdxRE9aTFlIYzBlbEJLb1lVY1BsUWdOS3c9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjkyNTI2NywiZXhwIjoxNjA2OTI4ODY3LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ._YZY4miXQsp1Ya4Mp8d8Ak3ZlWlqsQlFkEDhhCsmCpU
   prefix: ""
 metaSortKey: -1606161372221
 isPrivate: false

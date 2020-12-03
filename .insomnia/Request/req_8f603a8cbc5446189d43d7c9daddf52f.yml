@@ -1,7 +1,7 @@
 _id: req_8f603a8cbc5446189d43d7c9daddf52f
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1606162464625
+modified: 1607004772024
 created: 1606161367320
 url: "{{ urlbase }}/listarProductos"
 name: listarProductos
@@ -29,7 +29,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4OTg0MTUsImp0aSI6ImZlaHJ2TVhjalBSbEpoTFFjRlhYZ0wxenoxQ242NnFrU0NrNVhOblNKU1k9IiwiaXNzIjoiMC4wLjAuMCIsIm5iZiI6MTYwMzg5ODQxNiwiZXhwIjoxNjAzOTAyMDE2LCJkYXRhIjp7ImlkIjoiMSIsImNvZF90ZXJjZXJvIjoiMSJ9fQ.KC6g7zl0HTLQ8y8x6wgGoZKbl2CeUwPL4UcJ5RC-l4c
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDcwMDQ3NTcsImp0aSI6Im9GeW0xSmczZHhQTVJWM0dtT0hhVnFQaWZXNmlFWFoycGthYTg5OEVyZlE9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzAwNDc1OCwiZXhwIjoxNjA3MDA4MzU4LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.hJSgq3AilLKDM1As3kg84h1x571UE5IRiFdlIbkGjxk
   prefix: ""
 metaSortKey: -1606161367320
 isPrivate: false
