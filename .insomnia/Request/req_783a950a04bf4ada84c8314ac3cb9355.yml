@@ -1,9 +1,9 @@
 _id: req_783a950a04bf4ada84c8314ac3cb9355
 type: Request
 parentId: fld_3c55fde35f1c4b268e538a92757eb662
-modified: 1606771607024
+modified: 1607021396762
 created: 1606161002645
-url: "{{ urlbase }}/cambiarEstadoConsolidacion/1/114"
+url: "{{ urlbase }}/cambiarEstadoConsolidacion/1/115"
 name: cambiarEstadoConsolidacion
 description: |-
   parametro url: cod_empresa,con_consolidado
@@ -28,7 +28,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY3Njk4OTEsImp0aSI6ImV4OVEyYmVDR0JNM3FZakxmc2NBWGNCK0pqWlpWTmorejVlQVhvVnk1Ulk9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjc2OTg5MiwiZXhwIjoxNjA2NzczNDkyLCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.YX9x0H1EsPMDifFRfTKWfOn75-NkFqzWMD2v_wd9RuA
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDcwMjEzODIsImp0aSI6IjlRWnZ2azU3M1dSekZiWkVWUW42QlhkaUxoejVSRHQzXC9TdlpZR1FYS3FJPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDcwMjEzODMsImV4cCI6MTYwNzAyNDk4MywiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.OeO9b_-zUy4Ebj3QzcwbmSHA3akaoVssQtAK6p8ncaM
   prefix: ""
 metaSortKey: -1606161002645
 isPrivate: false
