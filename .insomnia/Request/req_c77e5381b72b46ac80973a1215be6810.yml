@@ -1,7 +1,7 @@
 _id: req_c77e5381b72b46ac80973a1215be6810
 type: Request
 parentId: fld_01af4dc723a249689471861dc2877570
-modified: 1606424949522
+modified: 1607088758191
 created: 1606161389600
 url: "{{ urlbase }}/listarDataUser"
 name: lista informacion del usuario logiado
@@ -46,7 +46,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY0MjQ5NDAsImp0aSI6IkRLdkJzTWNmYU9GQmxJZ1F2c2d3ZFJYM212TURadktENTNPQm9mY0NiZ1E9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjQyNDk0MSwiZXhwIjoxNjA2NDI4NTQxLCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.36EozRHOpv_wWdokgse-E6KQ7ucbmyzxN44psEwrTwc
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDcwODgxNzQsImp0aSI6Ik9tZFVhRVNCK3hPU29wQVwvMnBRQUVPeHJQMHk3SGhLbVFEaUlXeHU0Y3QwPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDcwODgxNzUsImV4cCI6MTYwNzA5MTc3NSwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.zx5jn46mz4vuHJz5DhJpFiXGPGWi-ZeSXR46kCOnacA
   prefix: ""
 metaSortKey: -1606161389600
 isPrivate: false

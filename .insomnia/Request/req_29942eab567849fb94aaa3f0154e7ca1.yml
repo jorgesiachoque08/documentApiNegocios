@@ -1,0 +1,23 @@
+_id: req_29942eab567849fb94aaa3f0154e7ca1
+type: Request
+parentId: fld_01af4dc723a249689471861dc2877570
+modified: 1607011884828
+created: 1607011838183
+url: "{{ urlbase }}/listarEstadoAfiliacionEmpresaDefault"
+name: listarEstadoAfiliacionEmpresaDefault
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDY0MjQ5NDAsImp0aSI6IkRLdkJzTWNmYU9GQmxJZ1F2c2d3ZFJYM212TURadktENTNPQm9mY0NiZ1E9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNjQyNDk0MSwiZXhwIjoxNjA2NDI4NTQxLCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.36EozRHOpv_wWdokgse-E6KQ7ucbmyzxN44psEwrTwc
+metaSortKey: -1607011838183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
