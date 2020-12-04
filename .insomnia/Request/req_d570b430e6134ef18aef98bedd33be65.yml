@@ -1,12 +1,13 @@
 _id: req_d570b430e6134ef18aef98bedd33be65
 type: Request
 parentId: fld_639585eba583428ab3827b0250c1e5bf
-modified: 1606163860985
+modified: 1607098951992
 created: 1606160988335
-url: "{{ urlbase }}/listarCotizaciones/1"
+url: "{{ urlbase }}/listarCotizaciones/1/132"
 name: listarCotizaciones
 description: |-
-  parametro url : cod_empresa
+  parametro url : cod_empresa,cod_pedido
+
   {
       "code": 200,
       "message": "ok",
