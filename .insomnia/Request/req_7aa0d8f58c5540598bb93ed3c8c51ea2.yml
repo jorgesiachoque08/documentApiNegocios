@@ -1,0 +1,611 @@
+_id: req_7aa0d8f58c5540598bb93ed3c8c51ea2
+type: Request
+parentId: fld_e401e7178234489ba85a05dc1eb2a240
+modified: 1607521798661
+created: 1607521654053
+url: "{{ urlbase }}/listarMunicipiosPorDepartamento/25"
+name: listarMunicipiosPorDepartamento
+description: |-
+  parametro url :cod_departamento
+
+  {
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "cod_municipio": "457",
+        "municipio": "AGUA DE DIOS",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "458",
+        "municipio": "ALBAN",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "459",
+        "municipio": "ANAPOIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "460",
+        "municipio": "ANOLAIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "461",
+        "municipio": "ARBELAEZ",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "462",
+        "municipio": "BELTRAN",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "463",
+        "municipio": "BITUIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "464",
+        "municipio": "BOJACA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "465",
+        "municipio": "CABRERA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "466",
+        "municipio": "CACHIPAY",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "467",
+        "municipio": "CAJICA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "468",
+        "municipio": "CAPARRAPI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "469",
+        "municipio": "CAQUEZA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "470",
+        "municipio": "CARMEN DE CARUPA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "471",
+        "municipio": "CHAGUANI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "472",
+        "municipio": "CHIA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "473",
+        "municipio": "CHIPAQUE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "474",
+        "municipio": "CHOACHI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "475",
+        "municipio": "CHOCONTA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "476",
+        "municipio": "COGUA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "477",
+        "municipio": "COTA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "478",
+        "municipio": "CUCUNUBA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "479",
+        "municipio": "EL COLEGIO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "480",
+        "municipio": "EL PEÑON",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "481",
+        "municipio": "EL ROSAL",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "482",
+        "municipio": "FACATATIVA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "483",
+        "municipio": "FOMEQUE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "484",
+        "municipio": "FOSCA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "485",
+        "municipio": "FUNZA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "486",
+        "municipio": "FUQUENE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "487",
+        "municipio": "FUSAGASUGA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "488",
+        "municipio": "GACHALA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "489",
+        "municipio": "GACHANCIPA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "490",
+        "municipio": "GACHETA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "491",
+        "municipio": "GAMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "492",
+        "municipio": "GIRARDOT",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "493",
+        "municipio": "GRANADA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "494",
+        "municipio": "GUACHETA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "495",
+        "municipio": "GUADUAS",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "496",
+        "municipio": "GUASCA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "497",
+        "municipio": "GUATAQUI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "498",
+        "municipio": "GUATAVITA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "499",
+        "municipio": "GUAYABAL DE SIQUIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "500",
+        "municipio": "GUAYABETAL",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "501",
+        "municipio": "GUTIERREZ",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "502",
+        "municipio": "JERUSALEN",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "503",
+        "municipio": "JUNIN",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "504",
+        "municipio": "LA CALERA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "505",
+        "municipio": "LA MESA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "506",
+        "municipio": "LA PALMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "507",
+        "municipio": "LA PEÑA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "508",
+        "municipio": "LA VEGA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "509",
+        "municipio": "LENGUAZAQUE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "510",
+        "municipio": "MACHETA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "511",
+        "municipio": "MADRID",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "512",
+        "municipio": "MANTA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "513",
+        "municipio": "MEDINA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "514",
+        "municipio": "MOSQUERA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "515",
+        "municipio": "NARIÑO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "516",
+        "municipio": "NEMOCON",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "517",
+        "municipio": "NILO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "518",
+        "municipio": "NIMAIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "519",
+        "municipio": "NOCAIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "520",
+        "municipio": "VENECIA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "521",
+        "municipio": "PACHO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "522",
+        "municipio": "PAIME",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "523",
+        "municipio": "PANDI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "524",
+        "municipio": "PARATEBUENO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "525",
+        "municipio": "PASCA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "526",
+        "municipio": "PUERTO SALGAR",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "527",
+        "municipio": "PULI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "528",
+        "municipio": "QUEBRADANEGRA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "529",
+        "municipio": "QUETAME",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "530",
+        "municipio": "QUIPILE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "531",
+        "municipio": "APULO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "532",
+        "municipio": "RICAURTE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "533",
+        "municipio": "SAN ANTONIO DEL TEQUENDAMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "534",
+        "municipio": "SAN BERNARDO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "535",
+        "municipio": "SAN CAYETANO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "536",
+        "municipio": "SAN FRANCISCO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "537",
+        "municipio": "SAN JUAN DE RIO SECO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "538",
+        "municipio": "SASAIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "539",
+        "municipio": "SESQUILE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "540",
+        "municipio": "SIBATE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "541",
+        "municipio": "SILVANIA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "542",
+        "municipio": "SIMIJACA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "543",
+        "municipio": "SOACHA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "544",
+        "municipio": "SOPO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "545",
+        "municipio": "SUBACHOQUE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "546",
+        "municipio": "SUESCA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "547",
+        "municipio": "SUPATA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "548",
+        "municipio": "SUSA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "549",
+        "municipio": "SUTATAUSA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "550",
+        "municipio": "TABIO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "551",
+        "municipio": "TAUSA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "552",
+        "municipio": "TENA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "553",
+        "municipio": "TENJO",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "554",
+        "municipio": "TIBACUY",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "555",
+        "municipio": "TIBIRITA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "556",
+        "municipio": "TOCAIMA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "557",
+        "municipio": "TOCANCIPA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "558",
+        "municipio": "TOPAIPI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "559",
+        "municipio": "UBALA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "560",
+        "municipio": "UBAQUE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "561",
+        "municipio": "VILLA DE SAN DIEGO DE UBATE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "562",
+        "municipio": "UNE",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "563",
+        "municipio": "UTICA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "564",
+        "municipio": "VERGARA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "565",
+        "municipio": "VIANI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "566",
+        "municipio": "VILLAGOMEZ",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "567",
+        "municipio": "VILLAPINZON",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "568",
+        "municipio": "VILLETA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "569",
+        "municipio": "VIOTA",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "570",
+        "municipio": "YACOPI",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "571",
+        "municipio": "ZIPACON",
+        "cod_departamento": "25"
+      },
+      {
+        "cod_municipio": "572",
+        "municipio": "ZIPAQUIRA",
+        "cod_departamento": "25"
+      }
+    ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc1MjE1ODgsImp0aSI6IlpSa1lGN01VU2xGUzZjRGlRZFlVU3hxTGtHT0FxRTQ2Uzhhc0ptUld0MTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzUyMTU4OSwiZXhwIjoxNjA3NTI1MTg5LCJkYXRhIjp7ImlkIjoiNTEiLCJjb2RfdGVyY2VybyI6IjUxIn19.lT5wxTNE3q6MmxtOkzO1FgOMRUQUBxmZtKTn5nGxMII
+metaSortKey: -1607521654053
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

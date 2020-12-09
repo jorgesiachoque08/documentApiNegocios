@@ -1,0 +1,31 @@
+_id: req_1cd666758c09445c92cdf11b6111aa8b
+type: Request
+parentId: wrk_e21cec8cbf8b4d8a8b196407f8ddcdaa
+modified: 1607519641382
+created: 1607519445223
+url: https://qapi.acercate.com.co/v1/last-price-offers
+name: https://qapi.acercate.com.co/v1/last-price-offers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "data": {
+            "id": "5f2b009a2a1bba200d179343"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a87a5e890f594d11b900a2ef8b7d6a88
+authentication: {}
+metaSortKey: -1607519445224
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
