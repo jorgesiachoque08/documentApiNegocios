@@ -1,12 +1,13 @@
 _id: req_227599b819924afc9829edb765c3b6e8
 type: Request
 parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
-modified: 1606162621237
+modified: 1607106166377
 created: 1606161361899
 url: "{{ urlbase }}/cambiarEstadoPedido/1"
 name: cambiarEstadoPedido
 description: |-
   parametro url:cod_empresa
+  los valores del estado son  2 (Aprobado),
   {
       "code": 200,
       "message": "Se cambio el estado al registro",

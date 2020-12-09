@@ -1,9 +1,9 @@
 _id: req_d570b430e6134ef18aef98bedd33be65
 type: Request
 parentId: fld_639585eba583428ab3827b0250c1e5bf
-modified: 1607098951992
+modified: 1607101655644
 created: 1606160988335
-url: "{{ urlbase }}/listarCotizaciones/1/132"
+url: "{{ urlbase }}/listarCotizaciones/1/28"
 name: listarCotizaciones
 description: |-
   parametro url : cod_empresa,cod_pedido
@@ -34,7 +34,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQ5MzQyODksImp0aSI6Im1tRkZGdnk4Y0dFQjJmY3NxNHRqXC91b2drME9ldFBxdE4rOExPTjd6TWtRPSIsImlzcyI6IjAuMC4wLjAiLCJuYmYiOjE2MDQ5MzQyOTAsImV4cCI6MTYwNDkzNzg5MCwiZGF0YSI6eyJpZCI6IjEiLCJjb2RfdGVyY2VybyI6IjEifX0.jqEZcbVKH-j0zF7_QEC8vNkWhH-hHzKu6gTUgWJKaMo
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDcxMDA5ODQsImp0aSI6Ijl0RmNoNGxKM1RSVURLOENUeFBzQlB4amJlV016QWFhRytLcjgrMm5nb2s9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzEwMDk4NSwiZXhwIjoxNjA3MTA0NTg1LCJkYXRhIjp7ImlkIjoiOSIsImNvZF90ZXJjZXJvIjoiOSJ9fQ.2F03RiFOm-w7SK-ERdbP_QgbIpi8oiqc90IhtXJaFi0
   prefix: ""
 metaSortKey: -1606160988334
 isPrivate: false

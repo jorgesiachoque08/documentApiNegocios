@@ -1,7 +1,7 @@
 _id: req_313573ad5572422fb550f8f7f7f08536
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1606506782903
+modified: 1607180591523
 created: 1606161253254
 url: "{{ urlbase }}/RegistrarUsuario"
 name: RegistrarUsuario
@@ -16,7 +16,7 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - value: "5555555555"
+    - value: "555555"
       name: identificacion
       disabled: false
       id: pair_cc9ff444c0934b36ac0dd189cbeee64f
