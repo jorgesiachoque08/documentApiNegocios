@@ -1,9 +1,9 @@
 _id: req_a94de3ea95f040c5a6b3ecdc18fa4cd0
 type: Request
 parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
-modified: 1606162613817
+modified: 1607697926973
 created: 1606161361900
-url: "{{ urlbase }}/listarDetallePedido/2/1/9"
+url: "{{ urlbase }}/listarDetallePedido/8/21/43"
 name: listarDetallePedido
 description: |-
   parametros url:cod_empresa,cod_sucursal,cod_pedido
@@ -27,7 +27,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQwOTU0MjUsImp0aSI6InBRUVEzQVwvVGNoZFpBZjRBdWcyMXpMak1qM3JzV01zN3B1T3RJNlwvM1VrUT0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjA0MDk1NDI2LCJleHAiOjE2MDQwOTkwMjYsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.2YE1-kc2mlKKEIEFpcH0s2pi19tBRcyZoZeA1w1KNvM
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc2OTc4NjQsImp0aSI6IlQyUVlwUmI4SmwycmFZbDBwRDY5NjlzNW9kMmVCc3NFaUJ6K3JuMEdrXC9rPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDc2OTc4NjUsImV4cCI6MTYwNzcwMTQ2NSwiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.Wj-3-QuwhvrdGv3K43KDr0K5QbaApiSbBnjATLs5Uj0
   prefix: ""
 metaSortKey: -1606161361900
 isPrivate: false
