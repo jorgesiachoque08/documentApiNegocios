@@ -1,9 +1,9 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607704479508
+modified: 1607705390399
 created: 1606251722191
-url: "{{ urlbase }}/filterProduct/21/agua"
+url: "{{ urlbase }}/filterProduct/21"
 name: filterProduct
 description: |-
   
@@ -30,10 +30,19 @@ description: |-
       }
     ]
   }
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: nombre_producto
+      value: verd ac
+      description: ""
+      id: pair_abca4ceaa95e4fd59b5b0b08506fda41
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8db977752ad44613b324524c8ffeae99
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDIyMzIsImp0aSI6ImRjWjhjb096V3dFQ0VRdHhUZ3pyWjBYZ1wvOFJQbU10RDh0YytjT3RaN3M4PSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDc3MDIyMzMsImV4cCI6MTYwNzcwNTgzMywiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.I6tHCAmzN01nEX8hLANhwclRCCvV_JqPUy4bvjwwm1E
