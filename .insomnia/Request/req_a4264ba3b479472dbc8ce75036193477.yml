@@ -1,12 +1,12 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607705390399
+modified: 1607708613883
 created: 1606251722191
 url: "{{ urlbase }}/filterProduct/21"
 name: filterProduct
 description: |-
-  
+  parametro url:cod_sucursal
 
   {
     "code": 200,
@@ -45,7 +45,7 @@ headers:
     id: pair_8db977752ad44613b324524c8ffeae99
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDIyMzIsImp0aSI6ImRjWjhjb096V3dFQ0VRdHhUZ3pyWjBYZ1wvOFJQbU10RDh0YytjT3RaN3M4PSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDc3MDIyMzMsImV4cCI6MTYwNzcwNTgzMywiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.I6tHCAmzN01nEX8hLANhwclRCCvV_JqPUy4bvjwwm1E
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDY1MDcsImp0aSI6InJxRWVTTjVpblFmbzZRS3VWclVOWXMzdmRWMWlTcnFhK0pkRlRKWU1RaTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcwNjUwOCwiZXhwIjoxNjA3NzEwMTA4LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.gg_n31iNRqD32pAY6ORDqbpJ9eMu-p-hgqvgiaDKf1o
 metaSortKey: -1606251722191
 isPrivate: false
 settingStoreCookies: true
