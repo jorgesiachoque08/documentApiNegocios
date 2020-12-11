@@ -1,7 +1,7 @@
 _id: req_8a596a2a43854af8a6798a490175ad0f
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607706631916
+modified: 1607709464318
 created: 1607691670679
 url: "{{ urlbase }}/listarProductosCentroOperacion/22"
 name: listarProductosCentroOperacion
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDY1MDcsImp0aSI6InJxRWVTTjVpblFmbzZRS3VWclVOWXMzdmRWMWlTcnFhK0pkRlRKWU1RaTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcwNjUwOCwiZXhwIjoxNjA3NzEwMTA4LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.gg_n31iNRqD32pAY6ORDqbpJ9eMu-p-hgqvgiaDKf1o
-metaSortKey: -1607691670679
+metaSortKey: -1606971696435
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,36 +1,66 @@
 _id: req_35655040a5c446b4b077bf45287b2994
 type: Request
 parentId: fld_c52e729fa751409995f4aea04784de3a
-modified: 1607702254231
+modified: 1607709508026
 created: 1606161372227
 url: "{{ urlbase }}/listarSucursales/8"
 name: listarSucursales
 description: |-
+  parametro url:cod_empresa
+
   {
-      "code": 200,
-      "message": "Ok",
-      "data": [
-          {
-              "cod_sucursal": "1",
-              "sucursal": "sucursal 1",
-              "cod_tercero_contacto": "2",
-              "estado": "1",
-              "ident_contacto": "104748788",
-              "nombre_contacto": "jorge siachoque",
-              "email": "jorgesiachoque09@gmail.com",
-              "telefono": "(+57) 6531414"
-          },
-          {
-              "cod_sucursal": "2",
-              "sucursal": "sucursal 1",
-              "cod_tercero_contacto": "2",
-              "estado": "1",
-              "ident_contacto": "104748788",
-              "nombre_contacto": "jorge siachoque",
-              "email": "jorgesiachoque09@gmail.com",
-              "telefono": "(+57) 6531414"
-          }
-      ]
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "nombre": "sucursal prueba",
+        "cod_empresa": "8",
+        "cod_tercero_contacto": "9",
+        "cod": "15",
+        "cod_tipo_direccion": null,
+        "cod_sucursal": "21",
+        "cod_municipio": "150",
+        "direccion_linea_1": "direccion de prueba",
+        "direccion_linea_2": null,
+        "direccion_linea_3": null,
+        "latitud": null,
+        "longitud": null,
+        "municipio": "CARTAGENA",
+        "cod_centro_opereacion": "3"
+      },
+      {
+        "nombre": "sucursal de prueba 1",
+        "cod_empresa": "8",
+        "cod_tercero_contacto": "9",
+        "cod": "16",
+        "cod_tipo_direccion": null,
+        "cod_sucursal": "22",
+        "cod_municipio": "2",
+        "direccion_linea_1": "direccion sucursal ",
+        "direccion_linea_2": null,
+        "direccion_linea_3": null,
+        "latitud": null,
+        "longitud": null,
+        "municipio": "ABEJORRAL",
+        "cod_centro_opereacion": null
+      },
+      {
+        "nombre": "sucursal 2",
+        "cod_empresa": "8",
+        "cod_tercero_contacto": "8",
+        "cod": "17",
+        "cod_tipo_direccion": null,
+        "cod_sucursal": "23",
+        "cod_municipio": "5",
+        "direccion_linea_1": "sucursal de prueba 2 dir",
+        "direccion_linea_2": null,
+        "direccion_linea_3": null,
+        "latitud": null,
+        "longitud": null,
+        "municipio": "AMAGA",
+        "cod_centro_opereacion": null
+      }
+    ]
   }
 method: GET
 body: {}
@@ -39,7 +69,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDIyMzIsImp0aSI6ImRjWjhjb096V3dFQ0VRdHhUZ3pyWjBYZ1wvOFJQbU10RDh0YytjT3RaN3M4PSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDc3MDIyMzMsImV4cCI6MTYwNzcwNTgzMywiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.I6tHCAmzN01nEX8hLANhwclRCCvV_JqPUy4bvjwwm1E
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDY1MDcsImp0aSI6InJxRWVTTjVpblFmbzZRS3VWclVOWXMzdmRWMWlTcnFhK0pkRlRKWU1RaTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcwNjUwOCwiZXhwIjoxNjA3NzEwMTA4LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.gg_n31iNRqD32pAY6ORDqbpJ9eMu-p-hgqvgiaDKf1o
   prefix: ""
 metaSortKey: -1606161372227
 isPrivate: false

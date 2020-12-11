@@ -1,7 +1,7 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607708613883
+modified: 1607708662488
 created: 1606251722191
 url: "{{ urlbase }}/filterProduct/21"
 name: filterProduct
@@ -13,20 +13,12 @@ description: |-
     "message": "Ok",
     "data": [
       {
-        "cod": 3565,
-        "nombre_producto": "AGUACATE * KG"
-      },
-      {
-        "cod": 9913,
-        "nombre_producto": "FRUTAS AGUACATE HASS *KG"
-      },
-      {
-        "cod": 15512,
-        "nombre_producto": "FRUTAS AGUACATE *UND"
-      },
-      {
-        "cod": 29305,
-        "nombre_producto": "FRUTAS AGUACATE  HASS * MALLA"
+        "cod": "3516",
+        "nombre_producto": "VERD ACELGA* KG",
+        "precio": 5650,
+        "imagenes": [
+          "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3516.jpg"
+        ]
       }
     ]
   }
