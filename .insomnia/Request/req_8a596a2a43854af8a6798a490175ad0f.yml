@@ -1,18 +1,1551 @@
 _id: req_8a596a2a43854af8a6798a490175ad0f
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607709464318
+modified: 1607716698604
 created: 1607691670679
-url: "{{ urlbase }}/listarProductosCentroOperacion/22"
+url: "{{ urlbase }}/listarProductosCentroOperacion/21"
 name: listarProductosCentroOperacion
-description: ""
+description: >-
+  parametro url:cod_sucursal
+
+
+  {
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "cod_producto": "47783",
+        "nombre_producto": "FRUTAS MANDARINA PARA ENMALLAR * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2938.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "46670",
+        "nombre_producto": "VERD PAPA CRIOLLA *500 GR UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "TUBÉRCULOS",
+        "precio": "1017.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "45704",
+        "nombre_producto": "VERD PAPA SANTERRA * 1000 GR MALLA",
+        "unidad_medida": "UND",
+        "categoria": "TUBÉRCULOS",
+        "precio": "1356.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/897fc1e4-e8aa-463b-94b5-5e099bd62db7_WhatsApp%20Image%202020-07-16%20at%209.44.44%20AM.jpeg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "44548",
+        "nombre_producto": "VERD CEBOLLA ROJA * 500 GR MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "4520.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "44428",
+        "nombre_producto": "COMBO ZANAHORIA +REMOÑACHA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2599.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "44427",
+        "nombre_producto": "FRUTAS GUAYABA *500 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2034.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "44239",
+        "nombre_producto": "VERD PAPA LAVADA SANTERRA* KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "2034.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b15536ab-9f66-448c-9759-c45dd823db60_WhatsApp%20Image%202020-07-16%20at%209.33.37%20AM.jpeg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "43805",
+        "nombre_producto": "VERD PLATANO VERDE MEDIANO *1 UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "701.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "43525",
+        "nombre_producto": "VERD PIMENTON NATALY ROJO *  KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5198.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "43320",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL 2DA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "3729.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "43310",
+        "nombre_producto": "VERD LECHUGA B* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2712.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42954",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL * 500 GR",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2486.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42948",
+        "nombre_producto": "VERD ZANAHORIA * 500 gr",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "1130.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42831",
+        "nombre_producto": "FRUTAS MANZANA GALA LONCH * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4633.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42830",
+        "nombre_producto": "FRUTAS MANZANA VERDE LONCH * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4746.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42829",
+        "nombre_producto": "FRUTAS MANZANA ROJA LONCH  * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "6328.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42828",
+        "nombre_producto": "FRUTAS PERA LONCHERA  * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "5650.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42751",
+        "nombre_producto": "FRUTAS PERA IMPORT  * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "8758.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42750",
+        "nombre_producto": "FRUTAS MANZANA ROJA * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "6780.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42749",
+        "nombre_producto": "FRUTAS MANZANA VERDE * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "7345.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/42749.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "42748",
+        "nombre_producto": "FRUTAS MANZANA ROYAL GALA * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "6554.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "42728",
+        "nombre_producto": "VERD MIX ASIATICO HORTIOR *200 GR B\/DEJA",
+        "unidad_medida": "UND",
+        "categoria": "ORGÁNICO - VERDURAS",
+        "precio": "3560.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "37193",
+        "nombre_producto": "FRUTAS PIÑA ORO MIEL BABY * UND",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2927.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "35279",
+        "nombre_producto": "VERD APIO B * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "1469.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30416",
+        "nombre_producto": "VERD ZARAGOZA ROSADA *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "5085.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30414",
+        "nombre_producto": "VERD FRIJOL PALOMITO *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "4859.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30412",
+        "nombre_producto": "VERD FRIJOL CABEZA NEGRA *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "5085.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30411",
+        "nombre_producto": "VERD CARGAMANTO BLANCO *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "5085.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30410",
+        "nombre_producto": "VERD ARVEJA FRESCA *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "3955.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30407",
+        "nombre_producto": "VERD HORTALIZAS COMBINADAS *400 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "4746.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "30093",
+        "nombre_producto": "VERD LECHUGA VERDE CRESPA * 130 G DOMO P",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2260.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27300",
+        "nombre_producto": "VERD PIMENTON VERDE * KL ECONOMICO",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2543.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27299",
+        "nombre_producto": "VERD PEPINO COHOMBRO * KG ECONOMICO",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2204.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27298",
+        "nombre_producto": "FRUTAS MANDARINA * KG ECONOMICA",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2147.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27295",
+        "nombre_producto": "VERD CEBOLLA JUNCA B *KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2712.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27156",
+        "nombre_producto": "VERD REMOLACHA *500 gr",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "1695.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "27154",
+        "nombre_producto": "MARACUYA MALLA X 500 gr",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "3277.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25953",
+        "nombre_producto": "FRUTAS LIMON TAHITY *500 GR MALLA ECONOM",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "1300.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25740",
+        "nombre_producto": "FRUTAS LIMON COMUN  *1UND MALLA X 500 GR\t",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2825.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25523",
+        "nombre_producto": "VERD PIMENTON VERDE *500 GR MALLA ECONOM",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "1130.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25521",
+        "nombre_producto": "VERD CEBOLLA BLANCA S\/P ECO*500 GR MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "452.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25327",
+        "nombre_producto": "FRUTAS LIMON TAHITY *1UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2599.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25273",
+        "nombre_producto": "FRUTAS LIMON COMUN  *1UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "5650.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "25271",
+        "nombre_producto": "FRUTAS MANGO DE AZUCAR *3 LIBRAS MALLA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2260.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "23504",
+        "nombre_producto": "FRUTAS DURAZNO NACIONAL *250 GR B\/DEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "1356.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "23369",
+        "nombre_producto": "FRUTAS PAPAYA * UND MEGABAJITOS",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "1130.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "22648",
+        "nombre_producto": "VERD RUGULA*250 GR UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "3503.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/22648.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "22459",
+        "nombre_producto": "FRUTAS AGRAZ *250GR BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "7345.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "21844",
+        "nombre_producto": "VERD YACON * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "4068.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "20766",
+        "nombre_producto": "FRUTAS MORA *500G BOL",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2011.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/20766.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "17888",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL MALLA *UND",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4294.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "17858",
+        "nombre_producto": "FRUTAS BOROJO *UND",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "1582.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "17725",
+        "nombre_producto": "FRUTAS TORONJA *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "4916.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/17725.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "17647",
+        "nombre_producto": "VERD AJO *3 CABEZAS MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "63845.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/17647.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "15657",
+        "nombre_producto": "VERD CRISTAL DE SABILA ALOE TORY *200G",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2825.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "15560",
+        "nombre_producto": "VERD MAIZ DULCE *1 UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2260.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/15560.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "13783",
+        "nombre_producto": "VERD PIMENTON MIXTO * 500 gr",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "2260.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "13494",
+        "nombre_producto": "FRUTAS UVA ROJA NACIONAL *KG ",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "7006.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b3f56a2f-8d28-4f1c-b118-a4352b5ca3f9_WhatsApp%20Image%202020-07-13%20at%209.48.01%20AM.jpeg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "11487",
+        "nombre_producto": "FRUTAS PIÑA * 1UND PEROLERA MEDIANA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "3616.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "11112",
+        "nombre_producto": "VERD PIMENTON AMARILLO *  KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "7232.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.amazonaws.com\/11112.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "11111",
+        "nombre_producto": "FRUTAS POMELO * KL",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "4294.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "10815",
+        "nombre_producto": "VERD CHUGUAS Y CUBIOS * UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "3616.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "10416",
+        "nombre_producto": "FRUTAS MARACUYA*1UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "5876.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "9953",
+        "nombre_producto": "FRUTAS GUANABANA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "1356.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "9908",
+        "nombre_producto": "FRUTAS NARANJA SWEETY *3KG MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "7345.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "9906",
+        "nombre_producto": "FRUTAS NARANJA VALENCIA *5KL MALLA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "9040.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/9906.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "9862",
+        "nombre_producto": "FRUTAS BANANO BOCADILLO * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "3277.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "8281",
+        "nombre_producto": "VERD AJI PICANTE *1UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "1356.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6839",
+        "nombre_producto": "FRUTAS PATILLA * KG BABY",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "3955.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6826",
+        "nombre_producto": "VERD HOJA DE SABILA ALOE TORY *1UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "1695.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6801",
+        "nombre_producto": "VERD COMPUESTO *1UND MAZO",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "791.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6795",
+        "nombre_producto": "VERD CILANTRO * UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "791.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6751",
+        "nombre_producto": "VERD CALABAZA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2260.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "6665",
+        "nombre_producto": "VERD PLATANO * UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "3141.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "5510",
+        "nombre_producto": "VERD PLATANO * UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "904.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/19856b57-8dd7-4f89-a417-cc491b2b82e4_4002.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4167",
+        "nombre_producto": "FRUTAS PERA IMPORTADA *1UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "8452.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4163",
+        "nombre_producto": "FRUTAS MANZANA VERDE *1 UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "7571.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4159",
+        "nombre_producto": "KIT MANZANA ROYAL *6 UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "6780.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4159.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4156",
+        "nombre_producto": "FRUTAS MANZANA ROJA*1 UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "7345.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4156.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4143",
+        "nombre_producto": "FRUTAS CAÑANDONGA *250GR",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4746.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4134",
+        "nombre_producto": "FRUTAS TAMARINDO LILY*250 CON AZUCAR",
+        "unidad_medida": "UND",
+        "categoria": "EMPACADOS - FRUTAS",
+        "precio": "2848.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4132",
+        "nombre_producto": "FRUTAS TAMARINDO LILY*500G CON AZUCAR",
+        "unidad_medida": "UND",
+        "categoria": "EMPACADOS - FRUTAS",
+        "precio": "5831.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4129",
+        "nombre_producto": "FRUTAS TAMARINDO LILY*500G PURO PL",
+        "unidad_medida": "UND",
+        "categoria": "EMPACADOS - FRUTAS",
+        "precio": "6102.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4124",
+        "nombre_producto": "FRUTAS TAMARINDO LILY*250G PURO",
+        "unidad_medida": "UND",
+        "categoria": "EMPACADOS - FRUTAS",
+        "precio": "3119.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4058",
+        "nombre_producto": "VERD TOMATE MILANO * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3277.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4058.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4055",
+        "nombre_producto": "VERD LECHUGA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2938.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4055.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4053",
+        "nombre_producto": "VERD ZUQUINI AMARILLO *KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3842.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4053.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4050",
+        "nombre_producto": "VERD ZANAHORIA * 1000 GR BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "2034.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4050.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4048",
+        "nombre_producto": "VERD ZANAHORIA* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2034.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4048.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4046",
+        "nombre_producto": "VERD YUCA *  KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "1356.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4046.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4040",
+        "nombre_producto": "FRUTAS UVAS CHILENA* KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "107350.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4040.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4038",
+        "nombre_producto": "FRUTAS UVA ROJA * 1UND BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "3955.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4024",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "4520.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4018",
+        "nombre_producto": "VERD REPOLLO MORADO* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3051.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4018.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4014",
+        "nombre_producto": "VERD REPOLLO BLANCO* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2260.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4014.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "4011",
+        "nombre_producto": "VERD REMOLACHA * KL",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "4520.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4003",
+        "nombre_producto": "VERD RABANO ROJO*KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3277.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "4002",
+        "nombre_producto": "VERD PLATANO VERDE *1 UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "984.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3995",
+        "nombre_producto": "FRUTAS PITAHAYA* KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "10622.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3995.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3991",
+        "nombre_producto": "FRUTAS PIÑA ORO MIEL * UND",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4294.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3986",
+        "nombre_producto": "FRUTAS PINA * 1UND GRANDE.",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4294.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/c277f831-b5c4-48f6-aebd-d271ffe1418a_prod-5.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3984",
+        "nombre_producto": "VERD PIMENTON VERDE *  KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3051.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3984.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3980",
+        "nombre_producto": "VERD PIMENTON ROJO *  KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5650.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3980.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3974",
+        "nombre_producto": "VERD PIMENTON MALLA *1000 GR",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "3051.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3956",
+        "nombre_producto": "FRUTAS PERA *  KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "129950.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3946",
+        "nombre_producto": "VERD PEPINO COHOMBRO *  KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2599.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3946.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3945",
+        "nombre_producto": "FRUTAS PATILLA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "1526.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3943",
+        "nombre_producto": "FRUTAS PAPAYA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "1469.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3940",
+        "nombre_producto": "VERD PAPA SIN LAVAR * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "39550.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b95a7a31-421b-4734-99de-2e50496a2cc0_A.6.40-NEG.500GR.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3934",
+        "nombre_producto": "VERD PAPA LAVADA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "62150.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3913",
+        "nombre_producto": "FRUTAS NARANJA VALENCIA *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "1808.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3913.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3905",
+        "nombre_producto": "FRUTAS NARANJA *2.5 KL MALLA PL",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "4520.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3905.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3903",
+        "nombre_producto": "VERD ÑAME ESPINA * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "2938.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3893",
+        "nombre_producto": "FRUTAS MELON CANTALUP * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "5085.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3893.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3886",
+        "nombre_producto": "VERD MAZORCA * 1 UN",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "678.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3884",
+        "nombre_producto": "FRUTAS MARACUYA SELECTA *KG",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "7345.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3884.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3878",
+        "nombre_producto": "FRUTAS MANZANA VERDE* KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "135600.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3878.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3876",
+        "nombre_producto": "FRUTAS MANZANA ROYAL GALA*KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "110740.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3876.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3870",
+        "nombre_producto": "FRUTAS MANZANA ROJA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "124300.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3861",
+        "nombre_producto": "FRUTAS MANGO TOMY * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "6780.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3857",
+        "nombre_producto": "FRUTAS MANGO DE AZUCAR * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "6780.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3853",
+        "nombre_producto": "FRUTAS MANDARINA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "3277.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/21b59e7e-b003-4a06-a63d-ddf8197c06f4_mandarina-tipos-compra-cocina-xl-668x400x80xX.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3850",
+        "nombre_producto": "FRUTAS LULO* KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "4294.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3846",
+        "nombre_producto": "FRUTAS LIMON TAHITI *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2599.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3846.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3844",
+        "nombre_producto": "FRUTAS LIMON COMÚN * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "5650.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3835",
+        "nombre_producto": "FRUTAS KIWI * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "120345.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3835.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3834",
+        "nombre_producto": "VERD HABICHUELINA *250 GR BANDEJA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "7345.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3832",
+        "nombre_producto": "VERD HABICHUELA CORTA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5933.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3831",
+        "nombre_producto": "VERD HABAS * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5085.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3822",
+        "nombre_producto": "FRUTAS GUAYABA *1UND BOLSA",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "1695.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3816",
+        "nombre_producto": "FRUTAS GUAYABA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2938.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3812",
+        "nombre_producto": "FRUTAS GRANADILLA* KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "9040.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3812.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3808",
+        "nombre_producto": "VERD GENJIBRE *KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "12430.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3808.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3805",
+        "nombre_producto": "VERD FRIJOLES VERDES * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "7797.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3760",
+        "nombre_producto": "FRUTAS FEIJOA *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "4859.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/c1ad65f3-aafb-4b22-bebd-144446b78c3d_Feijoas-organicas.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3746",
+        "nombre_producto": "VERD ESPARRAGOS *500 G UND",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "21470.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/1957316f-c446-4e22-aa49-aada10e34eb7_asparagus-nutrition-facts.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3743",
+        "nombre_producto": "FRUTAS DURAZNO NECTARIN * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "89496.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3743.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3738",
+        "nombre_producto": "VERD ÑAME DIAMANTE * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "3164.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3b578bb2-4c1b-40e5-919a-51ec29e262b7_3903.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3733",
+        "nombre_producto": "FRUTAS CURUBA * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2825.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3733.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3730",
+        "nombre_producto": "FRUTAS COROZO * 1 UND BOL",
+        "unidad_medida": "UND",
+        "categoria": "FRUTAS",
+        "precio": "5424.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/2914a0f9-8a31-461a-aa30-4d67b3919e7b_15.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3717",
+        "nombre_producto": "FRUTAS COCO * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "5763.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3699",
+        "nombre_producto": "FRUTAS CIRUELA IMPORTADA *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "126560.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3699.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3671",
+        "nombre_producto": "VERD CEBOLLIN CRIOLLO*1 UND MAZO",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "791.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/e1f68e94-2c2c-4f46-8f2f-713c3952ad02_Cebollin-Tokyo-Long-White-Bunching-400x300.png"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3667",
+        "nombre_producto": "VERD CEBOLLA ROJA * UND MALLA",
+        "unidad_medida": "UND",
+        "categoria": "VERDURAS",
+        "precio": "5424.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/e522e493-759a-4b68-a020-68f713ae3e5e_2_3.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3664",
+        "nombre_producto": "VERD CEBOLLA ROJA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5424.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/7df352b0-935c-4c38-ab58-3cf1837fefff_Cebolla-roja-1.png"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3656",
+        "nombre_producto": "VERD CEBOLLA JUNCA *KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "3390.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3656.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3629",
+        "nombre_producto": "VERD BERENGENA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "4181.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3629.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3626",
+        "nombre_producto": "VERD BATATA * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "4520.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/862d08ca-6f7b-4806-979d-f4292170bdb7_unnamed.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3622",
+        "nombre_producto": "FRUTAS BANANO  AMARILLO *KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2147.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b8081010-3a1a-432f-881a-7f0f130ec38c_UT8q0z7Xa8dXXagOFbXO.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3618",
+        "nombre_producto": "VERD ARVEJA VERDE * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "8249.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3618.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3610",
+        "nombre_producto": "FRUTAS BANANO VERDE *KL",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "2147.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3610.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3605",
+        "nombre_producto": "VERD ARRACACHA * KG",
+        "unidad_medida": "KG",
+        "categoria": "TUBÉRCULOS",
+        "precio": "4633.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3605.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3589",
+        "nombre_producto": "VERD APIO* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "1582.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3589.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3583",
+        "nombre_producto": "VERD AJO BLANCO * KG GRANEL",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "52545.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/eab1a4f5-4b51-4128-abce-2cc59e9def5a_producto-grande-ajoblanco.png"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3573",
+        "nombre_producto": "VERD AJI DULCE * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "8475.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3573.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3570",
+        "nombre_producto": "VERD AHUYAMA ZAPAYO* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "2486.00",
+        "imagenes": []
+      },
+      {
+        "cod_producto": "3567",
+        "nombre_producto": "VERD AHUYAMA * KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "1808.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/5f2800a5-36ed-4366-bb6f-6abf6e707f09_ahuyama.jpg"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3565",
+        "nombre_producto": "AGUACATE * KG",
+        "unidad_medida": "KG",
+        "categoria": "FRUTAS",
+        "precio": "6215.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/d283c104-3e9c-4fb5-85d6-7d216a12b69d_aguacate.png"
+          }
+        ]
+      },
+      {
+        "cod_producto": "3516",
+        "nombre_producto": "VERD ACELGA* KG",
+        "unidad_medida": "KG",
+        "categoria": "VERDURAS",
+        "precio": "5650.00",
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3516.jpg"
+          }
+        ]
+      }
+    ]
+  }
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MDY1MDcsImp0aSI6InJxRWVTTjVpblFmbzZRS3VWclVOWXMzdmRWMWlTcnFhK0pkRlRKWU1RaTQ9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcwNjUwOCwiZXhwIjoxNjA3NzEwMTA4LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.gg_n31iNRqD32pAY6ORDqbpJ9eMu-p-hgqvgiaDKf1o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MTUyNzQsImp0aSI6IjBkVldEVDFxd0RkeDRYdlFnVDNSM1g1RmNvQWpnSG1aQmJCMklsSEp0RW89IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcxNTI3NSwiZXhwIjoxNjA3NzE4ODc1LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.Tu5-HtkVSnyfy5l4cCxw_xDF-yD_xVyC818V7Yiua7s
 metaSortKey: -1606971696435
 isPrivate: false
 settingStoreCookies: true

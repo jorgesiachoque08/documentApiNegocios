@@ -1,12 +1,13 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607715632056
+modified: 1607716524288
 created: 1606251722191
 url: "{{ urlbase }}/filterProduct/21"
 name: filterProduct
-description: |-
+description: >-
   parametro url:cod_sucursal
+
 
   {
     "code": 200,
@@ -17,7 +18,9 @@ description: |-
         "nombre_producto": "VERD ACELGA* KG",
         "precio": 5650,
         "imagenes": [
-          "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3516.jpg"
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3516.jpg"
+          }
         ]
       }
     ]
