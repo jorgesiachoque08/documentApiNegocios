@@ -1,7 +1,7 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607716524288
+modified: 1607718115607
 created: 1606251722191
 url: "{{ urlbase }}/filterProduct/21"
 name: filterProduct
@@ -14,14 +14,36 @@ description: >-
     "message": "Ok",
     "data": [
       {
-        "cod": "3516",
-        "nombre_producto": "VERD ACELGA* KG",
-        "precio": 5650,
+        "cod": "4002",
+        "nombre_producto": "VERD PLATANO VERDE *1 UND",
+        "unidad_medida": "UND",
+        "precio": 984,
+        "imagenes": []
+      },
+      {
+        "cod": "5510",
+        "nombre_producto": "VERD PLATANO * UND MALLA",
+        "unidad_medida": "UND",
+        "precio": 904,
         "imagenes": [
           {
-            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3516.jpg"
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/19856b57-8dd7-4f89-a417-cc491b2b82e4_4002.jpg"
           }
         ]
+      },
+      {
+        "cod": "6665",
+        "nombre_producto": "VERD PLATANO * UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 3141,
+        "imagenes": []
+      },
+      {
+        "cod": "43805",
+        "nombre_producto": "VERD PLATANO VERDE MEDIANO *1 UND",
+        "unidad_medida": "UND",
+        "precio": 701,
+        "imagenes": []
       }
     ]
   }
@@ -30,9 +52,13 @@ body:
   mimeType: multipart/form-data
   params:
     - name: nombre_producto
-      value: verd ac
+      value: platano
       description: ""
       id: pair_abca4ceaa95e4fd59b5b0b08506fda41
+    - name: ""
+      value: ""
+      description: ""
+      id: pair_50dc7d46a0774c7b8fd8bce3a468f254
 parameters: []
 headers:
   - name: Content-Type
