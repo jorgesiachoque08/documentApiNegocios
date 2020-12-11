@@ -1,9 +1,9 @@
 _id: req_227599b819924afc9829edb765c3b6e8
 type: Request
 parentId: fld_532457ee7b1143ba8a00ce0f00f418a4
-modified: 1607106166377
+modified: 1607533074245
 created: 1606161361899
-url: "{{ urlbase }}/cambiarEstadoPedido/1"
+url: "{{ urlbase }}/cambiarEstadoPedido/8"
 name: cambiarEstadoPedido
 description: |-
   parametro url:cod_empresa
@@ -15,16 +15,16 @@ description: |-
   }
 method: PUT
 body:
+  mimeType: application/x-www-form-urlencoded
   params:
     - value: "2"
       name: estado
       disabled: false
       id: pair_f96d1adbefbf449ea1c139c9084ba2f6
-    - value: "10"
+    - value: "40"
       name: cod_pedido
       disabled: false
       id: pair_9f3225c75b344582876b2408edc354a9
-  mimeType: application/x-www-form-urlencoded
 parameters: []
 headers: []
 authentication:

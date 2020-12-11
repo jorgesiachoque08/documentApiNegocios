@@ -1,7 +1,7 @@
 _id: req_1cd666758c09445c92cdf11b6111aa8b
 type: Request
 parentId: wrk_e21cec8cbf8b4d8a8b196407f8ddcdaa
-modified: 1607519641382
+modified: 1607546482426
 created: 1607519445223
 url: https://qapi.acercate.com.co/v1/last-price-offers
 name: https://qapi.acercate.com.co/v1/last-price-offers
@@ -12,7 +12,7 @@ body:
   text: |-
     {
         "data": {
-            "id": "5f2b009a2a1bba200d179343"
+            "id": "5ccdcfa071964848744c036e"
         }
     }
 parameters: []
@@ -20,7 +20,9 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_a87a5e890f594d11b900a2ef8b7d6a88
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb2MiOnsiX2lkIjoiNWQxZTE2YWM4M2ZiYjM0NDA1NGJhMzk2Iiwicm9sZSI6ImJ1eWVyIn0sImlhdCI6MTYwNzU0MzUwOCwiZXhwIjoxNjA3NTQ3MTA4fQ.5PIBUqELaBplS80y96WsH9w0DEe7Dkn627M-1Y4Q-bo
 metaSortKey: -1607519445224
 isPrivate: false
 settingStoreCookies: true

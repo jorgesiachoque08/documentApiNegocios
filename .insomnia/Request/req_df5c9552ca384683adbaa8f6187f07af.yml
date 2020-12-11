@@ -1,7 +1,7 @@
 _id: req_df5c9552ca384683adbaa8f6187f07af
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1607120357877
+modified: 1607691747253
 created: 1606161253252
 url: "{{ urlbase }}/login"
 name: login
@@ -32,11 +32,11 @@ method: POST
 body:
   mimeType: application/x-www-form-urlencoded
   params:
-    - value: r@acercate.com.co
+    - value: manuelanguloruiz@gmail.com
       name: usuario
       disabled: false
       id: pair_b69a6c6225fd471ca80707ad495a531f
-    - value: zaqxsw12
+    - value: "12345678"
       name: clave
       disabled: false
       id: pair_46e8fcf1855c41cb85a1734669cf82d2
