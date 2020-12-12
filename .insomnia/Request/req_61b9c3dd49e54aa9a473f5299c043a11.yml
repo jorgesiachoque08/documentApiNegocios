@@ -1,0 +1,44 @@
+_id: req_61b9c3dd49e54aa9a473f5299c043a11
+type: Request
+parentId: fld_30aedde8cd974b4f93db417a1f4b3645
+modified: 1607738599783
+created: 1607737946135
+url: "{{ urlbase }}/listarDashboard/8"
+name: listarDashboard
+description: >-
+  parametro ur : cod_empresa
+
+
+  {
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "descripcion": "Pedidos confirmados",
+        "valor": 2,
+        "icono": "https:\/\/newapi.acercate.com.co\/AcercateNegociosBackend\/public\/assets\/imagenes\/pedidos-confirmados.svg",
+        "color_fondo": "#00DC7F"
+      },
+      {
+        "descripcion": "Dinero en compras",
+        "valor": "5M",
+        "icono": "https:\/\/newapi.acercate.com.co\/AcercateNegociosBackend\/public\/assets\/imagenes\/dinero-compras.svg",
+        "color_fondo": "#FFD037"
+      }
+    ]
+  }
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3Mzg1NTIsImp0aSI6IjQzWTh3Rk5OZ3FKcnFFUGxLYjNUcThHYVVaNHhMYldQenNyd3hQM3hmc2s9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzczODU1MywiZXhwIjoxNjA3NzQyMTUzLCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ._L0haCPvoadxyHF8E_1O4_ZeutNbmdYNDT0f3DCC-RA
+metaSortKey: -1607737946135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
