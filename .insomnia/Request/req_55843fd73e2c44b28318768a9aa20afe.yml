@@ -1,7 +1,7 @@
 _id: req_55843fd73e2c44b28318768a9aa20afe
 type: Request
 parentId: fld_bf1827384b33426aad059a41f152c8d6
-modified: 1606163694334
+modified: 1608077313000
 created: 1606161159725
 url: "{{ urlbase }}/listarCategorias"
 name: listarCategorias
@@ -41,7 +41,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDM4NTIxMDQsImp0aSI6IlErMDdWN1wvYVNYVkFhUzhwWTluS3pNT3JBZHNuMTZPanRpSGFcL2laM013Yz0iLCJpc3MiOiIwLjAuMC4wIiwibmJmIjoxNjAzODUyMTA1LCJleHAiOjE2MDM4NTU3MDUsImRhdGEiOnsiaWQiOiIxIiwiY29kX3RlcmNlcm8iOiIxIn19.GlcXDyO6_thvxcCD_tHZ0nRE7rL3rWhMD59xOLqIuaY
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDgwNzcyODMsImp0aSI6IkFTVkFJTTFsbk8zUjJPMUFDNnc5QmFScDR3Ykp4eWJEc0ZXdGhXRDRoRkE9IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwODA3NzI4NCwiZXhwIjoxNjA4MDgwODg0LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.Y1ci3C-WwdfIw7rz8-7N8mcrM04lHU2mRPJMrNCNxr8
   prefix: ""
 metaSortKey: -1606161159725
 isPrivate: false

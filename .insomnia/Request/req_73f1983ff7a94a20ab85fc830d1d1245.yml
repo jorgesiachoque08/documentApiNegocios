@@ -1,0 +1,23 @@
+_id: req_73f1983ff7a94a20ab85fc830d1d1245
+type: Request
+parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
+modified: 1608084393415
+created: 1608084177938
+url: "{{ urlbase }}/filterProductPorCategoria/21/2"
+name: filterProductPorCategoria
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDgwODQzNzMsImp0aSI6Iksxa09NcDE3VitpdVBYVzU5TGhoNXdJRW5LSmlvSDdxdkdcL2N3UDNDV05vPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDgwODQzNzQsImV4cCI6MTYwODA4Nzk3NCwiZGF0YSI6eyJpZCI6IjgiLCJjb2RfdGVyY2VybyI6IjgifX0.RvcWytMCvF9sz-xP-KOb-TDO5f0c5QHnklOGL8O_WNw
+metaSortKey: -1608084177938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
