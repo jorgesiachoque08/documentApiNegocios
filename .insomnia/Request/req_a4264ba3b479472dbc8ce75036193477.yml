@@ -1,9 +1,9 @@
 _id: req_a4264ba3b479472dbc8ce75036193477
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1607718115607
+modified: 1608572644866
 created: 1606251722191
-url: "{{ urlbase }}/filterProduct/21"
+url: "{{ urlbase }}/filterProduct/25"
 name: filterProduct
 description: >-
   parametro url:cod_sucursal
@@ -52,7 +52,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: nombre_producto
-      value: platano
+      value: AGUAC
       description: ""
       id: pair_abca4ceaa95e4fd59b5b0b08506fda41
     - name: ""
@@ -66,7 +66,7 @@ headers:
     id: pair_8db977752ad44613b324524c8ffeae99
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDc3MTUyNzQsImp0aSI6IjBkVldEVDFxd0RkeDRYdlFnVDNSM1g1RmNvQWpnSG1aQmJCMklsSEp0RW89IiwiaXNzIjoibmV3YXBpLmFjZXJjYXRlLmNvbS5jbyIsIm5iZiI6MTYwNzcxNTI3NSwiZXhwIjoxNjA3NzE4ODc1LCJkYXRhIjp7ImlkIjoiOCIsImNvZF90ZXJjZXJvIjoiOCJ9fQ.Tu5-HtkVSnyfy5l4cCxw_xDF-yD_xVyC818V7Yiua7s
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDg1NzI0OTcsImp0aSI6Ink1ZXBrc2RET2RuNDlXTFdENm9aZEw2V3c3aGR1S1FaZ1wvTk8wU2JYbHBFPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDg1NzI0OTgsImV4cCI6MTYwODU3NjA5OCwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.SVKV-7b98R-FG3Y-TQq0EK8NcGmGo2pD6QF7EQDZ7bw
 metaSortKey: -1606251722191
 isPrivate: false
 settingStoreCookies: true

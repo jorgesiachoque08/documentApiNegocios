@@ -1,7 +1,7 @@
 _id: req_313573ad5572422fb550f8f7f7f08536
 type: Request
 parentId: fld_858ab4f41a144ca78d433e73cc4efb6a
-modified: 1607180591523
+modified: 1609049985926
 created: 1606161253254
 url: "{{ urlbase }}/RegistrarUsuario"
 name: RegistrarUsuario
@@ -32,7 +32,7 @@ body:
       name: cod_tipo_id
       disabled: false
       id: pair_317cd9ed45df4f74affc08c6b7a5795b
-    - value: jorgesiachoque08@gmail.com
+    - value: usuarioDemo@gmail.com
       name: email
       disabled: false
       id: pair_99a61c83b04c43378d22fe3c2b0c85c8

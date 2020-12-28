@@ -1,7 +1,7 @@
 _id: req_97203745bdce4c64bec4a64e57c7c93d
 type: Request
 parentId: fld_a79f8981e88a4c65b853d788dcf47e4d
-modified: 1606396287440
+modified: 1608572541343
 created: 1606161315753
 url: "{{ urlbase }}/listarEmpresasAfiliadasUser"
 name: listarEmpresasAfiliadasUser
@@ -28,7 +28,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDYzOTYyNzYsImp0aSI6InAraG1ZdjR0NDkzblwvZmtNUytDb2txQzZFdmF0VElLYUN0MHpNbE9udkNvPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDYzOTYyNzcsImV4cCI6MTYwNjM5OTg3NywiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.-xHKC4JNSz3T4tYpASDCJ5NXTsDRpx9BgXD0cHx4W0w
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDg1NzI0OTcsImp0aSI6Ink1ZXBrc2RET2RuNDlXTFdENm9aZEw2V3c3aGR1S1FaZ1wvTk8wU2JYbHBFPSIsImlzcyI6Im5ld2FwaS5hY2VyY2F0ZS5jb20uY28iLCJuYmYiOjE2MDg1NzI0OTgsImV4cCI6MTYwODU3NjA5OCwiZGF0YSI6eyJpZCI6IjkiLCJjb2RfdGVyY2VybyI6IjkifX0.SVKV-7b98R-FG3Y-TQq0EK8NcGmGo2pD6QF7EQDZ7bw
   prefix: ""
 metaSortKey: -1606161315753
 isPrivate: false

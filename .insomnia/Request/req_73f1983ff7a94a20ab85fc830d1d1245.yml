@@ -1,11 +1,736 @@
 _id: req_73f1983ff7a94a20ab85fc830d1d1245
 type: Request
 parentId: fld_20a8a3aa6f6b4d35bdd8466bae9483d0
-modified: 1608084393415
+modified: 1608084897623
 created: 1608084177938
 url: "{{ urlbase }}/filterProductPorCategoria/21/2"
 name: filterProductPorCategoria
-description: ""
+description: >-
+  parametros url : cod_sucursal y cod_categoria
+
+
+  {
+    "code": 200,
+    "message": "Ok",
+    "data": [
+      {
+        "cod": "3565",
+        "categoria": "FRUTAS",
+        "nombre_producto": "AGUACATE * KG",
+        "unidad_medida": "KG",
+        "precio": 6215,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/d283c104-3e9c-4fb5-85d6-7d216a12b69d_aguacate.png"
+          }
+        ]
+      },
+      {
+        "cod": "3610",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS BANANO VERDE *KL",
+        "unidad_medida": "KG",
+        "precio": 2147,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3610.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3622",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS BANANO  AMARILLO *KG",
+        "unidad_medida": "KG",
+        "precio": 2147,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b8081010-3a1a-432f-881a-7f0f130ec38c_UT8q0z7Xa8dXXagOFbXO.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3699",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS CIRUELA IMPORTADA *KG",
+        "unidad_medida": "KG",
+        "precio": 126560,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3699.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3717",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS COCO * KG",
+        "unidad_medida": "KG",
+        "precio": 5763,
+        "imagenes": []
+      },
+      {
+        "cod": "3730",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS COROZO * 1 UND BOL",
+        "unidad_medida": "UND",
+        "precio": 5424,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/2914a0f9-8a31-461a-aa30-4d67b3919e7b_15.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3733",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS CURUBA * KG",
+        "unidad_medida": "KG",
+        "precio": 2825,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3733.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3743",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS DURAZNO NECTARIN * KG",
+        "unidad_medida": "KG",
+        "precio": 89496,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3743.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3760",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS FEIJOA *KG",
+        "unidad_medida": "KG",
+        "precio": 4859,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/c1ad65f3-aafb-4b22-bebd-144446b78c3d_Feijoas-organicas.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3812",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS GRANADILLA* KG",
+        "unidad_medida": "KG",
+        "precio": 9040,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3812.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3816",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS GUAYABA * KG",
+        "unidad_medida": "KG",
+        "precio": 2938,
+        "imagenes": []
+      },
+      {
+        "cod": "3822",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS GUAYABA *1UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 1695,
+        "imagenes": []
+      },
+      {
+        "cod": "3835",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS KIWI * KG",
+        "unidad_medida": "KG",
+        "precio": 120345,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3835.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3844",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON COMÚN * KG",
+        "unidad_medida": "KG",
+        "precio": 5650,
+        "imagenes": []
+      },
+      {
+        "cod": "3846",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON TAHITI *KG",
+        "unidad_medida": "KG",
+        "precio": 2599,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3846.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3850",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LULO* KG",
+        "unidad_medida": "KG",
+        "precio": 4294,
+        "imagenes": []
+      },
+      {
+        "cod": "3853",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANDARINA * KG",
+        "unidad_medida": "KG",
+        "precio": 3277,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/21b59e7e-b003-4a06-a63d-ddf8197c06f4_mandarina-tipos-compra-cocina-xl-668x400x80xX.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3857",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANGO DE AZUCAR * KG",
+        "unidad_medida": "KG",
+        "precio": 6780,
+        "imagenes": []
+      },
+      {
+        "cod": "3861",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANGO TOMY * KG",
+        "unidad_medida": "KG",
+        "precio": 6780,
+        "imagenes": []
+      },
+      {
+        "cod": "3870",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROJA * KG",
+        "unidad_medida": "KG",
+        "precio": 124300,
+        "imagenes": []
+      },
+      {
+        "cod": "3876",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROYAL GALA*KG",
+        "unidad_medida": "KG",
+        "precio": 110740,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3876.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3878",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA VERDE* KG",
+        "unidad_medida": "KG",
+        "precio": 135600,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3878.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3884",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MARACUYA SELECTA *KG",
+        "unidad_medida": "UND",
+        "precio": 7345,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3884.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3893",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MELON CANTALUP * KG",
+        "unidad_medida": "KG",
+        "precio": 5085,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3893.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3905",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS NARANJA *2.5 KL MALLA PL",
+        "unidad_medida": "UND",
+        "precio": 4520,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3905.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3913",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS NARANJA VALENCIA *KG",
+        "unidad_medida": "KG",
+        "precio": 1808,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3913.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3943",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PAPAYA * KG",
+        "unidad_medida": "KG",
+        "precio": 1469,
+        "imagenes": []
+      },
+      {
+        "cod": "3945",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PATILLA * KG",
+        "unidad_medida": "KG",
+        "precio": 1526,
+        "imagenes": []
+      },
+      {
+        "cod": "3956",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PERA *  KG",
+        "unidad_medida": "KG",
+        "precio": 129950,
+        "imagenes": []
+      },
+      {
+        "cod": "3986",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PINA * 1UND GRANDE.",
+        "unidad_medida": "UND",
+        "precio": 4294,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/c277f831-b5c4-48f6-aebd-d271ffe1418a_prod-5.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "3991",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PIÑA ORO MIEL * UND",
+        "unidad_medida": "UND",
+        "precio": 4294,
+        "imagenes": []
+      },
+      {
+        "cod": "3995",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PITAHAYA* KG",
+        "unidad_medida": "KG",
+        "precio": 10622,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/3995.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "4024",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL * KG",
+        "unidad_medida": "KG",
+        "precio": 4520,
+        "imagenes": []
+      },
+      {
+        "cod": "4038",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS UVA ROJA * 1UND BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 3955,
+        "imagenes": []
+      },
+      {
+        "cod": "4040",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS UVAS CHILENA* KG",
+        "unidad_medida": "KG",
+        "precio": 107350,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4040.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "4050",
+        "categoria": "FRUTAS",
+        "nombre_producto": "VERD ZANAHORIA * 1000 GR BOLSA",
+        "unidad_medida": "UND",
+        "precio": 2034,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4050.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "4143",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS CAÑANDONGA *250GR",
+        "unidad_medida": "UND",
+        "precio": 4746,
+        "imagenes": []
+      },
+      {
+        "cod": "4156",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROJA*1 UND BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 7345,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4156.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "4159",
+        "categoria": "FRUTAS",
+        "nombre_producto": "KIT MANZANA ROYAL *6 UND BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 6780,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/4159.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "4163",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA VERDE *1 UND BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 7571,
+        "imagenes": []
+      },
+      {
+        "cod": "4167",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PERA IMPORTADA *1UND BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 8452,
+        "imagenes": []
+      },
+      {
+        "cod": "6839",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PATILLA * KG BABY",
+        "unidad_medida": "KG",
+        "precio": 3955,
+        "imagenes": []
+      },
+      {
+        "cod": "9862",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS BANANO BOCADILLO * KG",
+        "unidad_medida": "KG",
+        "precio": 3277,
+        "imagenes": []
+      },
+      {
+        "cod": "9906",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS NARANJA VALENCIA *5KL MALLA",
+        "unidad_medida": "UND",
+        "precio": 9040,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/9906.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "9953",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS GUANABANA * KG",
+        "unidad_medida": "KG",
+        "precio": 1356,
+        "imagenes": []
+      },
+      {
+        "cod": "10416",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MARACUYA*1UND MALLA",
+        "unidad_medida": "UND",
+        "precio": 5876,
+        "imagenes": []
+      },
+      {
+        "cod": "11111",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS POMELO * KL",
+        "unidad_medida": "KG",
+        "precio": 4294,
+        "imagenes": []
+      },
+      {
+        "cod": "11487",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PIÑA * 1UND PEROLERA MEDIANA",
+        "unidad_medida": "UND",
+        "precio": 3616,
+        "imagenes": []
+      },
+      {
+        "cod": "13494",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS UVA ROJA NACIONAL *KG ",
+        "unidad_medida": "KG",
+        "precio": 7006,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/b3f56a2f-8d28-4f1c-b118-a4352b5ca3f9_WhatsApp%20Image%202020-07-13%20at%209.48.01%20AM.jpeg"
+          }
+        ]
+      },
+      {
+        "cod": "17725",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS TORONJA *KG",
+        "unidad_medida": "KG",
+        "precio": 4916,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/17725.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "17858",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS BOROJO *UND",
+        "unidad_medida": "UND",
+        "precio": 1582,
+        "imagenes": []
+      },
+      {
+        "cod": "17888",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL MALLA *UND",
+        "unidad_medida": "UND",
+        "precio": 4294,
+        "imagenes": []
+      },
+      {
+        "cod": "20766",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MORA *500G BOL",
+        "unidad_medida": "UND",
+        "precio": 2011,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/20766.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "22459",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS AGRAZ *250GR BANDEJA",
+        "unidad_medida": "UND",
+        "precio": 7345,
+        "imagenes": []
+      },
+      {
+        "cod": "23369",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PAPAYA * UND MEGABAJITOS",
+        "unidad_medida": "UND",
+        "precio": 1130,
+        "imagenes": []
+      },
+      {
+        "cod": "23504",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS DURAZNO NACIONAL *250 GR B\/DEJA",
+        "unidad_medida": "UND",
+        "precio": 1356,
+        "imagenes": []
+      },
+      {
+        "cod": "25271",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANGO DE AZUCAR *3 LIBRAS MALLA",
+        "unidad_medida": "UND",
+        "precio": 2260,
+        "imagenes": []
+      },
+      {
+        "cod": "25273",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON COMUN  *1UND MALLA",
+        "unidad_medida": "UND",
+        "precio": 5650,
+        "imagenes": []
+      },
+      {
+        "cod": "25327",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON TAHITY *1UND MALLA",
+        "unidad_medida": "UND",
+        "precio": 2599,
+        "imagenes": []
+      },
+      {
+        "cod": "25740",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON COMUN  *1UND MALLA X 500 GR\t",
+        "unidad_medida": "UND",
+        "precio": 2825,
+        "imagenes": []
+      },
+      {
+        "cod": "25953",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS LIMON TAHITY *500 GR MALLA ECONOM",
+        "unidad_medida": "UND",
+        "precio": 1300,
+        "imagenes": []
+      },
+      {
+        "cod": "27154",
+        "categoria": "FRUTAS",
+        "nombre_producto": "MARACUYA MALLA X 500 gr",
+        "unidad_medida": "UND",
+        "precio": 3277,
+        "imagenes": []
+      },
+      {
+        "cod": "27298",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANDARINA * KG ECONOMICA",
+        "unidad_medida": "KG",
+        "precio": 2147,
+        "imagenes": []
+      },
+      {
+        "cod": "37193",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PIÑA ORO MIEL BABY * UND",
+        "unidad_medida": "UND",
+        "precio": 2927,
+        "imagenes": []
+      },
+      {
+        "cod": "42748",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROYAL GALA * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 6554,
+        "imagenes": []
+      },
+      {
+        "cod": "42749",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA VERDE * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 7345,
+        "imagenes": [
+          {
+            "url": "https:\/\/acercate-files.s3.us-west-2.amazonaws.com\/42749.jpg"
+          }
+        ]
+      },
+      {
+        "cod": "42750",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROJA * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 6780,
+        "imagenes": []
+      },
+      {
+        "cod": "42751",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PERA IMPORT  * 8 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 8758,
+        "imagenes": []
+      },
+      {
+        "cod": "42828",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS PERA LONCHERA  * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 5650,
+        "imagenes": []
+      },
+      {
+        "cod": "42829",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA ROJA LONCH  * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 6328,
+        "imagenes": []
+      },
+      {
+        "cod": "42830",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA VERDE LONCH * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 4746,
+        "imagenes": []
+      },
+      {
+        "cod": "42831",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANZANA GALA LONCH * 5 UND BOLSA",
+        "unidad_medida": "UND",
+        "precio": 4633,
+        "imagenes": []
+      },
+      {
+        "cod": "42954",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL * 500 GR",
+        "unidad_medida": "UND",
+        "precio": 2486,
+        "imagenes": []
+      },
+      {
+        "cod": "43320",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS TOMATE DE ARBOL 2DA * KG",
+        "unidad_medida": "KG",
+        "precio": 3729,
+        "imagenes": []
+      },
+      {
+        "cod": "47783",
+        "categoria": "FRUTAS",
+        "nombre_producto": "FRUTAS MANDARINA PARA ENMALLAR * KG",
+        "unidad_medida": "KG",
+        "precio": 2938,
+        "imagenes": []
+      }
+    ]
+  }
 method: GET
 body: {}
 parameters: []
